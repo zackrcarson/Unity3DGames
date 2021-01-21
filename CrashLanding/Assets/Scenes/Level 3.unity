@@ -2921,7 +2921,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1323357580, guid: f59a6a193e15fd947a2aa71fe028e823, type: 3}
       propertyPath: movementPeriod
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1323357580, guid: f59a6a193e15fd947a2aa71fe028e823, type: 3}
       propertyPath: movementVector.y
@@ -2940,7 +2940,7 @@ PrefabInstance:
     - target: {fileID: 1895215372318071706, guid: f59a6a193e15fd947a2aa71fe028e823,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 106.4
+      value: 116.9
       objectReference: {fileID: 0}
     - target: {fileID: 1895215372318071706, guid: f59a6a193e15fd947a2aa71fe028e823,
         type: 3}
@@ -6171,13 +6171,49 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 84414541, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 381903345, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 658097764, guid: 757724443026d234489375dca4a6c6a0, type: 3}
       propertyPath: killSwitch
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 658097764, guid: 757724443026d234489375dca4a6c6a0, type: 3}
       propertyPath: rocketFuel
-      value: 100
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 658097764, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: debugKeysOn
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 658097764, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: fuelConsumptionPerFrame
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 658097764, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: extraGravityForce
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381425416, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386007716, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578588662, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2130919649, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7908964047643030312, guid: 757724443026d234489375dca4a6c6a0,
         type: 3}

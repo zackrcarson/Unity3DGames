@@ -292,7 +292,7 @@ public class RocketShip : MonoBehaviour
 
     private void HandleRocketFuelConsumption()
     {
-        rocketFuel -= fuelConsumptionPerFrame;
+        rocketFuel -= fuelConsumptionPerFrame * Time.deltaTime;
 
         if (rocketFuel <= 0)
         {

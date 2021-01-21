@@ -4488,7 +4488,7 @@ PrefabInstance:
     - target: {fileID: 1895215372318071706, guid: f59a6a193e15fd947a2aa71fe028e823,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -86.5
+      value: -105.4
       objectReference: {fileID: 0}
     - target: {fileID: 1895215372318071706, guid: f59a6a193e15fd947a2aa71fe028e823,
         type: 3}
@@ -6034,7 +6034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementVector: {x: 90, y: 30, z: 0}
-  movementPeriod: 7
+  movementPeriod: 8
 --- !u!1001 &1319139402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8601,17 +8601,49 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 84414541, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 381903345, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 658097764, guid: 757724443026d234489375dca4a6c6a0, type: 3}
       propertyPath: killSwitch
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 658097764, guid: 757724443026d234489375dca4a6c6a0, type: 3}
       propertyPath: extraGravityForce
-      value: 10
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 658097764, guid: 757724443026d234489375dca4a6c6a0, type: 3}
       propertyPath: rocketFuel
-      value: 200
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 658097764, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: debugKeysOn
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 658097764, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: fuelConsumptionPerFrame
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381425416, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386007716, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578588662, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2130919649, guid: 757724443026d234489375dca4a6c6a0, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7908964047643030312, guid: 757724443026d234489375dca4a6c6a0,
         type: 3}
@@ -10762,12 +10794,12 @@ PrefabInstance:
     - target: {fileID: 1888709772816445303, guid: 8f2d0dc24497e824b9425a7915bcddb6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -43.6
+      value: -52.7
       objectReference: {fileID: 0}
     - target: {fileID: 1888709772816445303, guid: 8f2d0dc24497e824b9425a7915bcddb6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1888709772816445303, guid: 8f2d0dc24497e824b9425a7915bcddb6,
         type: 3}
@@ -10839,8 +10871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e35abf303de78d4fb134c0440281592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 0, y: 0, z: -20}
-  movementPeriod: 4
+  movementVector: {x: 0, y: 0, z: -10}
+  movementPeriod: 2
 --- !u!1001 &4875540135064999954
 PrefabInstance:
   m_ObjectHideFlags: 0

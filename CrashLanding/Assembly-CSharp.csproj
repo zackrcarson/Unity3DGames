@@ -63,7 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CloudSpawner.cs" />
-    <Compile Include="Assets\Scripts\CreateCone.cs" />
     <Compile Include="Assets\Scripts\FuelDisplay.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\Oscillator.cs" />
