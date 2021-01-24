@@ -1,5 +1,6 @@
 ﻿using UnityEngine.SceneManagement;
 using UnityEngine;
+using System.Collections;
 
 public class LevelLoader : MonoBehaviour
 {
@@ -16,6 +17,13 @@ public class LevelLoader : MonoBehaviour
         {
             SceneManager.LoadScene(currentSceneIndex + 1);
         }
+    }
 
+    public static IEnumerator ReloadLevel(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
     }
 }

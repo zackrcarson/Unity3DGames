@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 269b022f46ecac54b825c4f1aea31526
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sci Fied Outline
+  fontNames:
+  - Sci Fied Outline
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 236b658d2511f3f488772df920714fcf, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

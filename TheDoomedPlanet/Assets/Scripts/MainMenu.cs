@@ -9,11 +9,11 @@ public class MainMenu : MonoBehaviour
     [SerializeField] float playerShipSpeed = 1f;
 
     // Cached References
-    PlayerShip playerShip = null;
+    PlayerController playerShip = null;
 
     private void Start()
     {
-        playerShip = FindObjectOfType<PlayerShip>();
+        playerShip = FindObjectOfType<PlayerController>();
     }
 
     public void BeginGame()

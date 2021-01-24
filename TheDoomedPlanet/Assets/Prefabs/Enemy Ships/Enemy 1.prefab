@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1240517887070456754}
   - component: {fileID: 1246780736320699022}
   - component: {fileID: 1254952660551259388}
+  - component: {fileID: 4706924024077013643}
   m_Layer: 0
   m_Name: Enemy 1
   m_TagString: Untagged
@@ -79,3 +80,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &4706924024077013643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242171515553574196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ed687ecff598c4aae7f68d12e232ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
+  killDelay: 0
+  explosionDelay: 2
+  explosionVFX: {fileID: 8141122645681656766, guid: 51b3b9ebfc94b844a8fb1b22ae3390e7,
+    type: 3}
+  parentTransform: {fileID: 0}

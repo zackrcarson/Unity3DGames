@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DA73C0D6-34F3-F359-E10B-D072ECF1DCCE}</ProjectGuid>
+    <ProjectGuid>{29BCD556-956C-8FC1-F761-C903A56B32FE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,36 +63,41 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraScroller.cs" />
+    <Compile Include="Assets\Scripts\CollisionHandler.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
-    <Compile Include="Assets\Scripts\PlayerShip.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\ScoreBoard.cs" />
+    <None Include="Assets\Fonts\sci_fied\scified.txt" />
+    <None Include="Assets\Fonts\sci_fied\scifi2k2.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/ArgonAssault/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/TheDoomedPlanet/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/ArgonAssault/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/TheDoomedPlanet/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/ArgonAssault/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/TheDoomedPlanet/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/ArgonAssault/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/TheDoomedPlanet/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/ArgonAssault/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/TheDoomedPlanet/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/ArgonAssault/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/TheDoomedPlanet/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/ArgonAssault/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/TheDoomedPlanet/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/ArgonAssault/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/TheDoomedPlanet/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/ArgonAssault/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/TheDoomedPlanet/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

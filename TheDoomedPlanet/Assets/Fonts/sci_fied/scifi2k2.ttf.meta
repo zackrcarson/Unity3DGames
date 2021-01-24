@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 015eb105cebafb549843d05849683456
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sci Fied 2002
+  fontNames:
+  - Sci Fied 2002
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1095e9536f38c9f41b3da07e1b0ddbfa, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

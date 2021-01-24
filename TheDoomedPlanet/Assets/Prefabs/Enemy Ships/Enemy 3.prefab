@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7403361114811953859}
   - component: {fileID: 7410548179169384549}
   - component: {fileID: 7420966663584978099}
+  - component: {fileID: 1401095504221634912}
   m_Layer: 0
   m_Name: Enemy 3
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7398410232079425231}
-  m_LocalRotation: {x: -0.55881906, y: -0.21118665, z: -0.054089647, w: 0.80012244}
+  m_LocalRotation: {x: -0.5588209, y: -0.21118358, z: -0.05408831, w: 0.800122}
   m_LocalPosition: {x: 27.053802, y: -12.694443, z: -8.037964}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
@@ -79,3 +80,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1401095504221634912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7398410232079425231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ed687ecff598c4aae7f68d12e232ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
+  killDelay: 0
+  explosionDelay: 2
+  explosionVFX: {fileID: 8141122645681656766, guid: 51b3b9ebfc94b844a8fb1b22ae3390e7,
+    type: 3}
+  parentTransform: {fileID: 0}

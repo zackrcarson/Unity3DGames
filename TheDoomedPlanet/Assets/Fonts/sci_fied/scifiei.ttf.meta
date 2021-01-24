@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 57b4a3655d96a6243961b803d81589db
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sci Fied
+  fontNames:
+  - Sci Fied
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2547acb9751b7074ea4ac7ee13305569, type: 3}
+  - {fileID: 12800000, guid: e65b0fbf9ae12f44aa72f938668949a2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
