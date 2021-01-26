@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154225723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.486, y: 0, z: -0.932}
+  m_LocalPosition: {x: -1.49, y: 0, z: 1.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2121542775294441348}
@@ -168,7 +168,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 150
+      scalar: 2500
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4780,7 +4780,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186425482}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.503, y: -0, z: -0.985}
+  m_LocalPosition: {x: 1.5, y: 0, z: 1.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2121542775294441348}
@@ -4922,7 +4922,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 150
+      scalar: 2500
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -9583,7 +9583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1573ab0daa77b344b90ac126e414d49d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: 3
+  playerHealth: 318
   levelLoadDelay: 2
   explosionVFX: {fileID: 8736896740149945496}
 --- !u!33 &2092541336536150178
