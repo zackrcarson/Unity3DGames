@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     // Config Variables
     [Header("Miscellaneous Properties")]
     [SerializeField] bool isMainMenu = false;
+    [SerializeField] GameObject[] guns = null;
 
     [Header("Ship Translation Properties")]
     [Tooltip("In ms^-1")] [SerializeField] float xSpeed = 20f;
@@ -45,6 +47,8 @@ public class PlayerController : MonoBehaviour
         ProcessShipTranslation();
 
         ProcessShipRotation();
+
+        ProcessFiring();
     }
 
     private void ProcessShipTranslation()
@@ -72,6 +76,34 @@ public class PlayerController : MonoBehaviour
 
         // (x, y, z) = (pitch, yaw, roll) in degrees. Applies it in the order z : x : y (or roll : pitch : yaw).
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll); 
+    }
+
+    private void ProcessFiring()
+    {
+        if (Input.GetButton("Fire"))
+        {
+            ActivateGuns();
+        }
+        else
+        {
+            DeactivateGuns();
+        }
+    }
+    
+    private void ActivateGuns()
+    {
+        foreach(GameObject gun in guns)
+        {
+            gun.SetActive(true);
+        }
+    }
+
+    private void DeactivateGuns()
+    {
+        foreach (GameObject gun in guns)
+        {
+            gun.SetActive(false);
+        }
     }
 
     // Called by a string reference when player dies.

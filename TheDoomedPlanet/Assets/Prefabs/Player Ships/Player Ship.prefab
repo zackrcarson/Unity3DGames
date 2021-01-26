@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1154225726}
   - component: {fileID: 1154225725}
   m_Layer: 0
-  m_Name: Bullets Left
+  m_Name: Left Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4766,7 +4766,7 @@ GameObject:
   - component: {fileID: 1186425485}
   - component: {fileID: 1186425484}
   m_Layer: 0
-  m_Name: Bullets Right
+  m_Name: Right Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9560,6 +9560,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMainMenu: 0
+  guns:
+  - {fileID: 1186425482}
+  - {fileID: 1154225723}
   xSpeed: 10
   ySpeed: 10
   xRange: 8.5
