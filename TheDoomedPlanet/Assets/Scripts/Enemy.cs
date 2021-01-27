@@ -11,7 +11,6 @@ public class Enemy : MonoBehaviour
     [SerializeField] float killDelay = 0f;
     [SerializeField] float explosionDelay = 2f;
     [SerializeField] GameObject explosionVFX = null;
-    [SerializeField] Transform parentTransform = null;
 
     // Cached References
     ScoreBoard scoreBoard = null;
@@ -48,7 +47,6 @@ public class Enemy : MonoBehaviour
         scoreBoard.UpdateScore(points);
 
         GameObject explosion = Instantiate(explosionVFX, transform.position, Quaternion.identity) as GameObject;
-        explosion.transform.parent = parentTransform;
 
         Destroy(explosion, explosionDelay);
         Destroy(gameObject, killDelay);
