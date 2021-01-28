@@ -6,7 +6,8 @@ public class PlayerController : MonoBehaviour
     // Config Variables
     [Header("Miscellaneous Properties")]
     [SerializeField] bool isMainMenu = false;
-    [SerializeField] GameObject[] guns = null;
+    [SerializeField] ParticleSystem[] guns = null;
+    [SerializeField] ParticleSystem[] thrusters = null;
 
     [Header("Ship Translation Properties")]
     [Tooltip("In ms^-1")] [SerializeField] float xSpeed = 20f;
@@ -82,33 +83,38 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButton("Fire"))
         {
-            ActivateGuns();
+            SetGunsActive(true);
         }
         else
         {
-            DeactivateGuns();
+            SetGunsActive(false);
         }
     }
     
-    private void ActivateGuns()
+    private void SetGunsActive(bool isActive)
     {
-        foreach(GameObject gun in guns)
+        foreach(ParticleSystem gun in guns)
         {
-            gun.SetActive(true);
+            var emissionModule = gun.emission;
+            emissionModule.enabled = isActive;
         }
     }
 
-    private void DeactivateGuns()
+    public void SetThrustersActive(bool isActive)
     {
-        foreach (GameObject gun in guns)
+        foreach (ParticleSystem thruster in thrusters)
         {
-            gun.SetActive(false);
+            var emissionModule = thruster.emission;
+            emissionModule.enabled = isActive;
         }
     }
 
     // Called by a string reference when player dies.
     public void OnPlayerDeath()
     {
+        SetGunsActive(false);
+        SetThrustersActive(false);
+
         isDead = true;
     }
 }

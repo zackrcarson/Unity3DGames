@@ -62,10 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AISpeechHandler.cs" />
     <Compile Include="Assets\Scripts\CameraScroller.cs" />
     <Compile Include="Assets\Scripts\CollisionHandler.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
