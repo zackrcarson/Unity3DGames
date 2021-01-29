@@ -132,6 +132,10 @@ PrefabInstance:
       propertyPath: isMainMenu
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 856040030, guid: 4721d04ff0a77cf48965a98f8fbee180, type: 3}
+      propertyPath: shipShield
+      value: 
+      objectReference: {fileID: 1225070842}
     - target: {fileID: 2121542775294441348, guid: 4721d04ff0a77cf48965a98f8fbee180,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -194,6 +198,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4721d04ff0a77cf48965a98f8fbee180, type: 3}
+--- !u!1 &1225070842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3836873487922636452, guid: 4721d04ff0a77cf48965a98f8fbee180,
+    type: 3}
+  m_PrefabInstance: {fileID: 856040028}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1521693800
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -8,6 +8,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool isMainMenu = false;
     [SerializeField] ParticleSystem[] guns = null;
     [SerializeField] ParticleSystem[] thrusters = null;
+    [SerializeField] GameObject shipShield = null;
+    [SerializeField] AudioClip laserAudio = null;
+    [SerializeField] float laserAudioDelay = 0.2f;
 
     [Header("Ship Translation Properties")]
     [Tooltip("In ms^-1")] [SerializeField] float xSpeed = 20f;
@@ -26,17 +29,20 @@ public class PlayerController : MonoBehaviour
     // State Variables
     float xThrow, yThrow;
     bool isDead = false;
+    bool audioRunning = false;
+
+    // Cached References
+    AudioSource audioSource = null;
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         if (isMainMenu)
         {
-            ParticleSystem[] lasers = GetComponentsInChildren<ParticleSystem>();
-
-            foreach (ParticleSystem laser in lasers)
-            {
-                laser.gameObject.SetActive(false);
-            }
+            SetGunsActive(false);
+            SetThrustersActive(true);
+            shipShield.SetActive(false);
         }
     }
 
@@ -83,10 +89,18 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButton("Fire"))
         {
+            if (!audioRunning)
+            {
+                StartCoroutine(LaserAudio());
+            }
+
             SetGunsActive(true);
         }
         else
         {
+            audioRunning = false;
+            StopCoroutine(LaserAudio());
+
             SetGunsActive(false);
         }
     }
@@ -97,6 +111,17 @@ public class PlayerController : MonoBehaviour
         {
             var emissionModule = gun.emission;
             emissionModule.enabled = isActive;
+        }
+    }
+
+    private IEnumerator LaserAudio()
+    {
+        audioRunning = true;
+
+        while (audioRunning)
+        {
+            audioSource.PlayOneShot(laserAudio);
+            yield return new WaitForSeconds(laserAudioDelay);
         }
     }
 
