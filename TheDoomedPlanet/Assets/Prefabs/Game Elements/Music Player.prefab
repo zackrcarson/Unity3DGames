@@ -144,3 +144,5 @@ MonoBehaviour:
   fadeTime: 6
   introSong: {fileID: 8300000, guid: 5b470f917baab50488fd63075a3591cd, type: 3}
   playSong: {fileID: 8300000, guid: dc42a2b06c042314293ea08dd23ccf1e, type: 3}
+  winSong: {fileID: 8300000, guid: 304b819b672ce864788a2ed511952086, type: 3}
+  deathSong: {fileID: 8300000, guid: bf1bf16fc4102344baf0c54e1da929e0, type: 3}

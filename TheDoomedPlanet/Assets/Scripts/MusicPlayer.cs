@@ -9,6 +9,8 @@ public class MusicPlayer : MonoBehaviour
     [SerializeField] float fadeTime = 5f;
     [SerializeField] AudioClip introSong = null;
     [SerializeField] AudioClip playSong = null;
+    [SerializeField] AudioClip winSong = null;
+    [SerializeField] AudioClip deathSong = null;
 
     // Cached References
     AudioSource audioSource = null;
@@ -90,5 +92,21 @@ public class MusicPlayer : MonoBehaviour
         }
 
         audioSource.volume = musicVolume;
+    }
+
+    public void PlayWinMusic()
+    {
+        if (!audioSource) { audioSource = GetComponent<AudioSource>(); }
+
+        audioSource.clip = winSong;
+        audioSource.Play();
+    }
+
+    public void PlayDeathMusic()
+    {
+        if (!audioSource) { audioSource = GetComponent<AudioSource>(); }
+
+        audioSource.clip = deathSong;
+        audioSource.Play();
     }
 }

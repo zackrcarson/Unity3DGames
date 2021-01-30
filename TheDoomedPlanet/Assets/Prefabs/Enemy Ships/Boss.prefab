@@ -103,8 +103,8 @@ MonoBehaviour:
   guns:
   - {fileID: 5061691945785816506}
   - {fileID: 5061691945376424227}
-  health: 100
-  points: 332
+  health: 175
+  points: 302
   killDelay: 0
   explosionDelay: 1
   explosionVFX: {fileID: 8141122645681656766, guid: 51b3b9ebfc94b844a8fb1b22ae3390e7,

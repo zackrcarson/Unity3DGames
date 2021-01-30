@@ -29,14 +29,26 @@ public class PlayerController : MonoBehaviour
     // State Variables
     float xThrow, yThrow;
     bool isDead = false;
+    bool isWon = false;
+    bool isPaused = false;
     bool audioRunning = false;
 
     // Cached References
     AudioSource audioSource = null;
+    PauseScreen pauseScreen = null;
 
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
+
+        try
+        {
+            pauseScreen = Resources.FindObjectsOfTypeAll<PauseScreen>()[0];
+        }
+        catch
+        {
+            pauseScreen = null;
+        }
 
         if (isMainMenu)
         {
@@ -49,13 +61,38 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isMainMenu || isDead) { return; }
+        if (isMainMenu || isDead || isWon) { return; }
+
+        ProcessPause();
+
+        if (isPaused) { return; }
 
         ProcessShipTranslation();
 
         ProcessShipRotation();
 
         ProcessFiring();
+    }
+
+    private void ProcessPause()
+    {
+        if (!pauseScreen)
+        {
+            pauseScreen = Resources.FindObjectsOfTypeAll<PauseScreen>()[0];
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape) && !isPaused)
+        {
+            pauseScreen.gameObject.SetActive(true);
+            isPaused = true;
+            Time.timeScale = 0;
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && isPaused)
+        {
+            pauseScreen.gameObject.SetActive(false);
+            isPaused = false;
+            Time.timeScale = 1;
+        }
     }
 
     private void ProcessShipTranslation()
@@ -141,5 +178,17 @@ public class PlayerController : MonoBehaviour
         SetThrustersActive(false);
 
         isDead = true;
+    }
+
+    public void UnpauseGame()
+    {
+        pauseScreen.gameObject.SetActive(false);
+        isPaused = false;
+        Time.timeScale = 1;
+    }
+
+    public void PlayerWon()
+    {
+        isWon = true;
     }
 }

@@ -9685,8 +9685,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1573ab0daa77b344b90ac126e414d49d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: 3
-  levelLoadDelay: 2
+  playerHealth: 5
+  levelLoadDelay: 1.5
   explosionVFX: {fileID: 8736896740149945496}
   hitVFX: {fileID: 6099433563764520094, guid: a8a422ed6e8fbf24ea112a91c0e08388, type: 3}
   explosionDelay: 2

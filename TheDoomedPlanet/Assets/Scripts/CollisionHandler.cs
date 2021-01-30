@@ -27,6 +27,8 @@ public class CollisionHandler : MonoBehaviour
     MeshRenderer meshRenderer = null;
     PlayerController playerController = null;
     AudioSource audioSource = null;
+    MusicPlayer musicPlayer = null;
+    DeathScreen deathScreen = null;
 
     // State Variables
     bool shieldOn = true;
@@ -41,6 +43,16 @@ public class CollisionHandler : MonoBehaviour
         meshRenderer = GetComponent<MeshRenderer>();
         playerController = GetComponent<PlayerController>();
         audioSource = GetComponent<AudioSource>();
+        musicPlayer = FindObjectOfType<MusicPlayer>();
+
+        try
+        {
+            deathScreen = Resources.FindObjectsOfTypeAll<DeathScreen>()[0];
+        }
+        catch
+        {
+            deathScreen = null;
+        }
 
         explosionVFX.SetActive(false);
 
@@ -81,7 +93,7 @@ public class CollisionHandler : MonoBehaviour
 
             if (playerHealth <= 0)
             {
-                StartDeathSequence();
+                StartCoroutine(StartDeathSequence());
             }
             else
             {
@@ -164,7 +176,7 @@ public class CollisionHandler : MonoBehaviour
         playerController.SetThrustersActive(true);
     }
 
-    private void StartDeathSequence()
+    private IEnumerator StartDeathSequence()
     {
         isDead = true;
 
@@ -176,6 +188,24 @@ public class CollisionHandler : MonoBehaviour
 
         explosionVFX.SetActive(true);
 
-        StartCoroutine(LevelLoader.ReloadLevel(levelLoadDelay));
+        yield return new WaitForSeconds(levelLoadDelay);
+
+        if (!deathScreen)
+        {
+            deathScreen = Resources.FindObjectsOfTypeAll<DeathScreen>()[0];
+        }
+        if (!musicPlayer)
+        {
+            musicPlayer = Resources.FindObjectsOfTypeAll<MusicPlayer>()[0];
+        }
+
+        musicPlayer.PlayDeathMusic();
+        deathScreen.gameObject.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void SetInvulnerability()
+    {
+        isPlayerInvulnerable = true;
     }
 }
