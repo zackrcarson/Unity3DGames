@@ -39,9 +39,7 @@ public class PathFinder : MonoBehaviour
     [Header("Waypoint Properties")]
     [SerializeField] Waypoint startWaypoint = null;
     [SerializeField] Waypoint finishWaypoint = null;
-    [SerializeField] Color startColor = new Color(0f, 0f, 0f);
-    [SerializeField] Color finishColor = new Color(0f, 0f, 0f);
-    [SerializeField] Color exploringColor = new Color(0f, 0f, 0f);
+    [SerializeField] Transform baseLocation = null;
 
     // State Variables
     Dictionary<Vector2Int, Waypoint> grid = new Dictionary<Vector2Int, Waypoint>();
@@ -52,17 +50,25 @@ public class PathFinder : MonoBehaviour
     Waypoint searchCenter = null;
     bool isRunning = true;
 
+    bool isPathFound = false;
+
     public List<Waypoint> GetPath()
     {
-        LoadBlocks();
+        if (!isPathFound)
+        {
+            CalculatePath();
+        }
+        
+        return path;
+    }
 
-        ColorStartAndFinishCubes();
+    private void CalculatePath()
+    {
+        LoadBlocks();
 
         BreadthFirstSearch();
 
         FormPath();
-
-        return path;
     }
 
     private void LoadBlocks()
@@ -82,19 +88,6 @@ public class PathFinder : MonoBehaviour
             {
                 grid.Add(key, waypoint);
             }
-        }
-    }
-
-    public void ColorStartAndFinishCubes()
-    {
-        if (startWaypoint)
-        {
-            startWaypoint.SetTopColor(startColor);
-        }
-        
-        if (finishWaypoint)
-        {
-            finishWaypoint.SetTopColor(finishColor);
         }
     }
 
@@ -119,11 +112,14 @@ public class PathFinder : MonoBehaviour
         while (workingWaypoint != null)
         {
             path.Add(workingWaypoint);
+            workingWaypoint.isPlaceable = false;
 
             workingWaypoint = workingWaypoint.exploredFrom;
         }
 
         path.Reverse();
+
+        isPathFound = true;
     }
 
 
@@ -151,6 +147,7 @@ public class PathFinder : MonoBehaviour
             if (neighbor == finishWaypoint)
             {
                 finishWaypoint.exploredFrom = searchCenter;
+                isRunning = false;
             }
         }
         else
@@ -167,5 +164,10 @@ public class PathFinder : MonoBehaviour
         {
             isRunning = false;
         }
+    }
+
+    public Transform GetBaseLocation()
+    {
+        return baseLocation;
     }
 }

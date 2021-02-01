@@ -62,7 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\RobotSphere\Assets\Scripts\Editor\RobotFreeAnimEditor.cs" />
+    <Compile Include="Assets\Premade Assets\PyroParticles\Prefab\Editor\PyroParticlesEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/RobotRevolution/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>

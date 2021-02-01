@@ -5,12 +5,22 @@ public class Waypoint : MonoBehaviour
     // Config Params
     const int gridSize = 10;
     const float gapPercent = 0.1f;
-    const string topCubeFaceName = "Top";
 
     // State Variables. Public is OK because this is a data storage class
     Vector2Int gridPosition = new Vector2Int(0, 0);
+
     public bool isExplored = false;
     public Waypoint exploredFrom = null;
+
+    public bool isPlaceable = true;
+
+    // Cached References
+    TowerSpawner towerSpawner = null;
+
+    private void Start()
+    {
+        towerSpawner = FindObjectOfType<TowerSpawner>();
+    }
 
     public void GetGridSizeAndGap(out int outGridSize, out float outGapPercent)
     {
@@ -28,9 +38,20 @@ public class Waypoint : MonoBehaviour
         return cubePosition;
     }
 
-    public void SetTopColor(Color color)
+    private void OnMouseOver()
     {
-        MeshRenderer topMeshRenderer = transform.Find(topCubeFaceName).GetComponent<MeshRenderer>();
-        topMeshRenderer.material.color = color;
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (isPlaceable)
+            {
+                towerSpawner.PlaceTower(transform);
+
+                isPlaceable = false;
+            }
+            else
+            {
+                // Play "erhhh" sound
+            }
+        }
     }
 }

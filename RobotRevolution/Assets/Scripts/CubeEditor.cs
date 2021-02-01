@@ -31,11 +31,6 @@ public class CubeEditor : MonoBehaviour
         ResizeScale();
 
         UpdateLabel();
-
-        //if (pathFinder)
-        //{
-        //    pathFinder.ColorStartAndFinishCubes();
-        //}
     }
 
     private void SnapPosition()
@@ -59,7 +54,10 @@ public class CubeEditor : MonoBehaviour
     {
         string labelText = gridPosition.x + "," + gridPosition.y;
 
-        cubeLabel.text = labelText;
+        if (cubeLabel)
+        {
+            cubeLabel.text = labelText;
+        }
 
         gameObject.name = "Cube " + labelText;
     }
