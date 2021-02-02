@@ -16,7 +16,10 @@ public class EnemySpawner : MonoBehaviour
     private void Start()
     {
         FindObjectOfType<PathFinder>().GetPath();
+    }
 
+    public void GameStarted()
+    {
         StartCoroutine(SpawnEnemies());
     }
 
