@@ -20,6 +20,8 @@ public class CameraController : MonoBehaviour
 
         transform.position = startCameraTransform.position;
         transform.rotation = startCameraTransform.rotation;
+
+        startCameraTransform.gameObject.SetActive(false);
     }
 
     public void GameStarted()
