@@ -4,44 +4,65 @@ using UnityEngine;
 public class Tower : MonoBehaviour
 {
     // Config Parameters
+    [Header("Main Parameters")]
+    [SerializeField] int damage = 2;
+    [SerializeField] float attackRange = 30;
+    [SerializeField] float fireDelayTime = 2f;
+
+    [Header("Projectile Configuration")]
     [SerializeField] Transform objectToPan = null;
     [SerializeField] GameObject projectilePrefab = null;
     [SerializeField] Transform projectileParent = null;
-    [SerializeField] float fireDelayTime = 2f;
-    [SerializeField] float attackRange = 30;
-    [SerializeField] int damage = 2;
 
     // State Varbiables
     Transform targetEnemy = null;
+    Waypoint livingOnWaypoint = null;
 
     bool shootingEnabled = true;
     bool allEnemiesDead = false;
+    bool isActive = false;
 
     // Cached References
     Quaternion initialRotation = new Quaternion(0f, 0f, 0f, 0f);
+    ParticleSystem dustParticles = null;
+    AudioSource diggingAudio = null;
 
     private void Start()
     {
         initialRotation = objectToPan.localRotation;
+
+        dustParticles = GetComponentInChildren<ParticleSystem>();
+        dustParticles.Stop();
+
+        diggingAudio = GetComponentInChildren<AudioSource>();
+        diggingAudio.Play();
     }
 
     // Update is called once per frame
     void Update()
     {
-        FindTargetEnemy();
-
-        if (targetEnemy && !allEnemiesDead)// && !targetEnemy.gameObject.GetComponent<EnemyMovement>().GetDead())
+        if (isActive)
         {
-            FollowEnemies();
+            FindTargetEnemy();
 
-            ShootEnemies();
+            if (targetEnemy && !allEnemiesDead)// && !targetEnemy.gameObject.GetComponent<EnemyMovement>().GetDead())
+            {
+                FollowEnemies();
+
+                ShootEnemies();
+            }
+            else
+            {
+                shootingEnabled = true;
+                StopAllCoroutines();
+
+                objectToPan.localRotation = initialRotation;
+            }
         }
         else
         {
-            shootingEnabled = true;
-            StopAllCoroutines();
-
             objectToPan.localRotation = initialRotation;
+            StopAllCoroutines();
         }
     }
 
@@ -119,5 +140,46 @@ public class Tower : MonoBehaviour
     public int GetDamage()
     {
         return damage;
+    }
+
+    public void SetWaypoint(Waypoint waypoint)
+    {
+        livingOnWaypoint = waypoint;
+    }
+
+    public Waypoint GetWaypoint()
+    {
+        return livingOnWaypoint;
+    }
+
+    public void ResetTower()
+    {
+        shootingEnabled = true;
+        allEnemiesDead = false;
+        isActive = false;
+    }
+
+    public void DiggingOn()
+    {
+        dustParticles.Play();
+        diggingAudio.Play();
+
+        isActive = false;
+    }
+
+    public void DiggingOff()
+    {
+        dustParticles.Stop();
+        diggingAudio.Stop();
+
+        isActive = true;
+    }
+
+    public void DestroyTower()
+    {
+        dustParticles.Stop();
+        diggingAudio.Stop();
+
+        isActive = false;
     }
 }

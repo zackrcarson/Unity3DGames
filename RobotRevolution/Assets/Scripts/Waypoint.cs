@@ -44,9 +44,7 @@ public class Waypoint : MonoBehaviour
         {
             if (isPlaceable)
             {
-                towerSpawner.PlaceTower(transform);
-
-                isPlaceable = false;
+                towerSpawner.PlaceTower(this);
             }
             else
             {

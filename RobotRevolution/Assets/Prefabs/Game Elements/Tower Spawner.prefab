@@ -43,5 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e488e806e98092341b563727b296a2f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 7653327322411298725, guid: 4260201224492bb41babe66fb8278290,
-    type: 3}
+  towerLimit: 4
+  towerPrefab: {fileID: 1188310490, guid: 4260201224492bb41babe66fb8278290, type: 3}
+  burrowClipForLength: {fileID: 7400000, guid: ad8ea7749ee9cd343a16a8bbda66befb, type: 2}

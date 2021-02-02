@@ -45,6 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialDelay: 7
   spawnTime: 3
-  numberOfSpawns: 12
+  numberOfSpawns: 120
   isSpawning: 1
   enemyPrefab: {fileID: 1106416278, guid: 5c6e6ae6741e7134f9d64aa76b428617, type: 3}
