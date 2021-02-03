@@ -7,14 +7,18 @@ public class StartMenu : MonoBehaviour
     [SerializeField] GameObject spaceShipObject = null;
     [SerializeField] float startGameDelayWhileCameraPans = 2f;
     [SerializeField] GameObject[] startMenuObjects = null;
+    [SerializeField] GameObject scoreBoardUI = null;
 
     // Cached References
     EnemySpawner enemySpawner = null;
     SpaceShip spaceShip = null;
     CameraController cameraController = null;
+    MusicPlayer musicPlayer = null;
 
     private void Start()
     {
+        scoreBoardUI.SetActive(false);
+
         enemySpawner = FindObjectOfType<EnemySpawner>();
         spaceShip = FindObjectOfType<SpaceShip>();
         cameraController = FindObjectOfType<CameraController>();
@@ -22,6 +26,9 @@ public class StartMenu : MonoBehaviour
 
     public void StartGame()
     {
+        musicPlayer = FindObjectOfType<MusicPlayer>();
+        musicPlayer.StartCountDownToFadeOut();
+
         Transform[] allChildren = GetComponentsInChildren<Transform>();
         foreach (GameObject child in startMenuObjects)
         {
@@ -31,6 +38,8 @@ public class StartMenu : MonoBehaviour
         cameraController.GameStarted();
         
         StartCoroutine(DelayStartWhilePanCamera());
+
+        scoreBoardUI.SetActive(true);
     }
 
     public IEnumerator DelayStartWhilePanCamera()

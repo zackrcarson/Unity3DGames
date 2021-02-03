@@ -39,7 +39,7 @@ public class CameraController : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, mainCameraPosition, distanceToMove / numPanFrames);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, mainCameraRotation, angleToMove / numPanFrames);
 
-            yield return new WaitForSeconds(.01f);
+            yield return new WaitForSeconds(Time.deltaTime);
         }
 
         transform.position = mainCameraPosition;

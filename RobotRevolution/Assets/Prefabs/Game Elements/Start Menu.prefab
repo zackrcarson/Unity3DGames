@@ -115,11 +115,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spaceShipObject: {fileID: 0}
-  startGameDelayWhileCameraPans: 2
+  startGameDelayWhileCameraPans: 3
   startMenuObjects:
   - {fileID: 856363207472534538}
   - {fileID: 856363207958015933}
   - {fileID: 856363207178140049}
+  scoreBoardUI: {fileID: 0}
 --- !u!1 &856363207178140049
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -205, y: -114}
+  m_AnchoredPosition: {x: -205, y: -256}
   m_SizeDelta: {x: 237.1, y: 102.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &856363207178140053
@@ -283,7 +284,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 196, y: -79}
+  m_AnchoredPosition: {x: 196, y: -164}
   m_SizeDelta: {x: 513.6, y: 148.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &856363207472534543
@@ -437,7 +438,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 297, y: -156}
+  m_AnchoredPosition: {x: 297, y: -241}
   m_SizeDelta: {x: 389.9, y: 93.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &856363207958015922

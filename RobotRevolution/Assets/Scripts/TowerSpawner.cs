@@ -11,30 +11,34 @@ public class TowerSpawner : MonoBehaviour
 
     // State Variables
     Queue<Tower> towerQueue = new Queue<Tower>();
+    public bool isSpawning = true;
 
     public void PlaceTower(Waypoint waypoint)
     {
-        int numTowers = towerQueue.Count;
+        if (isSpawning)
+        {
+            int numTowers = towerQueue.Count;
 
-        if (numTowers < towerLimit)
-        {
-            InstantiateNewTower(waypoint);
-        }
-        else
-        {
-            bool allNotIdling = true;
-            Tower[] towers = FindObjectsOfType<Tower>();
-            foreach (Tower tower in towers)
+            if (numTowers < towerLimit)
             {
-                if (tower.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Tower Idle"))
-                {
-                    allNotIdling = false;
-                }
+                InstantiateNewTower(waypoint);
             }
-
-            if (!allNotIdling)
+            else
             {
-                MoveExistingTower(waypoint);
+                bool allNotIdling = true;
+                Tower[] towers = FindObjectsOfType<Tower>();
+                foreach (Tower tower in towers)
+                {
+                    if (tower.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Tower Idle"))
+                    {
+                        allNotIdling = false;
+                    }
+                }
+
+                if (!allNotIdling)
+                {
+                    MoveExistingTower(waypoint);
+                }
             }
         }
     }

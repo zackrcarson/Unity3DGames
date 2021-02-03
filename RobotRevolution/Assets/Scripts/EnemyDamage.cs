@@ -5,6 +5,9 @@ public class EnemyDamage : MonoBehaviour
 {
     // Config Parameters
     [SerializeField] int health = 10;
+    [SerializeField] int pointsPerKill = 1;
+    [SerializeField] AudioClip robotHitSound = null;
+    [SerializeField] AudioClip robotKillSound = null;
 
     [Header("Death Animation Parameters")]
     [SerializeField] float deathAnimationDropDistance = 2f;
@@ -14,6 +17,16 @@ public class EnemyDamage : MonoBehaviour
     [SerializeField] int deathAnimationDropResolution = 10;
     [SerializeField] float deathAnimationDestroyDelay = 3f;
     [SerializeField] GameObject deathAnimationExplosionPrefab = null;
+
+    // Cached References
+    ScoreBoard scoreBoard = null;
+    AudioSource audioSource = null;
+
+    private void Start()
+    {
+        scoreBoard = FindObjectOfType<ScoreBoard>();
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -30,7 +43,21 @@ public class EnemyDamage : MonoBehaviour
 
         if (health < 1)
         {
+            if (robotKillSound)
+            {
+                audioSource.PlayOneShot(robotKillSound);
+            }
+
+            scoreBoard.IncreaseScore(pointsPerKill);
+
             StartCoroutine(BeginDeathSequence());
+        }
+        else
+        {
+            if (robotHitSound)
+            {
+                audioSource.PlayOneShot(robotHitSound);
+            }
         }
     }
 
@@ -65,5 +92,27 @@ public class EnemyDamage : MonoBehaviour
 
         Instantiate(deathAnimationExplosionPrefab, location);
         Destroy(gameObject, deathAnimationDestroyDelay);
+    }
+
+
+    public IEnumerator BeginFailedSequence()
+    {
+        GetComponent<EnemyMovement>().SetDead();
+
+        GetComponentInChildren<Animator>().enabled = false;
+        GetComponentInChildren<BoxCollider>().enabled = false;
+
+        yield return new WaitForSeconds(deathAnimationInitialDelay * 5);
+
+        for (int i = 0; i < deathAnimationDropResolution * 5; i++)
+        {
+            
+            Vector3 newPosition = transform.position;
+            newPosition.y -= deathAnimationDropDistance / (deathAnimationDropResolution * 5);
+
+            transform.position = newPosition;
+
+            yield return new WaitForSeconds(deathAnimationdropDelay * 5);
+        }
     }
 }

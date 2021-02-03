@@ -3,6 +3,8 @@
 public class Waypoint : MonoBehaviour
 {
     // Config Params
+    [SerializeField] AudioClip successSound = null;
+    [SerializeField] AudioClip failureSound = null;
     const int gridSize = 10;
     const float gapPercent = 0.1f;
 
@@ -16,10 +18,12 @@ public class Waypoint : MonoBehaviour
 
     // Cached References
     TowerSpawner towerSpawner = null;
+    AudioSource audioSource = null;
 
     private void Start()
     {
         towerSpawner = FindObjectOfType<TowerSpawner>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void GetGridSizeAndGap(out int outGridSize, out float outGapPercent)
@@ -44,11 +48,12 @@ public class Waypoint : MonoBehaviour
         {
             if (isPlaceable)
             {
+                audioSource.PlayOneShot(successSound);
                 towerSpawner.PlaceTower(this);
             }
             else
             {
-                // Play "erhhh" sound
+                audioSource.PlayOneShot(failureSound);
             }
         }
     }

@@ -73,7 +73,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8a144323c69f50444a21b753590954af, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.6
+  m_Volume: 1
   m_Pitch: 0.1
   Loop: 1
   Mute: 0
@@ -5325,18 +5325,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24788c84e7b0fb44f95dd50df370e593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 1
+  attackRange: 30
+  fireDelayTime: 1
   objectToPan: {fileID: 2702194969964370621}
   projectilePrefab: {fileID: 4298924995730677140, guid: 1313f3966b7ade74694ebdf5d5c4abd0,
     type: 3}
   projectileParent: {fileID: 47094735}
-  fireDelayTime: 1
-  attackRange: 30
-  damage: 1
-  targetEnemy: {fileID: 0}
-  livingOnWaypoint: {fileID: 0}
-  shootingEnabled: 1
-  allEnemiesDead: 0
-  isActive: 0
 --- !u!1 &7653327322411336059
 GameObject:
   m_ObjectHideFlags: 0

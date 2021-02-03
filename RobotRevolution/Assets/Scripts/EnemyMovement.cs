@@ -9,18 +9,23 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] int waypointMoveFrames = 30;
     [SerializeField] int enteringLeavingMoveFrames = 100;
     [SerializeField] float movementTimeDelay = 0.01f;
-    
+    [SerializeField] GameObject enemyBombPrefab = null;
+    [SerializeField] float enemyDestroyDelay = 1f;
+    [SerializeField] int baseDamagePerHit = 1;
+
     // Cached references
     PathFinder pathFinder = null;
+    BaseHealth baseHealth = null;
 
     // State variable
     List<Waypoint> path = new List<Waypoint>();
-    bool isDead = false;
+    public bool isDead = false;
 
     // Start is called before the first frame update
     void Start()
     {
         pathFinder = FindObjectOfType<PathFinder>();
+        baseHealth = FindObjectOfType<BaseHealth>();
 
         path = pathFinder.GetPath();
 
@@ -72,8 +77,17 @@ public class EnemyMovement : MonoBehaviour
                 yield return new WaitForSeconds(movementTimeDelay);
             }
             transform.position = baseTransform.position;
-            Destroy(gameObject);
+
+            DamageTown();
         }
+    }
+
+    private void DamageTown()
+    {
+        baseHealth.ReduceHealth(baseDamagePerHit);
+
+        Instantiate(enemyBombPrefab, transform);
+        Destroy(gameObject, enemyDestroyDelay);
     }
 
     public void SetDead()

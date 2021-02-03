@@ -7,15 +7,21 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float initialDelay = 2f;
     [SerializeField] float spawnTime = 5f;
     [SerializeField] int numberOfSpawns = 6;
-    [SerializeField] bool isSpawning = true;
     [SerializeField] EnemyMovement enemyPrefab = null;
+    [SerializeField] AudioClip robotSpawnSound = null;
 
     // State Variables
     int numberEnemiesSpawned = 0;
+    public bool isSpawning = true;
+
+    // Cached References
+    AudioSource audioSource = null;
 
     private void Start()
     {
         FindObjectOfType<PathFinder>().GetPath();
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void GameStarted()
@@ -31,6 +37,11 @@ public class EnemySpawner : MonoBehaviour
         {
             Instantiate(enemyPrefab.gameObject, transform);
             numberEnemiesSpawned++;
+
+            if (robotSpawnSound)
+            {
+                audioSource.PlayOneShot(robotSpawnSound);
+            }
 
             yield return new WaitForSeconds(spawnTime);
         }
