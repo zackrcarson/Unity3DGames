@@ -7,11 +7,18 @@ public class BaseHealth : MonoBehaviour
     [SerializeField] int baseHealth = 3;
     [SerializeField] float baseDestroyWaitTime = 2f;
     [SerializeField] GameObject[] bombs = null;
+    [SerializeField] GameObject[] fires = null;
     [SerializeField] AnimationClip sinkAnimationClipForLength = null;
+    [SerializeField] DeathMenu deathMenu = null;
+    [SerializeField] float fireDestroyDelay = 0.2f;
+    [SerializeField] float deathScreenLoadDelay = 3f;
 
     // Cached References
     Animator animator = null;
     ScoreBoard scoreBoard = null;
+
+    // State variables
+    int currentFire = 0;
 
     private void Start()
     {
@@ -23,6 +30,14 @@ public class BaseHealth : MonoBehaviour
 
     private IEnumerator DestroyBase()
     {
+        FindObjectOfType<TowerSpawner>().isSpawning = false;
+        Waypoint[] allWaypoints = FindObjectsOfType<Waypoint>();
+
+        foreach (Waypoint waypoint in allWaypoints)
+        {
+            waypoint.isSpawning = false;
+        }
+
         FindObjectOfType<MusicPlayer>().PlayDeathMusic();
 
         yield return new WaitForSeconds(baseDestroyWaitTime);
@@ -51,11 +66,28 @@ public class BaseHealth : MonoBehaviour
                 bomb.SetActive(true);
             }
         }
+
+        foreach (GameObject fire in fires)
+        {
+            fire.SetActive(false);
+            yield return new WaitForSeconds(fireDestroyDelay);
+        }
+
+        yield return new WaitForSeconds(deathScreenLoadDelay);
+
+        deathMenu.gameObject.SetActive(true);
     }
 
     public void ReduceHealth(int amount)
     {
         baseHealth--;
+        
+        fires[currentFire].SetActive(true);
+        currentFire++;
+        if (currentFire >= fires.Length - 1)
+        {
+            currentFire = fires.Length - 1;
+        }
 
         if (!scoreBoard) { scoreBoard = FindObjectOfType<ScoreBoard>(); }
 

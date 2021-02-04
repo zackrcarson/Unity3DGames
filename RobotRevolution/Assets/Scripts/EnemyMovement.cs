@@ -10,7 +10,6 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] int enteringLeavingMoveFrames = 100;
     [SerializeField] float movementTimeDelay = 0.01f;
     [SerializeField] GameObject enemyBombPrefab = null;
-    [SerializeField] float enemyDestroyDelay = 1f;
     [SerializeField] int baseDamagePerHit = 1;
 
     // Cached references
@@ -38,6 +37,9 @@ public class EnemyMovement : MonoBehaviour
         {
             // Move off the enemy Ship
             isDead = true;
+
+            ChangeFacingDirection(path[0].transform);
+
             float distanceToMove = Vector3.Distance(transform.position, path[0].transform.position);
             for (int i = 0; i < enteringLeavingMoveFrames; i ++)
             {
@@ -54,6 +56,8 @@ public class EnemyMovement : MonoBehaviour
             {
                 if (waypoint == path[0]) { continue; }
 
+                ChangeFacingDirection(waypoint.transform);
+                
                 float waypointDistance = Vector3.Distance(transform.position, waypoint.transform.position);
                 for (int i = 0; i < waypointMoveFrames; i++)
                 {
@@ -68,6 +72,9 @@ public class EnemyMovement : MonoBehaviour
 
             // Move onto the player base
             isDead = true;
+
+            ChangeFacingDirection(pathFinder.GetBaseLocation());
+
             Transform baseTransform = pathFinder.GetBaseLocation();
             float finalDistanceToMove = Vector3.Distance(transform.position, baseTransform.position);
             for (int i = 0; i < enteringLeavingMoveFrames; i++)
@@ -82,12 +89,38 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
+    private void ChangeFacingDirection(Transform nextWaypointTransform)
+    {
+        Vector3 directionVector = Vector3.Normalize(nextWaypointTransform.position - transform.position);
+
+        float yRotationAmount = 0f;
+
+        if (directionVector == new Vector3(0f, 0f, 1.0f))
+        {
+            yRotationAmount = 180f;
+        }
+        else if (directionVector == new Vector3(1.0f, 0f, 0f))
+        {
+            yRotationAmount = 270f;
+        }
+        else if (directionVector == new Vector3(0f, 0f, -1.0f))
+        {
+            yRotationAmount = 0f;
+        }
+        else if (directionVector == new Vector3(-1.0f, 0f, 0f))
+        {
+            yRotationAmount = 90f; 
+        }
+
+        GetComponentInChildren<Animator>().gameObject.transform.localRotation = Quaternion.Euler(0f, yRotationAmount, 0f);
+    }
+
     private void DamageTown()
     {
         baseHealth.ReduceHealth(baseDamagePerHit);
 
-        Instantiate(enemyBombPrefab, transform);
-        Destroy(gameObject, enemyDestroyDelay);
+        Instantiate(enemyBombPrefab, pathFinder.GetBaseLocation());
+        Destroy(gameObject);
     }
 
     public void SetDead()

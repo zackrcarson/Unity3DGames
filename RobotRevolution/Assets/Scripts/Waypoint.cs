@@ -16,6 +16,8 @@ public class Waypoint : MonoBehaviour
 
     public bool isPlaceable = true;
 
+    public bool isSpawning = true;
+
     // Cached References
     TowerSpawner towerSpawner = null;
     AudioSource audioSource = null;
@@ -44,6 +46,8 @@ public class Waypoint : MonoBehaviour
 
     private void OnMouseOver()
     {
+        if (!isSpawning) { return; }
+
         if (Input.GetMouseButtonDown(0))
         {
             if (isPlaceable)
