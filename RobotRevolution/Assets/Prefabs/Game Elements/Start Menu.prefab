@@ -121,6 +121,7 @@ MonoBehaviour:
   - {fileID: 856363207958015933}
   - {fileID: 856363207178140049}
   scoreBoardUI: {fileID: 0}
+  pauseMenu: {fileID: 0}
 --- !u!1 &856363207178140049
 GameObject:
   m_ObjectHideFlags: 0

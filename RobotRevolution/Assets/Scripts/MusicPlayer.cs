@@ -9,6 +9,7 @@ public class MusicPlayer : MonoBehaviour
     [SerializeField] float fadeTime = 4f;
     [SerializeField] float playSongVolume = 0.2f;
     [SerializeField] float LoseSongVolume = 1f;
+    [SerializeField] float WinSongVolume = 1f;
     [SerializeField] AudioClip introSong = null;
     [SerializeField] AudioClip playSong = null;
     [SerializeField] AudioClip winSong = null;
@@ -101,6 +102,7 @@ public class MusicPlayer : MonoBehaviour
     {
         if (!audioSource) { audioSource = GetComponent<AudioSource>(); }
 
+        audioSource.volume = WinSongVolume;
         audioSource.clip = winSong;
         audioSource.Play();
     }
@@ -113,4 +115,23 @@ public class MusicPlayer : MonoBehaviour
         audioSource.clip = deathSong;
         audioSource.Play();
     }
+
+    public void PlayPlayMusic()
+    {
+        if (!audioSource) { audioSource = GetComponent<AudioSource>(); }
+
+        audioSource.volume = playSongVolume;
+        audioSource.clip = playSong;
+        audioSource.Play();
+    }
+
+    //public void ChangeVolume(float volume)
+    //{
+    //    audioSource.volume = volume;
+    //}
+
+    //public float GetVolume()
+    //{
+    //    return audioSource.volume;
+    //}
 }

@@ -80,12 +80,14 @@
     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
     <Compile Include="Assets\Scripts\PathFinder.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\ScoreBoard.cs" />
     <Compile Include="Assets\Scripts\SpaceShip.cs" />
     <Compile Include="Assets\Scripts\StartMenu.cs" />
     <Compile Include="Assets\Scripts\Tower.cs" />
     <Compile Include="Assets\Scripts\TowerSpawner.cs" />
     <Compile Include="Assets\Scripts\Waypoint.cs" />
+    <Compile Include="Assets\Scripts\WinScreen.cs" />
     <None Include="Assets\Prefabs\Premade Asset Prefabs\Spaceship\Materials\2-sided.shader" />
     <None Include="Assets\Premade Assets\Cube_World\READ_ME.txt" />
     <None Include="Assets\Premade Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />

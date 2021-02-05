@@ -86,6 +86,8 @@ public class EnemyMovement : MonoBehaviour
             transform.position = baseTransform.position;
 
             DamageTown();
+
+            GetComponent<EnemyDamage>().CheckIfGameWon();
         }
     }
 

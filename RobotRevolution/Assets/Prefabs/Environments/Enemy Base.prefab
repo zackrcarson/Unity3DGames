@@ -485,6 +485,7 @@ MonoBehaviour:
   - {fileID: 9050917273143743850}
   - {fileID: 9050917273372999612}
   - {fileID: 9050917273619069276}
+  takeoffClip: {fileID: 8300000, guid: c4376b78061746744bcce688fe3887cc, type: 3}
 --- !u!1 &9161617707923235968
 GameObject:
   m_ObjectHideFlags: 0

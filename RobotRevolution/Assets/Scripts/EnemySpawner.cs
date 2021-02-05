@@ -13,6 +13,7 @@ public class EnemySpawner : MonoBehaviour
     // State Variables
     int numberEnemiesSpawned = 0;
     public bool isSpawning = true;
+    public bool doneSpawning = false;
 
     // Cached References
     AudioSource audioSource = null;
@@ -45,5 +46,7 @@ public class EnemySpawner : MonoBehaviour
 
             yield return new WaitForSeconds(spawnTime);
         }
+
+        doneSpawning = true;
     }
 }

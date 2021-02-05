@@ -8,6 +8,7 @@ public class StartMenu : MonoBehaviour
     [SerializeField] float startGameDelayWhileCameraPans = 2f;
     [SerializeField] GameObject[] startMenuObjects = null;
     [SerializeField] GameObject scoreBoardUI = null;
+    [SerializeField] PauseMenu pauseMenu = null;
 
     // Cached References
     EnemySpawner enemySpawner = null;
@@ -22,6 +23,8 @@ public class StartMenu : MonoBehaviour
         enemySpawner = FindObjectOfType<EnemySpawner>();
         spaceShip = FindObjectOfType<SpaceShip>();
         cameraController = FindObjectOfType<CameraController>();
+        
+        pauseMenu.canPause = false;
     }
 
     public void StartGame()
@@ -40,6 +43,8 @@ public class StartMenu : MonoBehaviour
         StartCoroutine(DelayStartWhilePanCamera());
 
         scoreBoardUI.SetActive(true);
+
+        pauseMenu.canPause = true;
     }
 
     public IEnumerator DelayStartWhilePanCamera()
@@ -47,7 +52,7 @@ public class StartMenu : MonoBehaviour
         yield return new WaitForSeconds(startGameDelayWhileCameraPans);
 
         spaceShipObject.SetActive(true);
-        spaceShip.GetComponent<Animator>().SetBool("gameStarted", true);
+        spaceShip.GetComponent<Animator>().SetTrigger("gameStarted");
 
         enemySpawner.GameStarted();
 

@@ -48,6 +48,7 @@ MonoBehaviour:
   fadeTime: 4
   playSongVolume: 0.12
   LoseSongVolume: 1
+  WinSongVolume: 1
   introSong: {fileID: 8300000, guid: 5e49139a082709847bc12ab0b1aed9c4, type: 3}
   playSong: {fileID: 8300000, guid: 9e3c4b6e28ede0b4ebe184f09d19774b, type: 3}
   winSong: {fileID: 8300000, guid: 7148a7337fce4cd4eb61ad3fae0d2c6b, type: 3}
@@ -64,7 +65,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0

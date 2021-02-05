@@ -7,6 +7,7 @@ public class CameraController : MonoBehaviour
     // Config Parameters
     [SerializeField] Transform startCameraTransform = null;
     [SerializeField] int numPanFrames = 100;
+    [SerializeField] GameObject spaceShipObject = null;
 
     // State Parameters
     Vector3 mainCameraPosition = new Vector3(0f, 0f, 0f);
@@ -18,10 +19,28 @@ public class CameraController : MonoBehaviour
         mainCameraPosition = transform.position;
         mainCameraRotation = transform.rotation;
 
-        transform.position = startCameraTransform.position;
-        transform.rotation = startCameraTransform.rotation;
+        if (startCameraTransform)
+        {
+            transform.position = startCameraTransform.position;
+            transform.rotation = startCameraTransform.rotation;
 
-        startCameraTransform.gameObject.SetActive(false);
+            startCameraTransform.gameObject.SetActive(false);
+        }
+        else
+        {
+            StartNewLevel();
+        }
+    }
+
+    private void StartNewLevel()
+    {
+        spaceShipObject.SetActive(true);
+
+        FindObjectOfType<SpaceShip>().GetComponent<Animator>().SetBool("gameStarted", true);
+
+        FindObjectOfType<EnemySpawner>().GameStarted();
+
+        FindObjectOfType<PauseMenu>().canPause = true;
     }
 
     public void GameStarted()

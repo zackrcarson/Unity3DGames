@@ -21,11 +21,16 @@ public class EnemyDamage : MonoBehaviour
     // Cached References
     ScoreBoard scoreBoard = null;
     AudioSource audioSource = null;
+    EnemySpawner enemySpawner = null;
+    BaseHealth baseHealth = null;
 
     private void Start()
     {
         scoreBoard = FindObjectOfType<ScoreBoard>();
         audioSource = GetComponent<AudioSource>();
+
+        enemySpawner = FindObjectOfType<EnemySpawner>();
+        baseHealth = FindObjectOfType<BaseHealth>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -65,6 +70,8 @@ public class EnemyDamage : MonoBehaviour
     {
         GetComponent<EnemyMovement>().SetDead();
 
+        CheckIfGameWon();
+
         GetComponentInChildren<Animator>().enabled = false;
         GetComponentInChildren<BoxCollider>().enabled = false;
 
@@ -84,7 +91,7 @@ public class EnemyDamage : MonoBehaviour
         Transform location = GetComponentInChildren<Animator>().gameObject.transform;
 
         MeshRenderer[] meshRenderers = GetComponentsInChildren<MeshRenderer>();
-        
+
         foreach (MeshRenderer meshRenderer in meshRenderers)
         {
             meshRenderer.enabled = false;
@@ -94,6 +101,39 @@ public class EnemyDamage : MonoBehaviour
         Destroy(gameObject, deathAnimationDestroyDelay);
     }
 
+    public void CheckIfGameWon()
+    {
+        if (enemySpawner.doneSpawning)
+        {
+            if (baseHealth.GetHealth() > 0)
+            {
+                EnemyMovement[] allEnemies = FindObjectsOfType<EnemyMovement>();
+
+                if (allEnemies.Length == 0)
+                {
+                    FindObjectOfType<WinScreen>().WonGame();
+                }
+                else
+                {
+                    bool allEnemiesDead = true;
+
+                    foreach (EnemyMovement enemy in allEnemies)
+                    {
+                        if (!enemy.isDead)
+                        {
+                            allEnemiesDead = false;
+                            break;
+                        }
+                    }
+
+                    if (allEnemiesDead)
+                    {
+                        FindObjectOfType<WinScreen>().WonGame();
+                    }
+                }
+            }
+        }
+    }
 
     public IEnumerator BeginFailedSequence()
     {

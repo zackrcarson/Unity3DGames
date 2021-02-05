@@ -5,8 +5,9 @@ public class DeathMenu : MonoBehaviour
 {
     public void RestartGame()
     {
-        GameObject.Destroy(GameObject.Find("Music Player"));
-        GameObject.Destroy(GameObject.Find("Score Board"));
+        Time.timeScale = 1;
+        Destroy(GameObject.Find("Music Player"));
+        Destroy(GameObject.Find("Score Board"));
 
         int currentScene = SceneManager.GetActiveScene().buildIndex;
 

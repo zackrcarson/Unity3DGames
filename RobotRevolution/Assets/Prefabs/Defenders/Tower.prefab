@@ -5326,7 +5326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  attackRange: 30
+  attackRange: 20
   fireDelayTime: 1
   objectToPan: {fileID: 2702194969964370621}
   projectilePrefab: {fileID: 4298924995730677140, guid: 1313f3966b7ade74694ebdf5d5c4abd0,

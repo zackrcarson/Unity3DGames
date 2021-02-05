@@ -16,6 +16,7 @@ public class BaseHealth : MonoBehaviour
     // Cached References
     Animator animator = null;
     ScoreBoard scoreBoard = null;
+    PauseMenu pauseMenu = null;
 
     // State variables
     int currentFire = 0;
@@ -26,6 +27,8 @@ public class BaseHealth : MonoBehaviour
         scoreBoard = FindObjectOfType<ScoreBoard>();
 
         if (scoreBoard) { scoreBoard.UpdateHealth(baseHealth); }
+
+        pauseMenu = FindObjectOfType<PauseMenu>();
     }
 
     private IEnumerator DestroyBase()
@@ -75,6 +78,7 @@ public class BaseHealth : MonoBehaviour
 
         yield return new WaitForSeconds(deathScreenLoadDelay);
 
+        pauseMenu.canPause = false;
         deathMenu.gameObject.SetActive(true);
     }
 
