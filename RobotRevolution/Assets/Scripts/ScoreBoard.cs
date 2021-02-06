@@ -15,7 +15,8 @@ public class ScoreBoard : MonoBehaviour
 
     private void Awake()
     {
-        int numberScoreBoards = FindObjectsOfType<ScoreBoard>().Length;
+        ScoreBoard[] scoreBoards = FindObjectsOfType<ScoreBoard>();
+        int numberScoreBoards = scoreBoards.Length;
 
         if (numberScoreBoards == 1)
         {
@@ -23,6 +24,11 @@ public class ScoreBoard : MonoBehaviour
         }
         else
         {
+            foreach (ScoreBoard scoreBoard in scoreBoards)
+            {
+                scoreBoard.ResetScoreBoard();
+            }
+
             Destroy(gameObject);
         }
     }
@@ -50,5 +56,12 @@ public class ScoreBoard : MonoBehaviour
     {
         score += points;
         scoreText.text = score.ToString();
+    }
+
+    public void ResetScoreBoard()
+    {
+        baseHealth = FindObjectOfType<BaseHealth>();
+
+        healthText.text = baseHealth.GetHealth().ToString();
     }
 }

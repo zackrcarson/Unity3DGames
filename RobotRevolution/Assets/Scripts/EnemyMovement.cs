@@ -19,6 +19,7 @@ public class EnemyMovement : MonoBehaviour
     // State variable
     List<Waypoint> path = new List<Waypoint>();
     public bool isDead = false;
+    public bool isGettingOffShip = false;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +38,7 @@ public class EnemyMovement : MonoBehaviour
         {
             // Move off the enemy Ship
             isDead = true;
+            isGettingOffShip = true;
 
             ChangeFacingDirection(path[0].transform);
 
@@ -48,7 +50,9 @@ public class EnemyMovement : MonoBehaviour
                 yield return new WaitForSeconds(movementTimeDelay);
             }
             transform.position = path[0].transform.position;
+
             isDead = false;
+            isGettingOffShip = false;
 
             // Move between each waypoint in the path
             yield return new WaitForSeconds(waypointDelay);

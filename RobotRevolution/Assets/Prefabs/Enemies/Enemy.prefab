@@ -19073,7 +19073,6 @@ MonoBehaviour:
   movementTimeDelay: 0.01
   enemyBombPrefab: {fileID: 7099449571508743118, guid: c6fb01cacce670243874c2978515c9dd,
     type: 3}
-  enemyDestroyDelay: 3
   baseDamagePerHit: 1
   isDead: 0
 --- !u!114 &6972931
@@ -19088,8 +19087,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d91d09b4b0c494246a32f1362c16b048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 8
   pointsPerKill: 1
+  robotHitSound: {fileID: 0}
   robotKillSound: {fileID: 0}
   deathAnimationDropDistance: 2
   deathAnimationInitialDelay: 0.3

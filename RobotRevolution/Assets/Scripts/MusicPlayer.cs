@@ -19,7 +19,7 @@ public class MusicPlayer : MonoBehaviour
     AudioSource audioSource = null;
 
     // State variables
-    float musicVolume = 1f;
+    float introMusicVolume = 1f;
 
     private void Awake()
     {
@@ -32,7 +32,7 @@ public class MusicPlayer : MonoBehaviour
             int sceneNumber = SceneManager.GetActiveScene().buildIndex;
 
             audioSource = GetComponent<AudioSource>();
-            musicVolume = audioSource.volume;
+            introMusicVolume = audioSource.volume;
             audioSource.loop = true;
 
             if (sceneNumber == 0)
@@ -46,7 +46,7 @@ public class MusicPlayer : MonoBehaviour
             }
 
             audioSource.Play();
-
+            AudioListener.pause = false;
         }
         else
         {
@@ -70,13 +70,13 @@ public class MusicPlayer : MonoBehaviour
     {
         while (audioSource.volume > 0f)
         {
-            audioSource.volume -= musicVolume * Time.deltaTime / fadeTime;
+            audioSource.volume -= introMusicVolume * Time.deltaTime / fadeTime;
 
             yield return null;
         }
         
         audioSource.Stop();
-        audioSource.volume = musicVolume;
+        audioSource.volume = introMusicVolume;
 
         StartCoroutine(FadeIn());
     }
@@ -124,14 +124,4 @@ public class MusicPlayer : MonoBehaviour
         audioSource.clip = playSong;
         audioSource.Play();
     }
-
-    //public void ChangeVolume(float volume)
-    //{
-    //    audioSource.volume = volume;
-    //}
-
-    //public float GetVolume()
-    //{
-    //    return audioSource.volume;
-    //}
 }

@@ -5,28 +5,20 @@ public class PauseMenu : MonoBehaviour
 {
     // config Parameters
     [SerializeField] GameObject pauseMenu = null;
-    //[SerializeField] float musicVolumeDimRatio = 0.5f;
 
     // State Variables
     bool isPaused = false;
     public bool canPause = false;
-    //float baseMusicVolume = 1f;
 
     // Cached References
     TowerSpawner towerSpawner = null;
     Waypoint[] allWaypoints = null;
-    //MusicPlayer musicPlayer = null;
-    //Tower[] allTowers = null;
-    //Tower[] towersPlayingWhenPaused = null;
 
     // Start is called before the first frame update
     void Start()
     {
         allWaypoints = FindObjectsOfType<Waypoint>();
         towerSpawner = FindObjectOfType<TowerSpawner>();
-
-        //allTowers = FindObjectsOfType<Tower>();
-        //musicPlayer = FindObjectOfType<MusicPlayer>();
 
         pauseMenu.SetActive(false);
     }
@@ -52,28 +44,11 @@ public class PauseMenu : MonoBehaviour
 
     private void PauseGame()
     {
-        //if (!musicPlayer) { musicPlayer = FindObjectOfType<MusicPlayer>(); }
-
-        //baseMusicVolume = musicPlayer.GetVolume();
-        //musicPlayer.ChangeVolume(baseMusicVolume * musicVolumeDimRatio);
-
         foreach (Waypoint waypoint in allWaypoints)
         {
             waypoint.isSpawning = false;
         }
         towerSpawner.isSpawning = false;
-
-        //foreach (Tower tower in allTowers)
-        //{
-        //    AudioSource towerAudio = tower.gameObject.GetComponentInChildren<AudioSource>();
-
-        //    if (towerAudio.isPlaying)
-        //    {
-        //        towerAudio.Stop();
-
-        //        //towersPlayingWhenPaused[]
-        //    }
-        //}
 
         AudioListener.pause = true;
 
@@ -87,8 +62,6 @@ public class PauseMenu : MonoBehaviour
     public void ResumeGame()
     {
         AudioListener.pause = false;
-
-        //musicPlayer.ChangeVolume(baseMusicVolume);
 
         foreach (Waypoint waypoint in allWaypoints)
         {

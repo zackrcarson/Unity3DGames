@@ -133218,7 +133218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e7b1f0a7800d348859bc3e8ccdf5ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseHealth: 6
+  baseHealth: 3
   baseDestroyWaitTime: 2
   bombs:
   - {fileID: 1777666343254102663}

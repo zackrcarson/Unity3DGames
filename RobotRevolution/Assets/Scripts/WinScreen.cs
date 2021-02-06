@@ -28,6 +28,8 @@ public class WinScreen : MonoBehaviour
     public void WonGame()
     {
         animator.SetTrigger("isWon");
+
+        if (!musicPlayer) { musicPlayer = FindObjectOfType<MusicPlayer>(); }
         musicPlayer.PlayWinMusic();
 
         foreach (Waypoint waypoint in allWaypoints)

@@ -51,7 +51,7 @@ public class BaseHealth : MonoBehaviour
 
         foreach (EnemyDamage enemy in enemies)
         {
-            if (!enemy.gameObject.GetComponent<EnemyMovement>().isDead)
+            if (!enemy.gameObject.GetComponent<EnemyMovement>().isDead || enemy.gameObject.GetComponent<EnemyMovement>().isGettingOffShip)
             {
                 StartCoroutine(enemy.BeginFailedSequence());
             }

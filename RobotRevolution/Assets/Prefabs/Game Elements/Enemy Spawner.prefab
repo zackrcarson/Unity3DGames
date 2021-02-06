@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialDelay: 7
   spawnTime: 3
-  numberOfSpawns: 20
+  numberOfSpawns: 10
   enemyPrefab: {fileID: 1106416278, guid: 5c6e6ae6741e7134f9d64aa76b428617, type: 3}
   robotSpawnSound: {fileID: 8300000, guid: b282de184ded50143a7e7b9a78048c19, type: 3}
   isSpawning: 1
