@@ -1,0 +1,61 @@
+﻿using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
+
+public class PlayerHealth : MonoBehaviour
+{
+    // Config Parameters
+    [SerializeField] int playerHealth = 200;
+    [SerializeField] Canvas gameOverCanvas = null;
+    [SerializeField] Canvas reticleCanvas = null;
+
+    // Cached References
+    Rigidbody rigidBody = null;
+    Animator animator = null;
+
+    private void Start()
+    {
+        gameOverCanvas.enabled = false;
+
+        rigidBody = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
+    }
+
+    public void DamagePlayer(int damage)
+    {
+        playerHealth -= damage;
+
+        if (playerHealth <= 0)
+        {
+            KillPlayer();
+        }
+    }
+
+    private void KillPlayer()
+    {
+        reticleCanvas.enabled = false;
+        gameOverCanvas.enabled = true;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        GetComponent<RigidbodyFirstPersonController>().enabled = false;
+        GetComponentInChildren<Weapon>().isDead = true;
+        FindObjectOfType<WeaponSwitcher>().enabled = false;
+
+        EnemyAI[] enemies = FindObjectsOfType<EnemyAI>();
+        foreach (EnemyAI enemy in enemies)
+        {
+            StartCoroutine(enemy.PlayerDead());
+        }
+        
+        animator.enabled = true;
+
+        animator.SetTrigger("playerDead");
+
+        StartCoroutine(gameOverCanvas.GetComponent<GameOverScreen>().PlayerDead());
+    }
+
+    public void TurnOffGravity()
+    {
+        rigidBody.useGravity = false;
+    }
+}
