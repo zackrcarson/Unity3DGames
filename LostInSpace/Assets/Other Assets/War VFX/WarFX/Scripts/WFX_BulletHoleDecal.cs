@@ -64,7 +64,6 @@ public class WFX_BulletHoleDecal : MonoBehaviour
 	{
 		while(life > 0f)
 		{
-            Debug.Log(life);
 			life -= Time.deltaTime;
 			if(life <= fadeout)
 			{

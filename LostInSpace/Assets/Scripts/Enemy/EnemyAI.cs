@@ -10,6 +10,8 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] float waitTimeToReturnToStart = 3f;
 
     // Cached references
+    int numAttackAnimations = 3;
+    EnemyHealth enemyHealth = null;
     NavMeshAgent navMeshAgent = null;
     Transform target = null;
     Animator animator = null;
@@ -26,7 +28,8 @@ public class EnemyAI : MonoBehaviour
         startingPosition = transform.position;
 
         navMeshAgent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>();
+        enemyHealth = GetComponent<EnemyHealth>();
+        animator = GetComponentInChildren<Animator>();
 
         target = FindObjectOfType<PlayerHealth>().transform;
     }
@@ -35,6 +38,12 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         if (playerDead) { return; }
+        if (enemyHealth.IsDead())
+        {
+            enabled = false;
+            navMeshAgent.enabled = false;
+            return;
+        }
 
         distanceToTarget = Vector3.Distance(transform.position, target.position);
 
@@ -74,30 +83,47 @@ public class EnemyAI : MonoBehaviour
     {
         navMeshAgent.SetDestination(target.position);
 
-        animator.SetBool("attack", false);
+        animator.SetInteger("attack", 0);
         animator.SetTrigger("move");
     }
 
     private void AttackTarget()
     {
-        animator.SetBool("attack", true);
+        animator.SetInteger("attack", GetRandomAttackAnimation());
     }
 
     public IEnumerator PlayerDead()
     {
         playerDead = true;
-
-        animator.SetBool("attack", false);
+        
+        animator.SetTrigger("howl");
 
         yield return new WaitForSeconds(waitTimeToReturnToStart);
 
+        navMeshAgent.speed /= 2; 
+        animator.SetTrigger("backHome");
+
         navMeshAgent.SetDestination(startingPosition);
+
+        StartCoroutine(IdleWhenHome());
+    }
+
+    private IEnumerator IdleWhenHome()
+    {
+        yield return new WaitUntil(() => navMeshAgent.velocity.sqrMagnitude <= Mathf.Epsilon);
+
+        animator.SetTrigger("isHome");
     }
 
     // Called via string reference BroadCastMessage
     public void OnDamageTaken()
     {
         isProvoked = true;
+    }
+
+    private int GetRandomAttackAnimation()
+    {
+        return Random.Range(1, numAttackAnimations + 1);
     }
 
     private void OnDrawGizmosSelected()
