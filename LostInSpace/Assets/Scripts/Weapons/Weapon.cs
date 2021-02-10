@@ -101,10 +101,13 @@ public class Weapon : MonoBehaviour
 
     private void MetalHitImpactVFX(RaycastHit hit)
     {
-        GameObject impact = Instantiate(metalHitVFX, hit.point, Quaternion.LookRotation(hit.normal));
-        impact.transform.parent = VFXParent;
+        if (hit.transform.tag != "Pickup")
+        {
+            GameObject impact = Instantiate(metalHitVFX, hit.point, Quaternion.LookRotation(hit.normal));
+            impact.transform.parent = VFXParent;
 
-        Destroy(impact, metalHitDestroyDelay);
+            Destroy(impact, metalHitDestroyDelay);
+        }
     }
 
     private void EnemyHitImpactVFX(RaycastHit hit)

@@ -8,10 +8,12 @@ public class AmmoPickup : MonoBehaviour
 
     // Cached References
     Ammo ammo = null;
+    Animator animator = null;
 
     private void Start()
     {
         ammo = FindObjectOfType<Ammo>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -19,8 +21,8 @@ public class AmmoPickup : MonoBehaviour
         if (other.tag == "Player")
         {
             ammo.IncreaseCurrentAmmo(ammoType, ammoAmmount);
-
-            Destroy(gameObject);
+            animator.SetTrigger("isOpened");
+            //Destroy(gameObject);
             // TODO: Play pickup sound
         }
     }

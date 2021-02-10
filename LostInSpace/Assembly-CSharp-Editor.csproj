@@ -661,6 +661,24 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">

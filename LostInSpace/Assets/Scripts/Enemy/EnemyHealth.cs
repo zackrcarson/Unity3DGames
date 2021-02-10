@@ -41,6 +41,8 @@ public class EnemyHealth : MonoBehaviour
 
         // TODO Enemy death SFX
 
+        GetComponent<Collider>().enabled = false;
+
         isDead = true;
 
         animator.SetInteger("isDead", GetRandomDeathAnimation());

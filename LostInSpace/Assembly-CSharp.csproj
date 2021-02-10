@@ -153,6 +153,8 @@
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Game Elements\GameOverScreen.cs" />
     <Compile Include="Assets\Scripts\Game Elements\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\Lights\FlashLight.cs" />
+    <Compile Include="Assets\Scripts\Lights\LightFlicker.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Weapons\Ammo.cs" />
     <Compile Include="Assets\Scripts\Weapons\AmmoPickup.cs" />
@@ -752,6 +754,24 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
