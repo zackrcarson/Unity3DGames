@@ -7,10 +7,12 @@ public class EnemyAttack : MonoBehaviour
 
     // Cached References
     PlayerHealth playerHealth = null;
+    DisplayDamage displayDamage = null;
 
     private void Start()
     {
         playerHealth = FindObjectOfType<PlayerHealth>();
+        displayDamage = FindObjectOfType<DisplayDamage>();
     }
 
     public void AttackHitEvent()
@@ -18,5 +20,7 @@ public class EnemyAttack : MonoBehaviour
         if (!playerHealth) { return; }
 
         playerHealth.DamagePlayer(damage);
+
+        displayDamage.ShowDamage();
     }
 }

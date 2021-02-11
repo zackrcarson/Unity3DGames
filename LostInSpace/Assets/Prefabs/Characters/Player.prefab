@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 144422650}
   - component: {fileID: 144422651}
+  - component: {fileID: 144422652}
   m_Layer: 0
   m_Name: Flash Light
   m_TagString: Untagged
@@ -92,6 +93,25 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &144422652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144422649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e304d9be901bd344b95949d8fcdbd5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightDecay: 0.6
+  angleDecay: 6
+  minAngle: 40
+  initialTimeBeforeDecay: 0
+  minFlickerTime: 0.1
+  maxFlickerTime: 1
+  flickerDarkTime: 0.05
 --- !u!1 &534766307896943253
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,6 +164,8 @@ MonoBehaviour:
   damage: 70
   shootDelay: 3
   firstPersonCamera: {fileID: 2747164987301884549}
+  ammoDisplay: {fileID: 0}
+  ammoDisplayColor: {r: 0.19607843, g: 0.62352943, b: 0.2, a: 1}
   VFXParent: {fileID: 0}
   muzzleFlash: {fileID: 3838117637437163223}
   metalHitVFX: {fileID: 100002, guid: 778ab6168a4d80f4e9efa034d3ada70f, type: 3}
@@ -307,7 +329,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2747164987303391393}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83c81407209f85e4c87c0cda8b32868e, type: 3}
   m_Name: 
@@ -534,6 +556,7 @@ MonoBehaviour:
   playerHealth: 200
   gameOverCanvas: {fileID: 0}
   reticleCanvas: {fileID: 0}
+  healthDisplay: {fileID: 0}
 --- !u!95 &1930493212
 Animator:
   serializedVersion: 3
@@ -5546,6 +5569,21 @@ PrefabInstance:
       objectReference: {fileID: 2747164987301884549}
     - target: {fileID: 1215091460491989618, guid: 3c81b162a1af44348b8994f7040514d4,
         type: 3}
+      propertyPath: ammoDisplayColor.b
+      value: 0.54901963
+      objectReference: {fileID: 0}
+    - target: {fileID: 1215091460491989618, guid: 3c81b162a1af44348b8994f7040514d4,
+        type: 3}
+      propertyPath: ammoDisplayColor.g
+      value: 0.53333336
+      objectReference: {fileID: 0}
+    - target: {fileID: 1215091460491989618, guid: 3c81b162a1af44348b8994f7040514d4,
+        type: 3}
+      propertyPath: ammoDisplayColor.r
+      value: 0.07450981
+      objectReference: {fileID: 0}
+    - target: {fileID: 1215091460491989618, guid: 3c81b162a1af44348b8994f7040514d4,
+        type: 3}
       propertyPath: metalHitDestroyDelay
       value: 200
       objectReference: {fileID: 0}
@@ -5679,6 +5717,21 @@ PrefabInstance:
       propertyPath: firstPersonCamera
       value: 
       objectReference: {fileID: 2747164987301884549}
+    - target: {fileID: 7215980122552665021, guid: 9e05190243e23c24296ec66e87945ca7,
+        type: 3}
+      propertyPath: ammoDisplayColor.b
+      value: 0.54901963
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215980122552665021, guid: 9e05190243e23c24296ec66e87945ca7,
+        type: 3}
+      propertyPath: ammoDisplayColor.g
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215980122552665021, guid: 9e05190243e23c24296ec66e87945ca7,
+        type: 3}
+      propertyPath: ammoDisplayColor.r
+      value: 0.17254902
+      objectReference: {fileID: 0}
     - target: {fileID: 7215980122552665021, guid: 9e05190243e23c24296ec66e87945ca7,
         type: 3}
       propertyPath: metalHitDestroyDelay
@@ -5889,6 +5942,21 @@ PrefabInstance:
       propertyPath: firstPersonCamera
       value: 
       objectReference: {fileID: 2747164987301884549}
+    - target: {fileID: 7598220043406523192, guid: bceefb2a39f6db74d9bc9d006687b7f1,
+        type: 3}
+      propertyPath: ammoDisplayColor.b
+      value: 0.36078432
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598220043406523192, guid: bceefb2a39f6db74d9bc9d006687b7f1,
+        type: 3}
+      propertyPath: ammoDisplayColor.g
+      value: 0.65882355
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598220043406523192, guid: bceefb2a39f6db74d9bc9d006687b7f1,
+        type: 3}
+      propertyPath: ammoDisplayColor.r
+      value: 0.6784314
+      objectReference: {fileID: 0}
     - target: {fileID: 7598220043406523192, guid: bceefb2a39f6db74d9bc9d006687b7f1,
         type: 3}
       propertyPath: metalHitDestroyDelay

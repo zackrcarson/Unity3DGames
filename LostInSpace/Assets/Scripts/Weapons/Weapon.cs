@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Weapon : MonoBehaviour
 {
@@ -15,6 +17,8 @@ public class Weapon : MonoBehaviour
 
     [Header("Miscellaneous")]
     [SerializeField] Camera firstPersonCamera = null;
+    [SerializeField] Text ammoDisplay = null;
+    [SerializeField] Color ammoDisplayColor = Color.white;
 
     [Header("Gun VFX")]
     [SerializeField] Transform VFXParent = null;
@@ -35,6 +39,8 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
+        DisplayAmmo();
+
         if (isDead) { return; }
 
         if (Input.GetButtonDown("Fire1"))
@@ -44,6 +50,14 @@ public class Weapon : MonoBehaviour
                 StartCoroutine(Shoot());
             }
         }
+    }
+
+    private void DisplayAmmo()
+    {
+        int currentAmmo = ammoSlot.GetAmmo(ammoType);
+
+        ammoDisplay.color = ammoDisplayColor;
+        ammoDisplay.text = currentAmmo.ToString();
     }
 
     private IEnumerator Shoot()

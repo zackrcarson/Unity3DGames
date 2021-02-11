@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEngine.UI;
+using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlayerHealth : MonoBehaviour
@@ -7,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int playerHealth = 200;
     [SerializeField] Canvas gameOverCanvas = null;
     [SerializeField] Canvas reticleCanvas = null;
+    [SerializeField] Text healthDisplay = null;
 
     // Cached References
     Rigidbody rigidBody = null;
@@ -18,6 +20,16 @@ public class PlayerHealth : MonoBehaviour
 
         rigidBody = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        DisplayHealth();
+    }
+
+    private void DisplayHealth()
+    {
+        healthDisplay.text = playerHealth.ToString();
     }
 
     public void DamagePlayer(int damage)

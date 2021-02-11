@@ -19,8 +19,8 @@ public class FlashLight : MonoBehaviour
     float initialIntensity = 0f;
 
     // State Variables
-    public float timeUntilDecay = 5f;
-    public bool isFlickering = false;
+    float timeUntilDecay = 5f;
+    bool isFlickering = false;
 
     private void Start()
     {

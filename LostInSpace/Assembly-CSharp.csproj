@@ -155,9 +155,11 @@
     <Compile Include="Assets\Scripts\Game Elements\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Lights\FlashLight.cs" />
     <Compile Include="Assets\Scripts\Lights\LightFlicker.cs" />
+    <Compile Include="Assets\Scripts\Pickups\AmmoPickup.cs" />
+    <Compile Include="Assets\Scripts\Pickups\BatteryPickup.cs" />
+    <Compile Include="Assets\Scripts\Player\DisplayDamage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Weapons\Ammo.cs" />
-    <Compile Include="Assets\Scripts\Weapons\AmmoPickup.cs" />
     <Compile Include="Assets\Scripts\Weapons\AmmoType.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponSwitcher.cs" />
@@ -197,6 +199,7 @@
     <None Include="Assets\Other Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\Other Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Other Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+    <None Include="Assets\Other Assets\Blood decal pack\readme.txt" />
     <None Include="Assets\Other Assets\War VFX\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
     <None Include="Assets\Other Assets\War VFX\WarFX\!WarFX Readme.txt" />
     <None Include="Assets\Other Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
