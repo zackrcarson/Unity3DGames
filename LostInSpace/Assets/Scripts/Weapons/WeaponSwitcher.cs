@@ -8,6 +8,9 @@ public class WeaponSwitcher : MonoBehaviour
     // Config Parameters
     [SerializeField] int currentWeapon = 0;
 
+    // State parameters
+    bool weaponsDisabled = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +20,8 @@ public class WeaponSwitcher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (weaponsDisabled) { return; }
+
         int previousWeapon = currentWeapon;
 
         ProcessKeyInput();
@@ -91,5 +96,22 @@ public class WeaponSwitcher : MonoBehaviour
             }
             weaponIndex++;
         }
+    }
+
+    public void SetAllWeaponInactive()
+    {
+        weaponsDisabled = true;
+
+        foreach (Transform weapon in transform)
+        {
+            weapon.gameObject.SetActive(false);
+        }
+    }
+
+    public void ResetWeaponsActive()
+    {
+        weaponsDisabled = false;
+
+        SetWeaponActive();
     }
 }

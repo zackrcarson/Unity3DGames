@@ -18,6 +18,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             public float RunMultiplier = 2.0f;   // Speed when sprinting
 	        public KeyCode RunKey = KeyCode.LeftShift;
             public float JumpForce = 30f;
+            public float crouchDistance = 1.6f;
             public AnimationCurve SlopeCurveModifier = new AnimationCurve(new Keyframe(-90.0f, 1.0f), new Keyframe(0.0f, 1.0f), new Keyframe(90.0f, 0.0f));
             [HideInInspector] public float CurrentTargetSpeed = 8f;
 
@@ -85,12 +86,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public MouseLook mouseLook = new MouseLook();
         public AdvancedSettings advancedSettings = new AdvancedSettings();
 
-
+        private WeaponSwitcher weaponSwitcher = null;
         private Rigidbody m_RigidBody;
         private CapsuleCollider m_Capsule;
         private float m_YRotation;
         private Vector3 m_GroundContactNormal;
         private bool m_Jump, m_PreviouslyGrounded, m_Jumping, m_IsGrounded;
+        private float initialHeight = 0f;
+        private float initialCapsuleHeight = 0f;
+        private Vector3 initialCapsuleOffset;
+        private bool m_crouch = false;
 
 
         public Vector3 Velocity
@@ -123,9 +128,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void Start()
         {
+            weaponSwitcher = FindObjectOfType<WeaponSwitcher>();
             m_RigidBody = GetComponent<Rigidbody>();
             m_Capsule = GetComponent<CapsuleCollider>();
             mouseLook.Init (transform, cam.transform);
+
+            initialHeight = transform.position.y;
+            initialCapsuleHeight = m_Capsule.height;
+            initialCapsuleOffset = m_Capsule.center;
         }
 
 
@@ -137,6 +147,40 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_Jump = true;
             }
+
+            if (CrossPlatformInputManager.GetButtonDown("Crouch") && !m_Jump)
+            {
+                if (!m_crouch)
+                {
+                    m_crouch = true;
+                    weaponSwitcher.SetAllWeaponInactive();
+
+                    Vector3 crouchPosition = transform.position;
+
+                    crouchPosition.y -= movementSettings.crouchDistance;
+
+                    transform.position = crouchPosition;
+                    m_Capsule.height -= movementSettings.crouchDistance;
+
+                    Vector3 tempCapsuleHeight = m_Capsule.center;
+                    tempCapsuleHeight.y -= movementSettings.crouchDistance / 2;
+                    m_Capsule.center -= tempCapsuleHeight;
+                }
+                else
+                {
+                    m_crouch = false;
+                    weaponSwitcher.ResetWeaponsActive();
+
+                    Vector3 standingPosition = transform.position;
+
+                    standingPosition.y = initialHeight;
+
+                    transform.position = standingPosition;
+
+                    m_Capsule.height = initialCapsuleHeight;
+                    m_Capsule.center = initialCapsuleOffset;
+                }
+            }
         }
 
 
@@ -144,8 +188,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             GroundCheck();
             Vector2 input = GetInput();
-
-            if ((Mathf.Abs(input.x) > float.Epsilon || Mathf.Abs(input.y) > float.Epsilon) && (advancedSettings.airControl || m_IsGrounded))
+            
+            if ((Mathf.Abs(input.x) > float.Epsilon || Mathf.Abs(input.y) > float.Epsilon) && (advancedSettings.airControl || m_IsGrounded || m_crouch))
             {
                 // always move along the camera forward as it is the direction that it being aimed at
                 Vector3 desiredMove = cam.transform.forward*input.y + cam.transform.right*input.x;
@@ -214,7 +258,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private Vector2 GetInput()
         {
-            
             Vector2 input = new Vector2
                 {
                     x = CrossPlatformInputManager.GetAxis("Horizontal"),
@@ -249,7 +292,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_PreviouslyGrounded = m_IsGrounded;
             RaycastHit hitInfo;
             if (Physics.SphereCast(transform.position, m_Capsule.radius * (1.0f - advancedSettings.shellOffset), Vector3.down, out hitInfo,
-                                   ((m_Capsule.height/2f) - m_Capsule.radius) + advancedSettings.groundCheckDistance, Physics.AllLayers, QueryTriggerInteraction.Ignore))
+                                   ((m_Capsule.height/2f) - m_Capsule.radius) + advancedSettings.groundCheckDistance, Physics.AllLayers, QueryTriggerInteraction.Ignore) || m_crouch)
             {
                 m_IsGrounded = true;
                 m_GroundContactNormal = hitInfo.normal;
