@@ -19,20 +19,27 @@ public class FlashLight : MonoBehaviour
     float initialIntensity = 0f;
 
     // State Variables
+    bool gameStarted = false;
     float timeUntilDecay = 5f;
     bool isFlickering = false;
 
-    private void Start()
+    public void StartGame()
     {
+        gameObject.SetActive(true);
+
         flashLight = GetComponent<Light>();
         initialAngle = flashLight.spotAngle;
         initialIntensity = flashLight.intensity;
 
         timeUntilDecay = initialTimeBeforeDecay;
+
+        gameStarted = true;
     }
 
     private void Update()
     {
+        if (!gameStarted) { return; }
+
         timeUntilDecay -= Time.deltaTime;
         if (timeUntilDecay <= 0) { timeUntilDecay = 0;}
 

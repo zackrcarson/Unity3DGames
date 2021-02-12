@@ -96,7 +96,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float initialCapsuleHeight = 0f;
         private Vector3 initialCapsuleOffset;
         private bool m_crouch = false;
-
+        private bool gameStarted = false;
 
         public Vector3 Velocity
         {
@@ -125,22 +125,24 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
         }
 
-
-        private void Start()
+        public void StartGame()
         {
+            gameStarted = true;
+
             weaponSwitcher = FindObjectOfType<WeaponSwitcher>();
             m_RigidBody = GetComponent<Rigidbody>();
             m_Capsule = GetComponent<CapsuleCollider>();
-            mouseLook.Init (transform, cam.transform);
+            mouseLook.Init(transform, cam.transform);
 
             initialHeight = transform.position.y;
             initialCapsuleHeight = m_Capsule.height;
             initialCapsuleOffset = m_Capsule.center;
         }
 
-
         private void Update()
         {
+            if (!gameStarted) { return; }
+
             RotateView();
 
             if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump)
@@ -186,6 +188,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void FixedUpdate()
         {
+            if (!gameStarted) { return; }
+
             GroundCheck();
             Vector2 input = GetInput();
             

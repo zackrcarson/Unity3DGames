@@ -10,16 +10,18 @@ public class WeaponSwitcher : MonoBehaviour
 
     // State parameters
     bool weaponsDisabled = false;
+    bool gameStarted = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        SetWeaponActive();
+        //SetWeaponActive();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!gameStarted) { return; }
         if (weaponsDisabled) { return; }
 
         int previousWeapon = currentWeapon;
@@ -113,5 +115,12 @@ public class WeaponSwitcher : MonoBehaviour
         weaponsDisabled = false;
 
         SetWeaponActive();
+    }
+
+    public void StartGame()
+    {
+        gameStarted = true;
+
+        ResetWeaponsActive();
     }
 }

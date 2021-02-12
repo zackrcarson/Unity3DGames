@@ -153,11 +153,13 @@
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Game Elements\GameOverScreen.cs" />
     <Compile Include="Assets\Scripts\Game Elements\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\Game Elements\StartScreen.cs" />
     <Compile Include="Assets\Scripts\Lights\FlashLight.cs" />
     <Compile Include="Assets\Scripts\Lights\LightFlicker.cs" />
     <Compile Include="Assets\Scripts\Pickups\AmmoPickup.cs" />
     <Compile Include="Assets\Scripts\Pickups\BatteryPickup.cs" />
     <Compile Include="Assets\Scripts\Player\DisplayDamage.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerDeathAnimator.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Weapons\Ammo.cs" />
     <Compile Include="Assets\Scripts\Weapons\AmmoType.cs" />
@@ -192,6 +194,7 @@
     <None Include="Assets\Other Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
     <None Include="Assets\Other Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
     <None Include="Assets\Other Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Fonts\tall_films\TallFilm_license.txt" />
     <None Include="Assets\Other Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
     <None Include="Assets\Other Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Other Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
@@ -734,8 +737,23 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -752,29 +770,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/khfre/Documents/GameDev/Unity3DCourse/Unity3DGames/LostInSpace/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

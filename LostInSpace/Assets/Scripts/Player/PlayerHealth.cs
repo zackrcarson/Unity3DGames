@@ -9,17 +9,17 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] Canvas gameOverCanvas = null;
     [SerializeField] Canvas reticleCanvas = null;
     [SerializeField] Text healthDisplay = null;
+    [SerializeField] StartScreen startScreen = null;
+    [SerializeField] Animator deathAnimator = null;
 
     // Cached References
     Rigidbody rigidBody = null;
-    Animator animator = null;
 
     private void Start()
     {
         gameOverCanvas.enabled = false;
 
         rigidBody = GetComponent<Rigidbody>();
-        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -58,16 +58,21 @@ public class PlayerHealth : MonoBehaviour
         {
             StartCoroutine(enemy.PlayerDead());
         }
-        
-        animator.enabled = true;
 
-        animator.SetTrigger("playerDead");
+        deathAnimator.enabled = true;
+
+        deathAnimator.SetTrigger("playerDead");
 
         StartCoroutine(gameOverCanvas.GetComponent<GameOverScreen>().PlayerDead());
     }
 
-    public void TurnOffGravity()
+    public void TurnOnFlashLightAndGun()
     {
-        rigidBody.useGravity = false;
+        startScreen.TurnOnFlashLightAndGun();
+    }
+
+    public void TurnOnPlayerController()
+    {
+        startScreen.TurnOnPlayerController();
     }
 }

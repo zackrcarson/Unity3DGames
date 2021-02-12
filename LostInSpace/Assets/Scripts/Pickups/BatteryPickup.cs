@@ -18,6 +18,8 @@ public class BatteryPickup : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            if (!flashLight) { flashLight = FindObjectOfType<FlashLight>(); }
+
             flashLight.AddToDecayTimer(timerAddition);
 
             GetComponentInChildren<MeshRenderer>().materials[0].DisableKeyword("_EMISSION");
