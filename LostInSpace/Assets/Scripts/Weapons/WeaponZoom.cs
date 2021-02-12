@@ -9,6 +9,7 @@ public class WeaponZoom : MonoBehaviour
 
     // State Variables
     bool isZoomed = false;
+    bool canZoom = false;
 
     // Cached References
     float initialFieldOfView = 0f;
@@ -29,6 +30,8 @@ public class WeaponZoom : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!canZoom) { return; }
+
         if (Input.GetMouseButtonDown(1))
         {
             isZoomed = !isZoomed;
@@ -58,5 +61,10 @@ public class WeaponZoom : MonoBehaviour
             fpsController.mouseLook.XSensitivity = initialMouseSensitivity;
             fpsController.mouseLook.YSensitivity = initialMouseSensitivity;
         }
+    }
+
+    public void AllowZooming()
+    {
+        canZoom = true;
     }
 }

@@ -2670,3 +2670,4 @@ MonoBehaviour:
   healthDisplayCanvas: {fileID: 8121163848695329364}
   flashLight: {fileID: 0}
   playerAnimator: {fileID: 0}
+  knifeBody: {fileID: 0}

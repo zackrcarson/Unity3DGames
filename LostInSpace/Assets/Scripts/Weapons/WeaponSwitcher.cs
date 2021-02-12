@@ -119,8 +119,11 @@ public class WeaponSwitcher : MonoBehaviour
 
     public void StartGame()
     {
-        gameStarted = true;
-
         ResetWeaponsActive();
+    }
+
+    public void AllowSwitching()
+    {
+        gameStarted = true;
     }
 }

@@ -66,6 +66,11 @@ public class PlayerHealth : MonoBehaviour
         StartCoroutine(gameOverCanvas.GetComponent<GameOverScreen>().PlayerDead());
     }
 
+    public void IncreaseHealth(int amount)
+    {
+        playerHealth += amount;
+    }
+
     public void TurnOnFlashLightAndGun()
     {
         startScreen.TurnOnFlashLightAndGun();

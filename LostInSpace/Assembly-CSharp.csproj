@@ -158,11 +158,14 @@
     <Compile Include="Assets\Scripts\Lights\LightFlicker.cs" />
     <Compile Include="Assets\Scripts\Pickups\AmmoPickup.cs" />
     <Compile Include="Assets\Scripts\Pickups\BatteryPickup.cs" />
+    <Compile Include="Assets\Scripts\Pickups\HealthPickup.cs" />
     <Compile Include="Assets\Scripts\Player\DisplayDamage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerDeathAnimator.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Weapons\Ammo.cs" />
     <Compile Include="Assets\Scripts\Weapons\AmmoType.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Knife.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Melee.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponSwitcher.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponZoom.cs" />

@@ -131,4 +131,14 @@ public class Weapon : MonoBehaviour
 
         Destroy(impact, enemyHitDestroyDelay);
     }
+
+    public void DenyShooting()
+    {
+        canShoot = false;
+    }
+
+    public void AllowShooting()
+    {
+        canShoot = true;
+    }
 }
