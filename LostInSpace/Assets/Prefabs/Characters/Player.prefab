@@ -59,7 +59,7 @@ Transform:
   m_GameObject: {fileID: 1378895109}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.27, y: -0.36, z: -0.479}
-  m_LocalScale: {x: 0.21, y: 0.21, z: 1.444569}
+  m_LocalScale: {x: 0.12, y: 0.21, z: 0.75}
   m_Children:
   - {fileID: 8934355339322362888}
   - {fileID: 979887431}
@@ -5279,6 +5279,7 @@ MonoBehaviour:
     RunKey: 304
     JumpForce: 50
     crouchDistance: 2.6
+    crouchSpeedReductionFactor: 3
     SlopeCurveModifier:
       serializedVersion: 2
       m_Curve:
@@ -5569,7 +5570,7 @@ MonoBehaviour:
   lightDecay: 0.6
   angleDecay: 6
   minAngle: 40
-  initialTimeBeforeDecay: 0.5
+  initialTimeBeforeDecay: 1.5
   minFlickerTime: 0.1
   maxFlickerTime: 1
   flickerDarkTime: 0.05

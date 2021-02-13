@@ -47,5 +47,16 @@ public class Melee : MonoBehaviour
     public void AllowStabbing()
     {
         canStab = true;
+        StopStab();
+    }
+
+    public void DisallowStabbing()
+    {
+        canStab = false;
+    }
+
+    public bool GetStabbing()
+    {
+        return isStabbing;
     }
 }

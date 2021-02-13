@@ -19,6 +19,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 	        public KeyCode RunKey = KeyCode.LeftShift;
             public float JumpForce = 30f;
             public float crouchDistance = 1.6f;
+            public float crouchSpeedReductionFactor = 4f;
             public AnimationCurve SlopeCurveModifier = new AnimationCurve(new Keyframe(-90.0f, 1.0f), new Keyframe(0.0f, 1.0f), new Keyframe(90.0f, 0.0f));
             [HideInInspector] public float CurrentTargetSpeed = 8f;
 
@@ -86,12 +87,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public MouseLook mouseLook = new MouseLook();
         public AdvancedSettings advancedSettings = new AdvancedSettings();
 
+        private Melee melee = null;
         private WeaponSwitcher weaponSwitcher = null;
         private Rigidbody m_RigidBody;
         private CapsuleCollider m_Capsule;
         private float m_YRotation;
         private Vector3 m_GroundContactNormal;
         private bool m_Jump, m_PreviouslyGrounded, m_Jumping, m_IsGrounded;
+        private float initialSprintFactor = 2f;
         private float initialHeight = 0f;
         private float initialCapsuleHeight = 0f;
         private Vector3 initialCapsuleOffset;
@@ -113,6 +116,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             get { return m_Jumping; }
         }
 
+        public bool Crouching
+        {
+            get { return m_crouch; }
+        }
+
         public bool Running
         {
             get
@@ -129,6 +137,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             gameStarted = true;
 
+            initialSprintFactor = movementSettings.RunMultiplier;
+            melee = FindObjectOfType<Melee>();
             weaponSwitcher = FindObjectOfType<WeaponSwitcher>();
             m_RigidBody = GetComponent<Rigidbody>();
             m_Capsule = GetComponent<CapsuleCollider>();
@@ -145,17 +155,26 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             RotateView();
 
-            if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump)
+            if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump && !m_crouch)
             {
                 m_Jump = true;
             }
 
-            if (CrossPlatformInputManager.GetButtonDown("Crouch") && !m_Jump)
+            bool isStabbing = melee.GetStabbing();
+            if (CrossPlatformInputManager.GetButtonDown("Crouch") && !m_Jump && !isStabbing)
             {
                 if (!m_crouch)
                 {
+                    movementSettings.ForwardSpeed /= movementSettings.crouchSpeedReductionFactor;
+                    movementSettings.BackwardSpeed /= movementSettings.crouchSpeedReductionFactor;
+                    movementSettings.StrafeSpeed /= movementSettings.crouchSpeedReductionFactor;
+                    movementSettings.RunMultiplier = 1.0f;
+
+
                     m_crouch = true;
                     weaponSwitcher.SetAllWeaponInactive();
+                    melee.DisallowStabbing();
+                    melee.gameObject.SetActive(false);
 
                     Vector3 crouchPosition = transform.position;
 
@@ -170,8 +189,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
                 else
                 {
+                    movementSettings.ForwardSpeed *= movementSettings.crouchSpeedReductionFactor;
+                    movementSettings.BackwardSpeed *= movementSettings.crouchSpeedReductionFactor;
+                    movementSettings.StrafeSpeed *= movementSettings.crouchSpeedReductionFactor;
+                    movementSettings.RunMultiplier = initialSprintFactor;
+
                     m_crouch = false;
                     weaponSwitcher.ResetWeaponsActive();
+                    melee.AllowStabbing();
+                    melee.gameObject.SetActive(true);
 
                     Vector3 standingPosition = transform.position;
 

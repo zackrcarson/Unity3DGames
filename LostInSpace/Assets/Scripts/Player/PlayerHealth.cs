@@ -49,8 +49,14 @@ public class PlayerHealth : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
-        GetComponent<RigidbodyFirstPersonController>().enabled = false;
-        GetComponentInChildren<Weapon>().isDead = true;
+        RigidbodyFirstPersonController fpsController = FindObjectOfType<RigidbodyFirstPersonController>();
+        bool crouching = fpsController.Crouching;
+
+        fpsController.enabled = false;
+
+        Weapon weapon = GetComponentInChildren<Weapon>();
+        if (weapon) { weapon.isDead = true; }
+
         FindObjectOfType<WeaponSwitcher>().enabled = false;
 
         EnemyAI[] enemies = FindObjectsOfType<EnemyAI>();
@@ -61,7 +67,11 @@ public class PlayerHealth : MonoBehaviour
 
         deathAnimator.enabled = true;
 
-        deathAnimator.SetTrigger("playerDead");
+        
+        if (!crouching)
+        {
+            deathAnimator.SetTrigger("playerDead");
+        }
 
         StartCoroutine(gameOverCanvas.GetComponent<GameOverScreen>().PlayerDead());
     }
