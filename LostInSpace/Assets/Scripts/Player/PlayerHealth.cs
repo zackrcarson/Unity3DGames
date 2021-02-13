@@ -9,15 +9,20 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] Canvas gameOverCanvas = null;
     [SerializeField] Canvas reticleCanvas = null;
     [SerializeField] Text healthDisplay = null;
+    [SerializeField] Text ammoDisplay = null;
     [SerializeField] StartScreen startScreen = null;
     [SerializeField] Animator deathAnimator = null;
 
     // Cached References
     Rigidbody rigidBody = null;
 
+    // State variables
+    bool gameStarted = false;
+
     private void Start()
     {
         gameOverCanvas.enabled = false;
+        ammoDisplay.enabled = false;
 
         rigidBody = GetComponent<Rigidbody>();
     }
@@ -29,7 +34,14 @@ public class PlayerHealth : MonoBehaviour
 
     private void DisplayHealth()
     {
-        healthDisplay.text = playerHealth.ToString();
+        if (gameStarted)
+        {
+            healthDisplay.text = playerHealth.ToString();
+        }
+        else
+        {
+            healthDisplay.enabled = false;
+        }
     }
 
     public void DamagePlayer(int damage)
@@ -84,6 +96,11 @@ public class PlayerHealth : MonoBehaviour
     public void TurnOnFlashLightAndGun()
     {
         startScreen.TurnOnFlashLightAndGun();
+
+        gameStarted = true;
+        healthDisplay.enabled = true;
+
+        ammoDisplay.enabled = true;
     }
 
     public void TurnOnPlayerController()

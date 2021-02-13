@@ -10364,6 +10364,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7836853535912112379, guid: f79b5b06271431d49ac2ed3b2d66071a,
         type: 3}
+      propertyPath: ammoDisplay
+      value: 
+      objectReference: {fileID: 4365766297582212103}
+    - target: {fileID: 7836853535912112379, guid: f79b5b06271431d49ac2ed3b2d66071a,
+        type: 3}
       propertyPath: startScreen
       value: 
       objectReference: {fileID: 533855840}

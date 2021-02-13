@@ -5345,6 +5345,7 @@ MonoBehaviour:
   gameOverCanvas: {fileID: 0}
   reticleCanvas: {fileID: 0}
   healthDisplay: {fileID: 0}
+  ammoDisplay: {fileID: 0}
   startScreen: {fileID: 0}
   deathAnimator: {fileID: 8929550864819399338}
 --- !u!95 &7836853535912112380
