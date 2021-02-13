@@ -5311,7 +5311,7 @@ MonoBehaviour:
     RunMultiplier: 2
     RunKey: 304
     JumpForce: 50
-    crouchDistance: 2.6
+    crouchDistance: 2.3
     crouchSpeedReductionFactor: 3
     SlopeCurveModifier:
       serializedVersion: 2
@@ -5378,6 +5378,7 @@ MonoBehaviour:
   gameOverCanvas: {fileID: 0}
   reticleCanvas: {fileID: 0}
   healthDisplay: {fileID: 0}
+  pauseInfoDisplay: {fileID: 0}
   ammoDisplay: {fileID: 0}
   startScreen: {fileID: 0}
   deathAnimator: {fileID: 8929550864819399338}

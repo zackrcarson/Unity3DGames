@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] Canvas gameOverCanvas = null;
     [SerializeField] Canvas reticleCanvas = null;
     [SerializeField] Text healthDisplay = null;
+    [SerializeField] Text pauseInfoDisplay = null;
     [SerializeField] Text ammoDisplay = null;
     [SerializeField] StartScreen startScreen = null;
     [SerializeField] Animator deathAnimator = null;
@@ -23,6 +24,7 @@ public class PlayerHealth : MonoBehaviour
     {
         gameOverCanvas.enabled = false;
         ammoDisplay.enabled = false;
+        pauseInfoDisplay.enabled = false;
 
         rigidBody = GetComponent<Rigidbody>();
     }
@@ -98,13 +100,17 @@ public class PlayerHealth : MonoBehaviour
         startScreen.TurnOnFlashLightAndGun();
 
         gameStarted = true;
-        healthDisplay.enabled = true;
 
+        healthDisplay.enabled = true;
         ammoDisplay.enabled = true;
     }
 
     public void TurnOnPlayerController()
     {
+        pauseInfoDisplay.enabled = true;
+
         startScreen.TurnOnPlayerController();
+
+        FindObjectOfType<PauseScreen>().canPause = true;
     }
 }

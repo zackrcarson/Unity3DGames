@@ -96,6 +96,7 @@ public class WeaponSwitcher : MonoBehaviour
             if (weaponIndex == currentWeapon)
             {
                 weapon.gameObject.SetActive(true);
+                weapon.GetComponent<WeaponZoom>().AllowZooming();
             }
             else
             {
@@ -130,5 +131,10 @@ public class WeaponSwitcher : MonoBehaviour
     public void AllowSwitching()
     {
         gameStarted = true;
+    }
+
+    public void DenySwitching()
+    {
+        gameStarted = false;
     }
 }

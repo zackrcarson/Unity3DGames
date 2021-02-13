@@ -67,4 +67,9 @@ public class WeaponZoom : MonoBehaviour
     {
         canZoom = true;
     }
+
+    public void DenyZooming()
+    {
+        canZoom = false;
+    }
 }

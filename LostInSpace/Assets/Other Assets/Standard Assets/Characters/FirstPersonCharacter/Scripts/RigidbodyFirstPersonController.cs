@@ -149,6 +149,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
             initialCapsuleOffset = m_Capsule.center;
         }
 
+        public void AllowMovement()
+        {
+            gameStarted = true;
+        }
+
+        public void DenyMovement()
+        {
+            gameStarted = false;
+        }
+
         private void Update()
         {
             if (!gameStarted) { return; }

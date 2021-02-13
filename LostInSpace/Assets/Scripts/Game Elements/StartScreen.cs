@@ -5,6 +5,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class StartScreen : MonoBehaviour
 {
     // Config Parameters
+    [SerializeField] Canvas ControlsCanvas = null;
     [SerializeField] Canvas reticleCanves = null;
     [SerializeField] Canvas ammoDisplayCanvas = null;
     [SerializeField] Canvas healthDisplayCanvas = null;
@@ -29,10 +30,15 @@ public class StartScreen : MonoBehaviour
         weaponSwitcher = FindObjectOfType<WeaponSwitcher>();
         weaponZoom = FindObjectOfType<WeaponZoom>();
         weapon = FindObjectOfType<Weapon>();
+
+        ControlsCanvas.gameObject.SetActive(false);
     }
 
     public void StartGame()
     {
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false;
+
         ammoDisplayCanvas.enabled = false;
         healthDisplayCanvas.enabled = false;
 
@@ -41,6 +47,9 @@ public class StartScreen : MonoBehaviour
 
         if (!weapon) { weapon = FindObjectOfType<Weapon>(); }
         weapon.DenyShooting();
+
+        if (!weaponZoom) { weaponZoom = FindObjectOfType<WeaponZoom>(); }
+        weaponZoom.DenyZooming();
 
         knifeBody.SetActive(true);
 
@@ -68,5 +77,17 @@ public class StartScreen : MonoBehaviour
         weapon.AllowShooting();
 
         playerAnimator.enabled = false;
+    }
+
+    public void DisplayControls()
+    {
+        ControlsCanvas.gameObject.SetActive(true);
+        gameObject.SetActive(false);
+    }
+
+    public void TurnOffControls()
+    {
+        ControlsCanvas.gameObject.SetActive(false);
+        gameObject.SetActive(true);
     }
 }

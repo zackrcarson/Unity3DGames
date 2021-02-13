@@ -148,6 +148,7 @@
     <Compile Include="Assets\Other Assets\War VFX\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
     <Compile Include="Assets\Other Assets\War VFX\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\Other Assets\War VFX\WarFX\Spawn System\CFX_SpawnSystem.cs" />
+    <Compile Include="Assets\PauseScreen.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
