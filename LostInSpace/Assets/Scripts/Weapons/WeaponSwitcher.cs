@@ -8,6 +8,9 @@ public class WeaponSwitcher : MonoBehaviour
     // Config Parameters
     [SerializeField] int currentWeapon = 0;
 
+    // Cached References
+    Animator animator = null;
+
     // State parameters
     bool weaponsDisabled = false;
     bool gameStarted = false;
@@ -15,6 +18,7 @@ public class WeaponSwitcher : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponentInParent<Animator>();
         //SetWeaponActive();
     }
 
@@ -31,7 +35,8 @@ public class WeaponSwitcher : MonoBehaviour
 
         if (previousWeapon != currentWeapon)
         {
-            SetWeaponActive();
+            animator.SetTrigger("weaponSwap");
+            //SetWeaponActive();
         }
     }
 
@@ -82,7 +87,7 @@ public class WeaponSwitcher : MonoBehaviour
         }
     }
 
-    private void SetWeaponActive()
+    public void SetWeaponActive()
     {
         int weaponIndex = 0;
 

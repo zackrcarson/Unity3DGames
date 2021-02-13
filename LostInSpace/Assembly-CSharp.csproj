@@ -169,6 +169,7 @@
     <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponSwitcher.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponZoom.cs" />
+    <Compile Include="Assets\WeaponSwapAnimator.cs" />
     <None Include="Assets\Other Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
     <None Include="Assets\Other Assets\War VFX\WarFX\Shaders\WFX_S Multiply Soft.shader" />
     <None Include="Assets\Other Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
