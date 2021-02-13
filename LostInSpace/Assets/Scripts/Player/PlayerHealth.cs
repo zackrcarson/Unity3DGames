@@ -19,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
 
     // State variables
     bool gameStarted = false;
+    bool isDead = false;
 
     private void Start()
     {
@@ -50,7 +51,7 @@ public class PlayerHealth : MonoBehaviour
     {
         playerHealth -= damage;
 
-        if (playerHealth <= 0)
+        if (playerHealth <= 0 && !isDead)
         {
             KillPlayer();
         }
@@ -58,6 +59,10 @@ public class PlayerHealth : MonoBehaviour
 
     private void KillPlayer()
     {
+        isDead = true;
+
+        FindObjectOfType<MusicPlayer>().PlayDeathMusic();
+
         reticleCanvas.enabled = false;
         gameOverCanvas.enabled = true;
         Cursor.lockState = CursorLockMode.None;

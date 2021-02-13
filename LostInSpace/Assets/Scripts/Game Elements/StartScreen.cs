@@ -39,6 +39,8 @@ public class StartScreen : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = false;
 
+        FindObjectOfType<MusicPlayer>().PlayPlayMusic();
+
         ammoDisplayCanvas.enabled = false;
         healthDisplayCanvas.enabled = false;
 

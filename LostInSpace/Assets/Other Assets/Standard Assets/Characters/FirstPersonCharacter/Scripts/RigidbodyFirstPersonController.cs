@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using System.Collections;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -11,6 +12,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [Serializable]
         public class MovementSettings
         {
+            public AudioClip walkSound = null;
+            public AudioClip crouchSound = null;
+            public float footstepDelay = 0.7f;
+            public float minPitch = 0.8f;
+            public float maxPitch = 1.2f;
+            public float walkVolume = 0.25f;
+            public float crouchVolume = 0.25f;
+
             public bool isDead = false;
             public float ForwardSpeed = 8.0f;   // Speed when walking forward
             public float BackwardSpeed = 4.0f;  // Speed when walking backwards
@@ -52,11 +61,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
 	            if (Input.GetKey(RunKey))
 	            {
 		            CurrentTargetSpeed *= RunMultiplier;
-		            m_Running = true;
+                    if (!m_Running) { footstepDelay /= RunMultiplier; }
+                    m_Running = true;
 	            }
 	            else
 	            {
-		            m_Running = false;
+                    if (m_Running) { footstepDelay *= RunMultiplier; }
+                    m_Running = false;
 	            }
 #endif
             }
@@ -86,7 +97,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public MovementSettings movementSettings = new MovementSettings();
         public MouseLook mouseLook = new MouseLook();
         public AdvancedSettings advancedSettings = new AdvancedSettings();
-
+        
+        private float nextFootstep = 0;
+        private AudioSource audioSource = null;
         private Melee melee = null;
         private WeaponSwitcher weaponSwitcher = null;
         private Rigidbody m_RigidBody;
@@ -141,8 +154,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void StartGame()
         {
             gameStarted = true;
-
+            
             initialSprintFactor = movementSettings.RunMultiplier;
+            audioSource = GetComponent<AudioSource>();
             melee = FindObjectOfType<Melee>();
             weaponSwitcher = FindObjectOfType<WeaponSwitcher>();
             m_RigidBody = GetComponent<Rigidbody>();
@@ -226,6 +240,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
         }
 
+        private void RandomPitch()
+        {
+            audioSource.pitch = UnityEngine.Random.Range(movementSettings.minPitch, movementSettings.maxPitch);
+        }
 
         private void FixedUpdate()
         {
@@ -236,6 +254,28 @@ namespace UnityStandardAssets.Characters.FirstPerson
             
             if ((Mathf.Abs(input.x) > float.Epsilon || Mathf.Abs(input.y) > float.Epsilon) && (advancedSettings.airControl || m_IsGrounded || m_crouch))
             {
+                if (!m_crouch)
+                {
+                    nextFootstep -= Time.deltaTime;
+                    if (nextFootstep <= 0)
+                    {
+                        RandomPitch();
+                        audioSource.PlayOneShot(movementSettings.walkSound, movementSettings.walkVolume);
+                        nextFootstep += movementSettings.footstepDelay;
+                    }
+                }
+                else
+                {
+                    nextFootstep -= Time.deltaTime;
+                    if (nextFootstep <= 0)
+                    {
+                        RandomPitch();
+                        audioSource.PlayOneShot(movementSettings.crouchSound, movementSettings.crouchVolume);
+                        nextFootstep += movementSettings.footstepDelay;
+                    }
+                }
+                
+
                 // always move along the camera forward as it is the direction that it being aimed at
                 Vector3 desiredMove = cam.transform.forward*input.y + cam.transform.right*input.x;
                 desiredMove = Vector3.ProjectOnPlane(desiredMove, m_GroundContactNormal).normalized;
@@ -248,6 +288,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 {
                     m_RigidBody.AddForce(desiredMove*SlopeMultiplier(), ForceMode.Impulse);
                 }
+            }
+            else
+            {
+                nextFootstep = 0;
             }
 
             if (m_IsGrounded)

@@ -126,7 +126,7 @@
     <Compile Include="Assets\Other Assets\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\ObjectResetter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-    <Compile Include="Assets\WeaponSwapAnimator.cs" />
+    <Compile Include="Assets\Scripts\Weapons\WeaponSwapAnimator.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
     <Compile Include="Assets\Scripts\Weapons\AmmoType.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
@@ -159,10 +159,11 @@
     <Compile Include="Assets\Other Assets\War VFX\WarFX\Demo\Assets\WFX_Demo_New.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
     <Compile Include="Assets\Scripts\Pickups\AmmoPickup.cs" />
-    <Compile Include="Assets\PauseScreen.cs" />
+    <Compile Include="Assets\Scripts\Game Elements\PauseScreen.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\PickupLights.cs" />
+    <Compile Include="Assets\Scripts\Pickups\PickupLights.cs" />
+    <Compile Include="Assets\Scripts\Game Elements\MusicPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Other Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
