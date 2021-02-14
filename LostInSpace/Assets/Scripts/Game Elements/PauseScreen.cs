@@ -36,6 +36,8 @@ public class PauseScreen : MonoBehaviour
 
     private void PauseGame()
     {
+        FindObjectOfType<Weapon>().IsPaused(true);
+
         reticleCanvas.enabled = false;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -84,6 +86,8 @@ public class PauseScreen : MonoBehaviour
         pauseInfoDisplay.enabled = true;
 
         isPaused = false;
+
+        FindObjectOfType<Weapon>().IsPaused(false);
 
         reticleCanvas.enabled = true;
         Cursor.lockState = CursorLockMode.Confined;

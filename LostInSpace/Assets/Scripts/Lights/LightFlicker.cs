@@ -11,6 +11,7 @@ public class LightFlicker : MonoBehaviour
     // Cached References
     Light lightSource = null;
     MeshRenderer meshRenderer = null;
+    AudioSource audioSource = null;
 
     // State variables
     bool lightOn = true;
@@ -20,6 +21,7 @@ public class LightFlicker : MonoBehaviour
     {
         lightSource = GetComponentInChildren<Light>();
         meshRenderer = GetComponentInChildren<MeshRenderer>();
+        audioSource = GetComponent<AudioSource>();
 
         StartCoroutine(FlickerLight());
     }
@@ -38,6 +40,7 @@ public class LightFlicker : MonoBehaviour
     {
         if (lightOn)
         {
+            audioSource.Pause();
             lightSource.enabled = false;
             meshRenderer.materials[0].DisableKeyword("_EMISSION");
 
@@ -45,6 +48,7 @@ public class LightFlicker : MonoBehaviour
         }
         else
         {
+            audioSource.UnPause();
             lightSource.enabled = true;
             meshRenderer.materials[0].EnableKeyword("_EMISSION");
 

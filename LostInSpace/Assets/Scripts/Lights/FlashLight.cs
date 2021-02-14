@@ -12,9 +12,12 @@ public class FlashLight : MonoBehaviour
     [SerializeField] float minFlickerTime = .1f;
     [SerializeField] float maxFlickerTime = 1f;
     [SerializeField] float flickerDarkTime = 0.2f;
+    [SerializeField] float flashlightClickAudioVolume = 1f;
+    [SerializeField] AudioClip flashlightClickAudio = null;
 
     // Cached References
     Light flashLight = null;
+    AudioSource audioSource = null;
     float initialAngle = 0f;
     float initialIntensity = 0f;
 
@@ -23,10 +26,17 @@ public class FlashLight : MonoBehaviour
     float timeUntilDecay = 5f;
     bool isFlickering = false;
 
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();    
+    }
+
     public void StartGame()
     {
         gameObject.SetActive(true);
+        FlashlightClick();
 
+        audioSource = GetComponent<AudioSource>();
         flashLight = GetComponent<Light>();
         initialAngle = flashLight.spotAngle;
         initialIntensity = flashLight.intensity;
@@ -79,15 +89,16 @@ public class FlashLight : MonoBehaviour
         if (!isFlickering)
         {
             isFlickering = true;
-            while (timeUntilDecay == 0)
+            while (timeUntilDecay == 0 && flashLight.intensity > 0)
             {
                 yield return new WaitForSeconds(RandomFlickerInterval());
-
+                
                 float currentIntensity = flashLight.intensity;
                 flashLight.intensity = 0f;
 
                 yield return new WaitForSeconds(flickerDarkTime);
 
+                if (currentIntensity > 0.2f) { FlashlightClick(); }
                 flashLight.intensity = currentIntensity;
             }
             isFlickering = false;
@@ -101,9 +112,21 @@ public class FlashLight : MonoBehaviour
 
     public void AddToDecayTimer(float timeToAdd)
     {
+        if (timeUntilDecay <= 0)
+        {
+            FlashlightClick();
+        }
+
         timeUntilDecay += timeToAdd;
 
         flashLight.spotAngle = initialAngle;
         flashLight.intensity = initialIntensity;
+    }
+
+    private void FlashlightClick()
+    {
+        if (!audioSource) { audioSource = GetComponent<AudioSource>(); }
+
+        audioSource.PlayOneShot(flashlightClickAudio, flashlightClickAudioVolume);
     }
 }

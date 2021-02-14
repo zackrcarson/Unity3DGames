@@ -47,6 +47,7 @@ public class Weapon : MonoBehaviour
     // State Variables
     public bool isDead = false;
     bool canShoot = true;
+    bool isPaused = false;
 
     private void Start()
     {
@@ -64,15 +65,14 @@ public class Weapon : MonoBehaviour
 
         if (isDead) { return; }
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && !isPaused)
         {
             int ammoLeft = ammoSlot.GetAmmo(ammoType);
             if (canShoot && ammoLeft > 0)
             {
                 StartCoroutine(Shoot());
             }
-
-            if (!canShoot && ammoLeft > 0)
+            else if (!canShoot && ammoLeft > 0)
             {
                 PlayErrorTone();
             }
@@ -182,5 +182,11 @@ public class Weapon : MonoBehaviour
     public void AllowShooting()
     {
         canShoot = true;
+    }
+
+
+    public void IsPaused(bool paused)
+    {
+        isPaused = paused;
     }
 }
