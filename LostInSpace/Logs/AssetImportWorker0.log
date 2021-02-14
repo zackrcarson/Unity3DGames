@@ -1573,3 +1573,1513 @@ Received Import Request.
 Start importing Assets/Audio/Win.wav using Guid(642638d8c4be8e84e898c7baf2cc9015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67141e3aab8e0ccbdcc07d2dd2fa633e') in 0.066091 seconds
   Import took 0.069982 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001682 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.758 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2209.
+Total: 5.305500 ms (FindLiveObjects: 0.322900 ms CreateObjectMapping: 0.099500 ms MarkObjects: 3.799700 ms  DeleteObjects: 1.077900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36351.190711 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/GunShot
+  artifactKey: Guid(8a00b36c9561b0f40994ad42ebf235cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/GunShot using Guid(8a00b36c9561b0f40994ad42ebf235cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1efdca93d0173f46f9e6bda4e3703b') in 0.015433 seconds
+  Import took 0.019586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.727122 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot1.wav
+  artifactKey: Guid(93b7dd16af071064b8715eae4b1c9bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot1.wav using Guid(93b7dd16af071064b8715eae4b1c9bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad87863732ca3b76c280924e97c1505c') in 0.058924 seconds
+  Import took 0.061940 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2212.
+Total: 2.706100 ms (FindLiveObjects: 0.239300 ms CreateObjectMapping: 0.070500 ms MarkObjects: 1.986200 ms  DeleteObjects: 0.408900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.407239 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot2.wav
+  artifactKey: Guid(f4a036a7d6f0f164e97836f8c8663df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot2.wav using Guid(f4a036a7d6f0f164e97836f8c8663df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35e2fd8d9322c1e112466552feb2dc7') in 0.060032 seconds
+  Import took 0.067227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.233018 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot4.wav
+  artifactKey: Guid(7b43a0ab12997ce4b8b0e0be6cb35007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot4.wav using Guid(7b43a0ab12997ce4b8b0e0be6cb35007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3cbe4cba1366bb2b1e4bcc36a259fd') in 0.036786 seconds
+  Import took 0.042554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.238838 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot3.wav
+  artifactKey: Guid(f644087a28da014458c35e870b192f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot3.wav using Guid(f644087a28da014458c35e870b192f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c75bee79238782d2f7290ae658fce84') in 0.025005 seconds
+  Import took 0.029202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.928048 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot7.wav
+  artifactKey: Guid(0d7c62cdbb047984fa3096ab202748b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot7.wav using Guid(0d7c62cdbb047984fa3096ab202748b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771dd3f1fa3b0a582c0b5b8da4a03e77') in 0.022545 seconds
+  Import took 0.025775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001167 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot7.wav
+  artifactKey: Guid(0d7c62cdbb047984fa3096ab202748b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot7.wav using Guid(0d7c62cdbb047984fa3096ab202748b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771dd3f1fa3b0a582c0b5b8da4a03e77') in 0.012367 seconds
+  Import took 0.016041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.279682 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot10.wav
+  artifactKey: Guid(e1780ddc00aee23438efb69b897ed7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot10.wav using Guid(e1780ddc00aee23438efb69b897ed7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee9dffe6bde3d138c0d4802f056a64f') in 0.023207 seconds
+  Import took 0.026476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001692 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot10.wav
+  artifactKey: Guid(e1780ddc00aee23438efb69b897ed7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/GunShot/GunShot10.wav using Guid(e1780ddc00aee23438efb69b897ed7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee9dffe6bde3d138c0d4802f056a64f') in 0.015641 seconds
+  Import took 0.019958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.009195 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/HeavyWeapons
+  artifactKey: Guid(319f0e118b8c4a040b4cf51fa4641c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/HeavyWeapons using Guid(319f0e118b8c4a040b4cf51fa4641c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7182d212c78a80e5ba8d2cd433ae28d') in 0.010871 seconds
+  Import took 0.015295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.739611 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/HeavyWeapons/HeavyWeapons1.wav
+  artifactKey: Guid(a9bd3d67271a1a44ba5e8cdec874c6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/HeavyWeapons/HeavyWeapons1.wav using Guid(a9bd3d67271a1a44ba5e8cdec874c6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f6e055afee49f9715cf5a4d3bc184b') in 0.024207 seconds
+  Import took 0.027395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/HeavyWeapons/HeavyWeapons1.wav
+  artifactKey: Guid(a9bd3d67271a1a44ba5e8cdec874c6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/HeavyWeapons/HeavyWeapons1.wav using Guid(a9bd3d67271a1a44ba5e8cdec874c6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f6e055afee49f9715cf5a4d3bc184b') in 0.012370 seconds
+  Import took 0.016039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.737772 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/HeavyWeapons/HeavyWeapons9.wav
+  artifactKey: Guid(61b8a72c1ace594419d598d28ab743f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/HeavyWeapons/HeavyWeapons9.wav using Guid(61b8a72c1ace594419d598d28ab743f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8969ce4a59a4fd557c28d7b4a50a1d3') in 0.032656 seconds
+  Import took 0.035850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.563741 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/Laser
+  artifactKey: Guid(c177ae8a6197a0e448b0b95280661f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/Laser using Guid(c177ae8a6197a0e448b0b95280661f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ef8eb7c977ab366c02e171b4ac84a0') in 0.020140 seconds
+  Import took 0.023845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.709733 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/Laser/Laser3.wav
+  artifactKey: Guid(8e5adb3004157f24385e3de1f02cc1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/Laser/Laser3.wav using Guid(8e5adb3004157f24385e3de1f02cc1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d653ddc629349423c2370410c2f445') in 0.023666 seconds
+  Import took 0.027874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.028799 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/AssaultRifles
+  artifactKey: Guid(bc936bf828ef87140b2afabb43c60be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/AssaultRifles using Guid(bc936bf828ef87140b2afabb43c60be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3636697f83d090a8a10b77c0a653d31') in 0.009604 seconds
+  Import took 0.012650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.409317 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_01.wav
+  artifactKey: Guid(1b145bcffd767854fb0c71c37678ebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_01.wav using Guid(1b145bcffd767854fb0c71c37678ebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4dd95b7ac7ea03c47f6bcc333126e0') in 0.021479 seconds
+  Import took 0.024478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000906 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_01.wav
+  artifactKey: Guid(1b145bcffd767854fb0c71c37678ebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_01.wav using Guid(1b145bcffd767854fb0c71c37678ebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4dd95b7ac7ea03c47f6bcc333126e0') in 0.011303 seconds
+  Import took 0.014176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.474726 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/AssaultRifles/AutoGun_3p_02.wav
+  artifactKey: Guid(30114844b380b88418785402b1e582c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/AssaultRifles/AutoGun_3p_02.wav using Guid(30114844b380b88418785402b1e582c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d92ae9070ae5820e4593fee3c72381f') in 0.030711 seconds
+  Import took 0.034246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.661182 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Pistols
+  artifactKey: Guid(0e488185fc0fb1d41bf33d90c615b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Pistols using Guid(0e488185fc0fb1d41bf33d90c615b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc12d5af6a0807495d31161eef54a075') in 0.010648 seconds
+  Import took 0.013959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.541830 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Pistols/Pistol_ClipIn_05.wav
+  artifactKey: Guid(406c929b7299afb469c82778f8d15d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Pistols/Pistol_ClipIn_05.wav using Guid(406c929b7299afb469c82778f8d15d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ede5fda1a1eda88a271a8d462c381ed') in 0.030103 seconds
+  Import took 0.033389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.024042 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Pistols/Zapper_1p_01.wav
+  artifactKey: Guid(be64544bade297e4d872dd74c66256d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Pistols/Zapper_1p_01.wav using Guid(be64544bade297e4d872dd74c66256d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a266297194ba1e424d73e1b06f9f9f6') in 0.020300 seconds
+  Import took 0.023208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Pistols/Zapper_1p_01.wav
+  artifactKey: Guid(be64544bade297e4d872dd74c66256d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Pistols/Zapper_1p_01.wav using Guid(be64544bade297e4d872dd74c66256d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a266297194ba1e424d73e1b06f9f9f6') in 0.017465 seconds
+  Import took 0.020851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.699643 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Pistols/Zapper_1p_02.wav
+  artifactKey: Guid(da9ac25586ace6c4c81d6acd856f7cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Pistols/Zapper_1p_02.wav using Guid(da9ac25586ace6c4c81d6acd856f7cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec70fcb5f85d56a0f967e5078928ae7') in 0.020870 seconds
+  Import took 0.023760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.049166 seconds.
+  path: Assets/Audio/footsteps.mp3
+  artifactKey: Guid(70ff4c7a0c323744789c35799df1249e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/footsteps.mp3 using Guid(70ff4c7a0c323744789c35799df1249e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6eb5367d43fabc685a8c413d67b62c') in 0.025632 seconds
+  Import took 0.029122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.104872 seconds.
+  path: Assets/Audio/footstep.mp3
+  artifactKey: Guid(8f454a0435a0fc24dbca356085098d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/footstep.mp3 using Guid(8f454a0435a0fc24dbca356085098d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6545ef8fd6ca6a3d35f225a3c81c27eb') in 0.020247 seconds
+  Import took 0.023399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.995907 seconds.
+  path: Assets/Audio/rustle.wav
+  artifactKey: Guid(e817dde48f8cdc448b6b32d81735e06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/rustle.wav using Guid(e817dde48f8cdc448b6b32d81735e06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2e908a2230a6f7b5f6bc3da8849ef2') in 0.026841 seconds
+  Import took 0.030282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.864346 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Shotguns
+  artifactKey: Guid(511a210b9a6072c468b4d0c6850b210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Shotguns using Guid(511a210b9a6072c468b4d0c6850b210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf95a94af6d340c2ea62363dc8f8b726') in 0.010329 seconds
+  Import took 0.014287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.696688 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_01.wav
+  artifactKey: Guid(67535d6a9b045954e925424a157be5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_01.wav using Guid(67535d6a9b045954e925424a157be5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2b675941e8e4c6bb60db8a64148f3c') in 0.022594 seconds
+  Import took 0.025499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.316353 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Shotguns/JackHammer_Reload.wav
+  artifactKey: Guid(af63539a5e39c99489395bdea2471f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Shotguns/JackHammer_Reload.wav using Guid(af63539a5e39c99489395bdea2471f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfc49a39f0620fb48cae058d5638797') in 0.023833 seconds
+  Import took 0.027395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.167485 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Shotguns/JackHammer_far_03.wav
+  artifactKey: Guid(5e00c8451ea2f524faf2f8a6aa900971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Shotguns/JackHammer_far_03.wav using Guid(5e00c8451ea2f524faf2f8a6aa900971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1186c5164cdb18e815c6d486accead') in 0.036095 seconds
+  Import took 0.039805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.704785 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/SniperRifles
+  artifactKey: Guid(8b2be7a1713e9aa4ba3180a1125bea09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/SniperRifles using Guid(8b2be7a1713e9aa4ba3180a1125bea09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6074b67ccbdd319fd02eab8c43efac5f') in 0.010163 seconds
+  Import took 0.013251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.974393 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_01.wav
+  artifactKey: Guid(fecc3e7a0166a104cb810435f6fdf37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_01.wav using Guid(fecc3e7a0166a104cb810435f6fdf37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0006718b6a1cb7012c9ac46795c9569') in 0.026423 seconds
+  Import took 0.029780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.946532 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_02.wav
+  artifactKey: Guid(5802cc242c56cfa47a4b9ac4bb747662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_02.wav using Guid(5802cc242c56cfa47a4b9ac4bb747662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e92b137b36fad132d1a0e84de4e5cc') in 0.023214 seconds
+  Import took 0.026183 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2215.
+Total: 2.680000 ms (FindLiveObjects: 0.298200 ms CreateObjectMapping: 0.074100 ms MarkObjects: 1.832300 ms  DeleteObjects: 0.474000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 776.705372 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Z-Extrem
+  artifactKey: Guid(b3f0ed1e12d41414f995af03f8d266ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Z-Extrem using Guid(b3f0ed1e12d41414f995af03f8d266ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9ff66e7d67e733632d606127c1b307') in 0.013239 seconds
+  Import took 0.016547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.788996 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Z-Extrem/HeavyLaserLauncher1.wav
+  artifactKey: Guid(4d6d816408e48e7428e863203522508f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Z-Extrem/HeavyLaserLauncher1.wav using Guid(4d6d816408e48e7428e863203522508f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043301dd4e82d6ccf749f70962543808') in 0.047880 seconds
+  Import took 0.050858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.923198 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Miniguns_loop
+  artifactKey: Guid(4e8ca8e182e72f9408db8d0fd66fd808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Miniguns_loop using Guid(4e8ca8e182e72f9408db8d0fd66fd808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156efd2cea8031159323a08172d8599f') in 0.011269 seconds
+  Import took 0.015155 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.5 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2218.
+Total: 5.019600 ms (FindLiveObjects: 0.384500 ms CreateObjectMapping: 0.139800 ms MarkObjects: 3.790300 ms  DeleteObjects: 0.702600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.012484 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons
+  artifactKey: Guid(7aa0e3fe425909e4d9eefb2bf34f1d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons using Guid(7aa0e3fe425909e4d9eefb2bf34f1d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82eb49edc1fc3fa7dd46fd1706f60d6') in 0.021343 seconds
+  Import took 0.024673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.771611 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons1.wav
+  artifactKey: Guid(f6727888a13262d44acfcc216821d28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons1.wav using Guid(f6727888a13262d44acfcc216821d28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bae79a717cb8afa7ac0cddcf079a07') in 0.042120 seconds
+  Import took 0.045337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002979 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons1.wav
+  artifactKey: Guid(f6727888a13262d44acfcc216821d28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons1.wav using Guid(f6727888a13262d44acfcc216821d28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bae79a717cb8afa7ac0cddcf079a07') in 0.011830 seconds
+  Import took 0.014865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.458153 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons2.wav
+  artifactKey: Guid(d2761fe8a948b7a4ab906d3978012983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons2.wav using Guid(d2761fe8a948b7a4ab906d3978012983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665225c19f6ac3bb91c8ed94f75f5020') in 0.020083 seconds
+  Import took 0.023063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000851 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons2.wav
+  artifactKey: Guid(d2761fe8a948b7a4ab906d3978012983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons2.wav using Guid(d2761fe8a948b7a4ab906d3978012983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665225c19f6ac3bb91c8ed94f75f5020') in 0.011325 seconds
+  Import took 0.014219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.817004 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons10.wav
+  artifactKey: Guid(7c20ec80fdbbdc54d93ee956d5808ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons10.wav using Guid(7c20ec80fdbbdc54d93ee956d5808ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb16eb52417b55ef06f1c518f758d4b') in 0.021100 seconds
+  Import took 0.024524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons10.wav
+  artifactKey: Guid(7c20ec80fdbbdc54d93ee956d5808ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons10.wav using Guid(7c20ec80fdbbdc54d93ee956d5808ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb16eb52417b55ef06f1c518f758d4b') in 0.011047 seconds
+  Import took 0.013860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.814617 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons9.wav
+  artifactKey: Guid(5e3a39465e27e4d49b0d3c965d3bff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons9.wav using Guid(5e3a39465e27e4d49b0d3c965d3bff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e085ace5e12fdc5ca34a4b13740cd8c') in 0.020746 seconds
+  Import took 0.024706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.334128 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects
+  artifactKey: Guid(a4e26618beaf5be479d21acc453b5050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects using Guid(a4e26618beaf5be479d21acc453b5050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e5e41c11afd0f3c6b7080ec7d32fd6') in 0.010212 seconds
+  Import took 0.013578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.936976 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Scifi
+  artifactKey: Guid(ea6bb61c820a1084db290c8df8d3ab12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Scifi using Guid(ea6bb61c820a1084db290c8df8d3ab12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cc539c6022e04595110b76f0ab42e2') in 0.012076 seconds
+  Import took 0.015433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.208163 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Scifi/computersaysno.wav
+  artifactKey: Guid(c47122d187954d842a74d77ce5519dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Scifi/computersaysno.wav using Guid(c47122d187954d842a74d77ce5519dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67d600d054bc158297dac1bb905c469') in 0.019617 seconds
+  Import took 0.022740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.798789 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Impacts
+  artifactKey: Guid(3f93a31cd52d0a247acdcb884ff1b7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Impacts using Guid(3f93a31cd52d0a247acdcb884ff1b7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a68b1c6ba42fc80a5ae4278565ddafb') in 0.010029 seconds
+  Import took 0.013417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.637121 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Technology
+  artifactKey: Guid(4cc0d2dd92d3b3d4cbc60f57f72487d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Technology using Guid(4cc0d2dd92d3b3d4cbc60f57f72487d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a7579194dc30194d29abbe0b7c1c72') in 0.009744 seconds
+  Import took 0.013441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.774220 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Technology/record_player.wav
+  artifactKey: Guid(73271960aa9a69a488a6bd96cafabbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Technology/record_player.wav using Guid(73271960aa9a69a488a6bd96cafabbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6050086fab7477f9fd35053e14292b9') in 0.021841 seconds
+  Import took 0.025124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Technology/record_player.wav
+  artifactKey: Guid(73271960aa9a69a488a6bd96cafabbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Technology/record_player.wav using Guid(73271960aa9a69a488a6bd96cafabbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6050086fab7477f9fd35053e14292b9') in 0.011985 seconds
+  Import took 0.015506 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.5 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2221.
+Total: 3.407600 ms (FindLiveObjects: 0.262300 ms CreateObjectMapping: 0.076200 ms MarkObjects: 2.640600 ms  DeleteObjects: 0.427200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.941996 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_02.wav
+  artifactKey: Guid(f19e3fdb9c8082647a2c32beca28ba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_02.wav using Guid(f19e3fdb9c8082647a2c32beca28ba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4668b32e72085c9ef95c3c8aee5d795f') in 0.047953 seconds
+  Import took 0.051209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.693230 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_01.wav
+  artifactKey: Guid(1df1429981f76644097c7fd47fc5f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_01.wav using Guid(1df1429981f76644097c7fd47fc5f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9859b31352478e2fd377b3c09092e43f') in 0.032920 seconds
+  Import took 0.036092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.640586 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/HeavyWeapons/HeavyWeapons20.wav
+  artifactKey: Guid(5b6d05357fa34904f835af508c576855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/HeavyWeapons/HeavyWeapons20.wav using Guid(5b6d05357fa34904f835af508c576855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7926af52eb9fadb4018395fc981fbee6') in 0.030837 seconds
+  Import took 0.033791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.712820 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/HeavyWeapons/HeavyWeapons11.wav
+  artifactKey: Guid(a19717786df53174db9bf68ac0b3268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/HeavyWeapons/HeavyWeapons11.wav using Guid(a19717786df53174db9bf68ac0b3268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0f643617344e71c9c86dcbab2f5c6d') in 0.028897 seconds
+  Import took 0.031834 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.5 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2224.
+Total: 2.681000 ms (FindLiveObjects: 0.213400 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.029600 ms  DeleteObjects: 0.391900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.862 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.5 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2226.
+Total: 2.738200 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.062200 ms MarkObjects: 2.063300 ms  DeleteObjects: 0.403500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.070389 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Footsteps
+  artifactKey: Guid(1c1e0e10d360ae34e852c7673502b713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Footsteps using Guid(1c1e0e10d360ae34e852c7673502b713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb78f2720e70c5300a6b7ee51fae898') in 0.020877 seconds
+  Import took 0.023852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.641757 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Impacts/alt-toasterstep1.wav
+  artifactKey: Guid(24bf24eeffbed3c49b91184e878fb42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Impacts/alt-toasterstep1.wav using Guid(24bf24eeffbed3c49b91184e878fb42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361e169ce1dc4739a7a283909dc90aee') in 0.043495 seconds
+  Import took 0.046405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.273624 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Impacts/clamour1.wav
+  artifactKey: Guid(bde80548581015041b3f6c280ae18771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Impacts/clamour1.wav using Guid(bde80548581015041b3f6c280ae18771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06fe91171f4ae68fcf2bd61a2c01c02') in 0.019954 seconds
+  Import took 0.023002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Impacts/clamour1.wav
+  artifactKey: Guid(bde80548581015041b3f6c280ae18771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Impacts/clamour1.wav using Guid(bde80548581015041b3f6c280ae18771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06fe91171f4ae68fcf2bd61a2c01c02') in 0.010440 seconds
+  Import took 0.014029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.490656 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Impacts/djembe1.wav
+  artifactKey: Guid(ae0f00f59955dfe43aba59106583839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Impacts/djembe1.wav using Guid(ae0f00f59955dfe43aba59106583839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64fcbb2f158e9c5cf6b7078945bc215') in 0.029866 seconds
+  Import took 0.032877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.253475 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Impacts/flip.wav
+  artifactKey: Guid(fd3c72b72b58f824685d3c724168e0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Impacts/flip.wav using Guid(fd3c72b72b58f824685d3c724168e0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28d4cd3ae2927525a7ce5eb58256b9f') in 0.022243 seconds
+  Import took 0.025474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.752005 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Impacts/hit.wav
+  artifactKey: Guid(38abea7dcf361084fb8b466bb41799f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Impacts/hit.wav using Guid(38abea7dcf361084fb8b466bb41799f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8d23fb35426897a9d6a2761209a2af') in 0.020302 seconds
+  Import took 0.023848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000741 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Impacts/hit.wav
+  artifactKey: Guid(38abea7dcf361084fb8b466bb41799f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Impacts/hit.wav using Guid(38abea7dcf361084fb8b466bb41799f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8d23fb35426897a9d6a2761209a2af') in 0.011531 seconds
+  Import took 0.014320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.787777 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Impacts/tap.wav
+  artifactKey: Guid(925af18c5e0c500439451f496d7c1c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Impacts/tap.wav using Guid(925af18c5e0c500439451f496d7c1c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac34831cda809452b6cc135bf948d243') in 0.029225 seconds
+  Import took 0.032442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.288323 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Scifi/alien effects.wav
+  artifactKey: Guid(e0f6fb18b6e4a3e4484724b29ba5f4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Scifi/alien effects.wav using Guid(e0f6fb18b6e4a3e4484724b29ba5f4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fdf5f602ffefeb6d513d2947cd20af') in 0.026103 seconds
+  Import took 0.029403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001229 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Scifi/alien effects.wav
+  artifactKey: Guid(e0f6fb18b6e4a3e4484724b29ba5f4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Scifi/alien effects.wav using Guid(e0f6fb18b6e4a3e4484724b29ba5f4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fdf5f602ffefeb6d513d2947cd20af') in 0.023643 seconds
+  Import took 0.027811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.350744 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Scifi/High pitched bleep.wav
+  artifactKey: Guid(b934c53763c9d0c4c8375d60f3d797ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Scifi/High pitched bleep.wav using Guid(b934c53763c9d0c4c8375d60f3d797ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905048733a109dead0653971194335cd') in 0.020698 seconds
+  Import took 0.024161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.256118 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Scifi/roboticsmaster.wav
+  artifactKey: Guid(66b4bc0d9c71838448009dbc26fbe045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Scifi/roboticsmaster.wav using Guid(66b4bc0d9c71838448009dbc26fbe045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50edfa03a7cfaa730c233f0e7777db98') in 0.022024 seconds
+  Import took 0.025029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001201 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Scifi/roboticsmaster.wav
+  artifactKey: Guid(66b4bc0d9c71838448009dbc26fbe045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Scifi/roboticsmaster.wav using Guid(66b4bc0d9c71838448009dbc26fbe045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50edfa03a7cfaa730c233f0e7777db98') in 0.011930 seconds
+  Import took 0.015448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.499985 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle
+  artifactKey: Guid(582a6166381436c40a0bcf0e090261b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle using Guid(582a6166381436c40a0bcf0e090261b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d070bfc212400973730a9c03b613e4f') in 0.009457 seconds
+  Import took 0.013324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.562792 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/320144__owlstorm__blanket-movement-6.wav
+  artifactKey: Guid(0454e6fe96cbc0748b157f3ffb617cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/320144__owlstorm__blanket-movement-6.wav using Guid(0454e6fe96cbc0748b157f3ffb617cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7614c688e64f1f9bf869a94587a33e') in 0.021975 seconds
+  Import took 0.025128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002368 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/320144__owlstorm__blanket-movement-6.wav
+  artifactKey: Guid(0454e6fe96cbc0748b157f3ffb617cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/320144__owlstorm__blanket-movement-6.wav using Guid(0454e6fe96cbc0748b157f3ffb617cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7614c688e64f1f9bf869a94587a33e') in 0.012388 seconds
+  Import took 0.015454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.717747 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Misc Foley
+  artifactKey: Guid(b3a207eafecb6b849be529683360118f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Misc Foley using Guid(b3a207eafecb6b849be529683360118f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a428637790ceaa5b5a72673d6fd8352') in 0.009547 seconds
+  Import took 0.013359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.157934 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Misc Foley/computer-pack-away.wav
+  artifactKey: Guid(c97662196b5338f41ad8d1b313e52b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Misc Foley/computer-pack-away.wav using Guid(c97662196b5338f41ad8d1b313e52b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2024759b4c396f598db0572a86c70cd') in 0.031887 seconds
+  Import took 0.034864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.187492 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI
+  artifactKey: Guid(d29c0866a8856ed41afbe3d4c1da80f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI using Guid(d29c0866a8856ed41afbe3d4c1da80f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1e7e3f421a98ef2cdebac12510c504') in 0.010114 seconds
+  Import took 0.014010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.508820 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_010.wav
+  artifactKey: Guid(9673c39e289ac9843b9df912a1b521e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_010.wav using Guid(9673c39e289ac9843b9df912a1b521e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab60202321d2da2c2ed04e91640db801') in 0.019051 seconds
+  Import took 0.022036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001135 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_010.wav
+  artifactKey: Guid(9673c39e289ac9843b9df912a1b521e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_010.wav using Guid(9673c39e289ac9843b9df912a1b521e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab60202321d2da2c2ed04e91640db801') in 0.010873 seconds
+  Import took 0.014236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.481250 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_001.wav
+  artifactKey: Guid(3128a9d4ce686c540858a230fc9cd021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_001.wav using Guid(3128a9d4ce686c540858a230fc9cd021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1598692626c0df488322354fd2763a25') in 0.021311 seconds
+  Import took 0.024287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_001.wav
+  artifactKey: Guid(3128a9d4ce686c540858a230fc9cd021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_001.wav using Guid(3128a9d4ce686c540858a230fc9cd021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1598692626c0df488322354fd2763a25') in 0.011190 seconds
+  Import took 0.014113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.329969 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_002.wav
+  artifactKey: Guid(e545c3950f95cf4449acb15b30ce39eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_002.wav using Guid(e545c3950f95cf4449acb15b30ce39eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d83cbaaa6167051339c6ffb0189d7e') in 0.019151 seconds
+  Import took 0.022708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.864779 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_040.wav
+  artifactKey: Guid(59926e753aa6cd24889ed1824dd28ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_040.wav using Guid(59926e753aa6cd24889ed1824dd28ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49df2b4d2b6754801403b070cfc141ab') in 0.019696 seconds
+  Import took 0.022973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_040.wav
+  artifactKey: Guid(59926e753aa6cd24889ed1824dd28ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_040.wav using Guid(59926e753aa6cd24889ed1824dd28ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49df2b4d2b6754801403b070cfc141ab') in 0.011166 seconds
+  Import took 0.014212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.111883 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_039.wav
+  artifactKey: Guid(1f85f09e852abc44186106991ad8cf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_039.wav using Guid(1f85f09e852abc44186106991ad8cf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46327271fcca1a8ae8547ddcd1536e58') in 0.029123 seconds
+  Import took 0.033321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.536364 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_038.wav
+  artifactKey: Guid(5a48640d93b85094ab8d26646d9a48ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_038.wav using Guid(5a48640d93b85094ab8d26646d9a48ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c2fe03e836c82959f6e85696ebe489') in 0.021842 seconds
+  Import took 0.024947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.726296 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_037.wav
+  artifactKey: Guid(04cda895f27bb5a409d89e6d15c35c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_037.wav using Guid(04cda895f27bb5a409d89e6d15c35c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86d1f162fcff18b06c032e138f588cf') in 0.021721 seconds
+  Import took 0.024771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_037.wav
+  artifactKey: Guid(04cda895f27bb5a409d89e6d15c35c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_037.wav using Guid(04cda895f27bb5a409d89e6d15c35c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86d1f162fcff18b06c032e138f588cf') in 0.010968 seconds
+  Import took 0.013905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.774681 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_036.wav
+  artifactKey: Guid(a364253cbee4c744ca01b7e091fe0401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_036.wav using Guid(a364253cbee4c744ca01b7e091fe0401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5da60016274d450dc99ac9ba199882e') in 0.023565 seconds
+  Import took 0.026881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.406715 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_035.wav
+  artifactKey: Guid(220ddfb997a2c314d82b5cacf00d6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_035.wav using Guid(220ddfb997a2c314d82b5cacf00d6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008a2a101ed7dd5a18a094704945ffba') in 0.020544 seconds
+  Import took 0.023801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.587206 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_034.wav
+  artifactKey: Guid(d9d84e20e0ca79d4f91abdaee0888f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_034.wav using Guid(d9d84e20e0ca79d4f91abdaee0888f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0d9d8572df5e5684b6ffc3f1112a3f') in 0.019159 seconds
+  Import took 0.022071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_034.wav
+  artifactKey: Guid(d9d84e20e0ca79d4f91abdaee0888f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_034.wav using Guid(d9d84e20e0ca79d4f91abdaee0888f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0d9d8572df5e5684b6ffc3f1112a3f') in 0.010870 seconds
+  Import took 0.014107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.752800 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_033.wav
+  artifactKey: Guid(a65f1b01fca410f4499195424f3b534b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_033.wav using Guid(a65f1b01fca410f4499195424f3b534b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a58d60f035b34a73933317352caaa36') in 0.022889 seconds
+  Import took 0.026530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.786336 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_032.wav
+  artifactKey: Guid(32c7a98ed38ef0940bb60bf4e08968e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_032.wav using Guid(32c7a98ed38ef0940bb60bf4e08968e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78d712e3582bc7c455bfabf5e9fecd2') in 0.020602 seconds
+  Import took 0.024191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.438038 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_031.wav
+  artifactKey: Guid(e80679dd219048e46be8ea13cfbacb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_031.wav using Guid(e80679dd219048e46be8ea13cfbacb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83daef869f9c9caa9b718bd9aea1481') in 0.022553 seconds
+  Import took 0.025937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.042165 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_030.wav
+  artifactKey: Guid(b03a5437ae03b7247b9d69b7a378b91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_030.wav using Guid(b03a5437ae03b7247b9d69b7a378b91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a6ea0a5eefcf37396c3ab362f5015a') in 0.020931 seconds
+  Import took 0.024131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.327160 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_007.wav
+  artifactKey: Guid(3f8fd837d4e06b54f9337f4707ea3427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_007.wav using Guid(3f8fd837d4e06b54f9337f4707ea3427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cb5d298d61c27fd43652b91d095ebb') in 0.021933 seconds
+  Import took 0.025642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.470510 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_009.wav
+  artifactKey: Guid(952ccde093703af43a39d685d4284214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_009.wav using Guid(952ccde093703af43a39d685d4284214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc64602d34016fb7297b241a7beb66bd') in 0.019849 seconds
+  Import took 0.023234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000741 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_009.wav
+  artifactKey: Guid(952ccde093703af43a39d685d4284214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_009.wav using Guid(952ccde093703af43a39d685d4284214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc64602d34016fb7297b241a7beb66bd') in 0.010933 seconds
+  Import took 0.013889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.313068 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_012.wav
+  artifactKey: Guid(2f0e805181ef71543b6a8b73175f0f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_012.wav using Guid(2f0e805181ef71543b6a8b73175f0f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f55181a883758ee4e89297cd8dc4bf') in 0.020418 seconds
+  Import took 0.023637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.433384 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_011.wav
+  artifactKey: Guid(900786ddee1c5f8438d464e62ac3b8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_011.wav using Guid(900786ddee1c5f8438d464e62ac3b8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4da09356d4dfb4ccf18015a0f65443d') in 0.020888 seconds
+  Import took 0.024441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_011.wav
+  artifactKey: Guid(900786ddee1c5f8438d464e62ac3b8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_011.wav using Guid(900786ddee1c5f8438d464e62ac3b8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4da09356d4dfb4ccf18015a0f65443d') in 0.011414 seconds
+  Import took 0.014276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.571545 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_013.wav
+  artifactKey: Guid(e8a73fdc67094054b875842d9f396484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_013.wav using Guid(e8a73fdc67094054b875842d9f396484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b57c15f16a22ba684081fcefa5db6a') in 0.030215 seconds
+  Import took 0.034027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.546867 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_014.wav
+  artifactKey: Guid(da655e3c6c922fe4db3e24254e3a1cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_014.wav using Guid(da655e3c6c922fe4db3e24254e3a1cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104f1d373d89e7a1a7fa8eca4b5de2a1') in 0.019994 seconds
+  Import took 0.023499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.965627 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_015.wav
+  artifactKey: Guid(86ed3a87f8caad2419e26568f0de1b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_015.wav using Guid(86ed3a87f8caad2419e26568f0de1b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0b294e05ae48e263007f66a4a21581') in 0.020280 seconds
+  Import took 0.023570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.385564 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_016.wav
+  artifactKey: Guid(d73651f6d053a3545a33cf674783033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_016.wav using Guid(d73651f6d053a3545a33cf674783033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7873f28dcaa857e4a87e508f2ee06659') in 0.020351 seconds
+  Import took 0.023538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.527322 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_017.wav
+  artifactKey: Guid(186d8fcb3c252c24ba2270e181df984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_017.wav using Guid(186d8fcb3c252c24ba2270e181df984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c128697196bd2219f175ef467db1fa5') in 0.019909 seconds
+  Import took 0.023042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.825103 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/UI/UI_019.wav
+  artifactKey: Guid(08d5cf6ce3bcc5d4fa33a357b283ab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/UI/UI_019.wav using Guid(08d5cf6ce3bcc5d4fa33a357b283ab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575adbb0234a61156a0ac183b2b4c45d') in 0.020255 seconds
+  Import took 0.023225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.268872 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons7.wav
+  artifactKey: Guid(126e0b1db5cd6f54da28da446eeb67c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons7.wav using Guid(126e0b1db5cd6f54da28da446eeb67c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf8b7ffd956f3f68013a7faf3fd5526') in 0.020956 seconds
+  Import took 0.024236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.891802 seconds.
+  path: Assets/Audio/melee sounds
+  artifactKey: Guid(f949da8f2e91a204798b40b323a3ea24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/melee sounds using Guid(f949da8f2e91a204798b40b323a3ea24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b6253532a906b6d6536af6f69c8ab9') in 0.011179 seconds
+  Import took 0.014591 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2229.
+Total: 2.754800 ms (FindLiveObjects: 0.199200 ms CreateObjectMapping: 0.050800 ms MarkObjects: 2.083600 ms  DeleteObjects: 0.420100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.247862 seconds.
+  path: Assets/Audio/melee sounds/melee sounds
+  artifactKey: Guid(6f56a19c4e2e5e148840451b96a40de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/melee sounds/melee sounds using Guid(6f56a19c4e2e5e148840451b96a40de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780a20f2dc4f04d7d0b464c664e49cdd') in 0.008158 seconds
+  Import took 0.011504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793352 seconds.
+  path: Assets/Audio/melee sounds/melee sounds/animal melee sound.wav
+  artifactKey: Guid(a9f34293c9a06fe45bc2060fa9ef522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/melee sounds/melee sounds/animal melee sound.wav using Guid(a9f34293c9a06fe45bc2060fa9ef522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d38f61020eea51270aa4b2865fd587a') in 0.049142 seconds
+  Import took 0.052480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.886175 seconds.
+  path: Assets/Audio/melee sounds/melee sounds/melee sound.wav
+  artifactKey: Guid(095fbda52e813b640b84d8a8d8257bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/melee sounds/melee sounds/melee sound.wav using Guid(095fbda52e813b640b84d8a8d8257bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc4b1368f001373bd35f973e36cb6ae') in 0.024577 seconds
+  Import took 0.027620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.895787 seconds.
+  path: Assets/Audio/melee sounds/melee sounds/sword sound.wav
+  artifactKey: Guid(7b7e3345fbd695f4f9656b5c8563cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/melee sounds/melee sounds/sword sound.wav using Guid(7b7e3345fbd695f4f9656b5c8563cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888ceb00bd80aa81f7ef307e1a0207ea') in 0.021361 seconds
+  Import took 0.024229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001054 seconds.
+  path: Assets/Audio/melee sounds/melee sounds/sword sound.wav
+  artifactKey: Guid(7b7e3345fbd695f4f9656b5c8563cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/melee sounds/melee sounds/sword sound.wav using Guid(7b7e3345fbd695f4f9656b5c8563cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888ceb00bd80aa81f7ef307e1a0207ea') in 0.011858 seconds
+  Import took 0.014733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 390.765656 seconds.
+  path: Assets/Audio/stab.mp3
+  artifactKey: Guid(55a29cf9cf808ed4393d920695652cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/stab.mp3 using Guid(55a29cf9cf808ed4393d920695652cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc7bd6242a931a71f95c6e0671e050c') in 0.024263 seconds
+  Import took 0.028127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002269 seconds.
+  path: Assets/Audio/stab.mp3
+  artifactKey: Guid(55a29cf9cf808ed4393d920695652cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/stab.mp3 using Guid(55a29cf9cf808ed4393d920695652cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc7bd6242a931a71f95c6e0671e050c') in 0.013178 seconds
+  Import took 0.016642 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001408 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 2.980800 ms (FindLiveObjects: 0.228600 ms CreateObjectMapping: 0.106400 ms MarkObjects: 2.127900 ms  DeleteObjects: 0.516200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.588586 seconds.
+  path: Assets/Audio/stab_small.mp3
+  artifactKey: Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/stab_small.mp3 using Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5c2f296c05819162a52d3ae111c9c8') in 0.048744 seconds
+  Import took 0.052125 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001134 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2235.
+Total: 3.488100 ms (FindLiveObjects: 0.240600 ms CreateObjectMapping: 0.079700 ms MarkObjects: 2.455700 ms  DeleteObjects: 0.710200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.390585 seconds.
+  path: Assets/Audio/stab_small.mp3
+  artifactKey: Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/stab_small.mp3 using Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590c5ed4d88e7b854865555a561ba92e') in 0.038399 seconds
+  Import took 0.041460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.469631 seconds.
+  path: Assets/Audio/stab_small.mp3
+  artifactKey: Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/stab_small.mp3 using Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea988d8c1de689469f95fe41f8793788') in 0.031970 seconds
+  Import took 0.036622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/Audio/stab_small.mp3
+  artifactKey: Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/stab_small.mp3 using Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea988d8c1de689469f95fe41f8793788') in 0.015952 seconds
+  Import took 0.019813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.936999 seconds.
+  path: Assets/Audio/stab_small.mp3
+  artifactKey: Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/stab_small.mp3 using Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020e1a799302657a9d283be1f7997fc5') in 0.023131 seconds
+  Import took 0.026295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001177 seconds.
+  path: Assets/Audio/stab_small.mp3
+  artifactKey: Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/stab_small.mp3 using Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020e1a799302657a9d283be1f7997fc5') in 0.012173 seconds
+  Import took 0.015371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.456592 seconds.
+  path: Assets/Audio/stab_small.mp3
+  artifactKey: Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/stab_small.mp3 using Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01f6e23cafd6f9f6df366bfbeec774a') in 0.018706 seconds
+  Import took 0.022423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001052 seconds.
+  path: Assets/Audio/stab_small.mp3
+  artifactKey: Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/stab_small.mp3 using Guid(cb29fa2b1007ad04f93a132cb5c48a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01f6e23cafd6f9f6df366bfbeec774a') in 0.105739 seconds
+  Import took 0.110544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.501427 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Footsteps/stumble.wav
+  artifactKey: Guid(034dd75da329f2448956d5d731ffad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Footsteps/stumble.wav using Guid(034dd75da329f2448956d5d731ffad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e87e852a7eb8ffdf2ac41b31159b8d') in 0.021668 seconds
+  Import took 0.024943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003876 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Footsteps/stumble.wav
+  artifactKey: Guid(034dd75da329f2448956d5d731ffad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Footsteps/stumble.wav using Guid(034dd75da329f2448956d5d731ffad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e87e852a7eb8ffdf2ac41b31159b8d') in 0.011241 seconds
+  Import took 0.014347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001031 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2238.
+Total: 6.489900 ms (FindLiveObjects: 0.634500 ms CreateObjectMapping: 0.212900 ms MarkObjects: 4.873400 ms  DeleteObjects: 0.765900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001048 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2240.
+Total: 2.829500 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.062600 ms MarkObjects: 2.101500 ms  DeleteObjects: 0.450400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001104 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2242.
+Total: 2.784600 ms (FindLiveObjects: 0.216200 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.090900 ms  DeleteObjects: 0.409400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001098 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2244.
+Total: 3.094400 ms (FindLiveObjects: 0.206100 ms CreateObjectMapping: 0.132700 ms MarkObjects: 2.346700 ms  DeleteObjects: 0.408000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 517.841777 seconds.
+  path: Assets/Audio/error.ogg
+  artifactKey: Guid(531c8557560196c4f8539313e04de887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/error.ogg using Guid(531c8557560196c4f8539313e04de887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee072848b301e11c7fce0abd4a24b58d') in 0.049294 seconds
+  Import took 0.052730 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2247.
+Total: 4.099500 ms (FindLiveObjects: 0.383600 ms CreateObjectMapping: 0.139000 ms MarkObjects: 3.132600 ms  DeleteObjects: 0.442300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2249.
+Total: 2.749400 ms (FindLiveObjects: 0.205200 ms CreateObjectMapping: 0.062000 ms MarkObjects: 2.087700 ms  DeleteObjects: 0.393500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2251.
+Total: 2.953300 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.200600 ms  DeleteObjects: 0.436900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 3.242200 ms (FindLiveObjects: 0.236200 ms CreateObjectMapping: 0.068600 ms MarkObjects: 2.403500 ms  DeleteObjects: 0.532500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001293 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 3.996300 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.993500 ms  DeleteObjects: 0.597800 ms)
+

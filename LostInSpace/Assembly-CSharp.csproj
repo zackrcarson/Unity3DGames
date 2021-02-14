@@ -166,6 +166,7 @@
     <Compile Include="Assets\Scripts\Game Elements\MusicPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Audio\melee sounds\melee sounds\melee.txt" />
      <None Include="Assets\Other Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Other Assets\War VFX\WarFX\Shaders\WFX_S Multiply Soft.shader" />
      <None Include="Assets\Other Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />

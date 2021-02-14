@@ -4,9 +4,12 @@ public class Melee : MonoBehaviour
 {
     // Config Parameters
     [SerializeField] BoxCollider boxCollider = null;
+    [SerializeField] float swingAudioVolume = 1f;
+    [SerializeField] AudioClip swingAudio = null;
 
     // Cached References
     Animator animator = null;
+    AudioSource audioSource = null;
 
     // State Variables
     bool isStabbing = false;
@@ -15,6 +18,7 @@ public class Melee : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
 
         boxCollider.enabled = false;
@@ -29,6 +33,7 @@ public class Melee : MonoBehaviour
         if (Input.GetButtonDown("Stab"))
         {
             animator.SetTrigger("stab");
+            audioSource.PlayOneShot(swingAudio, swingAudioVolume);
         }
     }
 

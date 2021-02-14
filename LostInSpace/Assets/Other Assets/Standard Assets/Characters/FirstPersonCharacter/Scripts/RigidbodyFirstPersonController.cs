@@ -19,6 +19,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             public float maxPitch = 1.2f;
             public float walkVolume = 0.25f;
             public float crouchVolume = 0.25f;
+            public float jumpLandingVolume = 1f;
+            public float jumpAudioDelay = 2f;
 
             public bool isDead = false;
             public float ForwardSpeed = 8.0f;   // Speed when walking forward
@@ -300,6 +302,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
                 if (m_Jump)
                 {
+                    StartCoroutine(JumpAudioDelay());
+
                     m_RigidBody.drag = 0f;
                     m_RigidBody.velocity = new Vector3(m_RigidBody.velocity.x, 0f, m_RigidBody.velocity.z);
                     m_RigidBody.AddForce(new Vector3(0f, movementSettings.JumpForce, 0f), ForceMode.Impulse);
@@ -322,6 +326,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jump = false;
         }
 
+        private IEnumerator JumpAudioDelay()
+        {
+            yield return new WaitForSeconds(movementSettings.jumpAudioDelay);
+
+            audioSource.pitch = movementSettings.minPitch;
+            audioSource.PlayOneShot(movementSettings.walkSound, movementSettings.jumpLandingVolume);
+        }
 
         private float SlopeMultiplier()
         {

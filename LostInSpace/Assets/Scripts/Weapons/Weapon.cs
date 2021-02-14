@@ -28,9 +28,30 @@ public class Weapon : MonoBehaviour
     [SerializeField] GameObject enemyHitVFX = null;
     [SerializeField] float enemyHitDestroyDelay = 1f;
 
+    [Header("Gun Audio")]
+    [SerializeField] float errorToneVolume = 1f;
+    [SerializeField] float shotAudioVolume = 0.5f;
+    [SerializeField] float emptyAudioVolume = 0.5f;
+    [SerializeField] AudioClip errorTone = null;
+    [SerializeField] AudioClip shotAudio = null;
+    [SerializeField] AudioClip emptyAudio = null;
+
+    [SerializeField] float bulletHitMetalVolume = 1f;
+    [SerializeField] float bulletHitBodyVolume = 1f;
+    [SerializeField] AudioClip bulletHitMetal = null;
+    [SerializeField] AudioClip bulletHitBody = null;
+
+    // Cached References
+    AudioSource audioSource = null;
+
     // State Variables
     public bool isDead = false;
     bool canShoot = true;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void OnEnable()
     {
@@ -45,9 +66,20 @@ public class Weapon : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            if (canShoot)
+            int ammoLeft = ammoSlot.GetAmmo(ammoType);
+            if (canShoot && ammoLeft > 0)
             {
                 StartCoroutine(Shoot());
+            }
+
+            if (!canShoot && ammoLeft > 0)
+            {
+                PlayErrorTone();
+            }
+            
+            if (ammoLeft <= 0)
+            {
+                PlayEmptyAudio();
             }
         }
     }
@@ -64,20 +96,11 @@ public class Weapon : MonoBehaviour
     {
         canShoot = false;
 
-        if (ammoSlot.GetAmmo(ammoType) > 0)
-        {
-            ammoSlot.ReduceCurrentAmmo(ammoType);
-            PlayMuzzleFlash();
-            ProcessRaycast();
+        ammoSlot.ReduceCurrentAmmo(ammoType);
+        PlayMuzzleFlash();
+        ProcessRaycast();
 
-            // TODO: gun kickback animation
-            // TODO: gun firing sound
-        }
-        else
-        {
-            yield return null;
-            // TODO: Add empty magazine click sound, maybe small kickback
-        }
+        PlayFiringAudio();
 
         yield return new WaitForSeconds(shootDelay);
 
@@ -113,10 +136,27 @@ public class Weapon : MonoBehaviour
         }
     }
 
+    private void PlayFiringAudio()
+    {
+        audioSource.PlayOneShot(shotAudio, shotAudioVolume);
+    }
+
+    private void PlayEmptyAudio()
+    {
+        audioSource.PlayOneShot(emptyAudio, emptyAudioVolume);
+    }
+
+    private void PlayErrorTone()
+    {
+        audioSource.PlayOneShot(errorTone, errorToneVolume);
+    }
+
     private void MetalHitImpactVFX(RaycastHit hit)
     {
         if (hit.transform.tag != "Pickup")
         {
+            audioSource.PlayOneShot(bulletHitMetal, bulletHitMetalVolume);
+
             GameObject impact = Instantiate(metalHitVFX, hit.point, Quaternion.LookRotation(hit.normal));
             impact.transform.parent = VFXParent;
 
@@ -126,6 +166,8 @@ public class Weapon : MonoBehaviour
 
     private void EnemyHitImpactVFX(RaycastHit hit)
     {
+        audioSource.PlayOneShot(bulletHitBody, bulletHitBodyVolume);
+
         GameObject impact = Instantiate(enemyHitVFX, hit.point, Quaternion.LookRotation(hit.normal));
         impact.transform.parent = VFXParent;
 
