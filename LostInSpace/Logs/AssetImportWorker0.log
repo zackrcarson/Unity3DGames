@@ -3083,3 +3083,219 @@ System memory in use after: 85.5 MB.
 Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2255.
 Total: 3.996300 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.993500 ms  DeleteObjects: 0.597800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 708.080036 seconds.
+  path: Assets/Audio/bulletMetalHit.wav
+  artifactKey: Guid(38ab959a0d7354d489f9b061a3b05f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/bulletMetalHit.wav using Guid(38ab959a0d7354d489f9b061a3b05f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9447b7e0f9328d22cdac623d94b2cf94') in 0.129444 seconds
+  Import took 0.134920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.715576 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/320138__owlstorm__blanket-movement-2.wav
+  artifactKey: Guid(0ac3bdc9098e69b468f5d2a40c49ed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/320138__owlstorm__blanket-movement-2.wav using Guid(0ac3bdc9098e69b468f5d2a40c49ed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbd4b9c748772d08ce633c7a3ca4575') in 0.022683 seconds
+  Import took 0.026459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002336 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/320138__owlstorm__blanket-movement-2.wav
+  artifactKey: Guid(0ac3bdc9098e69b468f5d2a40c49ed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/320138__owlstorm__blanket-movement-2.wav using Guid(0ac3bdc9098e69b468f5d2a40c49ed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbd4b9c748772d08ce633c7a3ca4575') in 0.015904 seconds
+  Import took 0.019447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369253 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/320143__owlstorm__blanket-movement-5.wav
+  artifactKey: Guid(106b7cc3c8cadb444a31b7978b42d4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/320143__owlstorm__blanket-movement-5.wav using Guid(106b7cc3c8cadb444a31b7978b42d4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0264d48c6d539ddfa31bcce49d7f79') in 0.024263 seconds
+  Import took 0.027516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.151228 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/212180__owlstorm__bag-zipper.wav
+  artifactKey: Guid(8bb2cd25e5076124c82926fffb3bf150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/212180__owlstorm__bag-zipper.wav using Guid(8bb2cd25e5076124c82926fffb3bf150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99fa5827efe45ad9125f7068ed02bf4') in 0.025155 seconds
+  Import took 0.028225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000861 seconds.
+  path: Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/212180__owlstorm__bag-zipper.wav
+  artifactKey: Guid(8bb2cd25e5076124c82926fffb3bf150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Owlish Media Sound Effects/Cloth, Rustle/212180__owlstorm__bag-zipper.wav using Guid(8bb2cd25e5076124c82926fffb3bf150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99fa5827efe45ad9125f7068ed02bf4') in 0.012479 seconds
+  Import took 0.017076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.361250 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons3.wav
+  artifactKey: Guid(657c4f7d3f19c89469e52e3e00ac05a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons3.wav using Guid(657c4f7d3f19c89469e52e3e00ac05a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2e280558e4c9c91006d11a2235907d') in 0.027760 seconds
+  Import took 0.031624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.541960 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons8.wav
+  artifactKey: Guid(b0a09e5527059f24f8a59ac44e59cb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons8.wav using Guid(b0a09e5527059f24f8a59ac44e59cb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353e142e5506ffbe3abce1c591a245b6') in 0.025958 seconds
+  Import took 0.029515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.474319 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons6.wav
+  artifactKey: Guid(8c00ceea847e4e044afed1f9295da632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons6.wav using Guid(8c00ceea847e4e044afed1f9295da632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c61717cf841543c4c3ed1b990e78e2') in 0.024024 seconds
+  Import took 0.027427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001066 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons6.wav
+  artifactKey: Guid(8c00ceea847e4e044afed1f9295da632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons6.wav using Guid(8c00ceea847e4e044afed1f9295da632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c61717cf841543c4c3ed1b990e78e2') in 0.013882 seconds
+  Import took 0.017870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.358391 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons5.wav
+  artifactKey: Guid(827cc7ac6ee81a041869fa1d46d0f280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons5.wav using Guid(827cc7ac6ee81a041869fa1d46d0f280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f749ed3c146542496be942c315f9a8f') in 0.031142 seconds
+  Import took 0.035627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.201127 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons4.wav
+  artifactKey: Guid(3cea3878aa390a548a7fc6f6bfc90ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons4.wav using Guid(3cea3878aa390a548a7fc6f6bfc90ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906446c54aadc1ded11d295ebd0b5986') in 0.029102 seconds
+  Import took 0.032279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001020 seconds.
+  path: Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons4.wav
+  artifactKey: Guid(3cea3878aa390a548a7fc6f6bfc90ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/FuturisticGunSoundFX/ReloadWeapons/ReloadWeapons4.wav using Guid(3cea3878aa390a548a7fc6f6bfc90ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906446c54aadc1ded11d295ebd0b5986') in 0.012504 seconds
+  Import took 0.015863 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2258.
+Total: 3.026800 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.244100 ms  DeleteObjects: 0.452900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 3.138600 ms (FindLiveObjects: 0.277600 ms CreateObjectMapping: 0.072500 ms MarkObjects: 2.327200 ms  DeleteObjects: 0.459900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2262.
+Total: 3.043700 ms (FindLiveObjects: 0.216900 ms CreateObjectMapping: 0.061100 ms MarkObjects: 2.348600 ms  DeleteObjects: 0.416300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.228420 seconds.
+  path: Assets/Audio/PostApocalypseGunsDemo/Miniguns_loop/Minigun_Reload_04.wav
+  artifactKey: Guid(e1d79f4a0c7873742babc5f6e9ff800e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PostApocalypseGunsDemo/Miniguns_loop/Minigun_Reload_04.wav using Guid(e1d79f4a0c7873742babc5f6e9ff800e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce37bbefe262e3d3dbb29291e50a6a86') in 0.056928 seconds
+  Import took 0.060301 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 2.992500 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.062300 ms MarkObjects: 2.278000 ms  DeleteObjects: 0.422800 ms)
+

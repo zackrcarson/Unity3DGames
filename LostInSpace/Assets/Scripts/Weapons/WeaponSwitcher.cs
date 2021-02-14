@@ -7,9 +7,12 @@ public class WeaponSwitcher : MonoBehaviour
 {
     // Config Parameters
     [SerializeField] int currentWeapon = 0;
+    [SerializeField] float swapWeaponSoundVolume = 0.6f;
+    [SerializeField] AudioClip swapWeaponSound = null;
 
     // Cached References
     Animator animator = null;
+    AudioSource audioSource = null;
 
     // State parameters
     bool weaponsDisabled = false;
@@ -18,6 +21,7 @@ public class WeaponSwitcher : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponentInParent<Animator>();
         //SetWeaponActive();
     }
@@ -35,6 +39,7 @@ public class WeaponSwitcher : MonoBehaviour
 
         if (previousWeapon != currentWeapon)
         {
+            audioSource.PlayOneShot(swapWeaponSound, swapWeaponSoundVolume);
             animator.SetTrigger("weaponSwap");
             //SetWeaponActive();
         }
