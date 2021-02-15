@@ -5759,6 +5759,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: 20
+  hitAudioVolume: 1
+  ouchAudioVolume: 1
+  deathAudioVolume: 0.3
+  hitAudio: {fileID: 8300000, guid: cb29fa2b1007ad04f93a132cb5c48a19, type: 3}
+  ouchAudioClips:
+  - {fileID: 8300000, guid: 2847020f5959f9d4a944999bfae11354, type: 3}
+  - {fileID: 8300000, guid: c5d2ca549f4ee7f4688f2ffaaa37321f, type: 3}
+  - {fileID: 8300000, guid: 48a1264d22ca4cc4d941660e068a9d42, type: 3}
+  - {fileID: 8300000, guid: f3e4317000482a944992faff1c424d86, type: 3}
+  deathAudio: {fileID: 8300000, guid: aa5d5c6174ff9cd468c21a8bbebe8cde, type: 3}
   gameOverCanvas: {fileID: 0}
   reticleCanvas: {fileID: 0}
   healthDisplay: {fileID: 0}
@@ -6294,7 +6304,7 @@ MonoBehaviour:
   minFlickerTime: 0.1
   maxFlickerTime: 1
   flickerDarkTime: 0.05
-  flashlightClickAudioVolume: 0.2
+  flashlightClickAudioVolume: 0.1
   flashlightClickAudio: {fileID: 8300000, guid: 0168b526f8427bd41a63efc8ace2addc,
     type: 3}
 --- !u!82 &591548822

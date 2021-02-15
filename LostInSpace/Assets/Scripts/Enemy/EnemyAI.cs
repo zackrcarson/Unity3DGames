@@ -15,17 +15,22 @@ public class EnemyAI : MonoBehaviour
     NavMeshAgent navMeshAgent = null;
     Transform target = null;
     Animator animator = null;
+    EnemyAudio enemyAudio = null;
     Vector3 startingPosition = new Vector3(0f, 0f, 0f);
 
     // State Variables
     float distanceToTarget = Mathf.Infinity;
     bool isProvoked = false;
     bool playerDead = false;
+    bool attackAudioPlayed = false;
 
     // Start is called before the first frame update
     void Start()
     {
         startingPosition = transform.position;
+
+        enemyAudio = GetComponent<EnemyAudio>();
+        enemyAudio.PlayIdleSound();
 
         navMeshAgent = GetComponent<NavMeshAgent>();
         enemyHealth = GetComponent<EnemyHealth>();
@@ -59,6 +64,12 @@ public class EnemyAI : MonoBehaviour
 
     private void EngageTarget()
     {
+        if (!attackAudioPlayed)
+        {
+            enemyAudio.PlayAttackSound();
+            attackAudioPlayed = true;
+        }
+
         FaceTarget();
 
         if (distanceToTarget >= navMeshAgent.stoppingDistance)
@@ -94,13 +105,24 @@ public class EnemyAI : MonoBehaviour
 
     public IEnumerator PlayerDead()
     {
+        animator.SetBool("playerDead", true);
+
+        enemyAudio.PlayVictorySound();
+
         playerDead = true;
-        
+
         animator.SetTrigger("howl");
 
         yield return new WaitForSeconds(waitTimeToReturnToStart);
 
-        navMeshAgent.speed /= 2; 
+        GoBackHome();
+    }
+
+    private void GoBackHome()
+    {
+        StopAllCoroutines();
+
+        navMeshAgent.speed /= 2f;
         animator.SetTrigger("backHome");
 
         navMeshAgent.SetDestination(startingPosition);
@@ -110,8 +132,20 @@ public class EnemyAI : MonoBehaviour
 
     private IEnumerator IdleWhenHome()
     {
-        yield return new WaitUntil(() => navMeshAgent.velocity.sqrMagnitude <= Mathf.Epsilon);
+        bool isHome = false;
+        while (!isHome)
+        {
+            if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
+            {
+                if (!navMeshAgent.hasPath || navMeshAgent.velocity.sqrMagnitude == 0f)
+                {
+                    isHome = true;
+                }
+            }
 
+            yield return null;
+        }
+        
         animator.SetTrigger("isHome");
     }
 

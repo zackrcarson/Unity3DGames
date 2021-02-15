@@ -100,4 +100,9 @@ public class PauseScreen : MonoBehaviour
 
         StartCoroutine(SceneLoader.ReloadCurrentScene(0f));
     }
+
+    public void DenyPause()
+    {
+        canPause = false;
+    }
 }

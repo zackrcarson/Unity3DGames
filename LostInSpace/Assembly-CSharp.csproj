@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\Pickups\BatteryPickup.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
+    <Compile Include="Assets\Scripts\Pickups\PickupLights.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
     <Compile Include="Assets\Scripts\Lights\LightFlicker.cs" />
     <Compile Include="Assets\Other Assets\War VFX\WarFX\Spawn System\CFX_SpawnSystem.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Assets\Other Assets\Standard Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\Scripts\Game Elements\MusicPlayer.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Cameras\Scripts\AutoCam.cs" />
@@ -162,8 +164,8 @@
     <Compile Include="Assets\Scripts\Game Elements\PauseScreen.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Scripts\Pickups\PickupLights.cs" />
-    <Compile Include="Assets\Scripts\Game Elements\MusicPlayer.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyAudio.cs" />
+    <Compile Include="Assets\Scripts\Game Elements\Goal.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Audio\melee sounds\melee sounds\melee.txt" />

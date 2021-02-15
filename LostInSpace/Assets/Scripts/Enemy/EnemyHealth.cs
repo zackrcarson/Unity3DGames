@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour
     // Cached references
     int numDeathAnimations = 2;
     Animator animator = null;
+    EnemyAudio enemyAudio = null;
 
     // State Variables
     bool isDead = false;
@@ -15,6 +16,7 @@ public class EnemyHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        enemyAudio = GetComponent<EnemyAudio>();
         animator = GetComponentInChildren<Animator>();
     }
 
@@ -25,6 +27,10 @@ public class EnemyHealth : MonoBehaviour
         if (enemyHealth <= 0)
         {
             KillEnemy();
+        }
+        else
+        {
+            enemyAudio.PlayHurtSound();
         }
 
         BroadcastMessage("OnDamageTaken");
@@ -39,7 +45,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (isDead) { return; }
 
-        // TODO Enemy death SFX
+        enemyAudio.PlayDeathSound();
 
         GetComponent<Collider>().enabled = false;
 

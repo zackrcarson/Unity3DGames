@@ -6,6 +6,14 @@ public class PlayerHealth : MonoBehaviour
 {
     // Config Parameters
     [SerializeField] int playerHealth = 200;
+    [SerializeField] float hitAudioVolume = 1f;
+    [SerializeField] float ouchAudioVolume = 1f;
+    [SerializeField] float deathAudioVolume = 1f;
+    [SerializeField] AudioClip hitAudio = null;
+    [SerializeField] AudioClip[] ouchAudioClips = null;
+    [SerializeField] AudioClip deathAudio = null;
+
+    [Header("Misc. Parameters")]
     [SerializeField] Canvas gameOverCanvas = null;
     [SerializeField] Canvas reticleCanvas = null;
     [SerializeField] Text healthDisplay = null;
@@ -16,6 +24,7 @@ public class PlayerHealth : MonoBehaviour
 
     // Cached References
     Rigidbody rigidBody = null;
+    AudioSource audioSource = null;
 
     // State variables
     bool gameStarted = false;
@@ -27,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
         ammoDisplay.enabled = false;
         pauseInfoDisplay.enabled = false;
 
+        audioSource = GetComponent<AudioSource>();
         rigidBody = GetComponent<Rigidbody>();
     }
 
@@ -51,6 +61,12 @@ public class PlayerHealth : MonoBehaviour
     {
         playerHealth -= damage;
 
+        if (!isDead)
+        {
+            audioSource.PlayOneShot(hitAudio, hitAudioVolume);
+            audioSource.PlayOneShot(RandomOuchSound(), ouchAudioVolume);
+        }
+
         if (playerHealth <= 0 && !isDead)
         {
             KillPlayer();
@@ -59,6 +75,10 @@ public class PlayerHealth : MonoBehaviour
 
     private void KillPlayer()
     {
+        FindObjectOfType<PauseScreen>().DenyPause();
+
+        audioSource.PlayOneShot(deathAudio, deathAudioVolume);
+
         isDead = true;
 
         FindObjectOfType<MusicPlayer>().PlayDeathMusic();
@@ -117,5 +137,19 @@ public class PlayerHealth : MonoBehaviour
         startScreen.TurnOnPlayerController();
 
         FindObjectOfType<PauseScreen>().canPause = true;
+    }
+
+    private AudioClip RandomOuchSound()
+    {
+        if (ouchAudioClips.Length > 0)
+        {
+            int randomClipIndex = Random.Range(0, ouchAudioClips.Length);
+
+            return ouchAudioClips[randomClipIndex];
+        }
+        else
+        {
+            return null;
+        }
     }
 }

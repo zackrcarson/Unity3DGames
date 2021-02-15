@@ -92,6 +92,24 @@ public class MusicPlayer : MonoBehaviour
         audioSource.volume = playSongVolume;
     }
 
+    private IEnumerator FadeInWinMusic()
+    {
+        audioSource.volume = 0f;
+        audioSource.loop = true;
+        audioSource.clip = winSong;
+
+        audioSource.Play();
+
+        while (audioSource.volume < playSongVolume)
+        {
+            audioSource.volume += playSongVolume * Time.deltaTime / fadeTime;
+
+            yield return null;
+        }
+
+        audioSource.volume = playSongVolume;
+    }
+
     public void PlayWinMusic()
     {
         playingPlayMusic = false;
@@ -99,10 +117,11 @@ public class MusicPlayer : MonoBehaviour
 
         if (!audioSource) { audioSource = GetComponent<AudioSource>(); }
 
-        audioSource.loop = true;
-        audioSource.volume = WinSongVolume;
-        audioSource.clip = winSong;
-        audioSource.Play();
+        //audioSource.loop = true;
+        //audioSource.volume = WinSongVolume;
+        //audioSource.clip = winSong;
+        //audioSource.Play();
+        StartCoroutine(FadeInWinMusic());
     }
 
     public void PlayDeathMusic()
