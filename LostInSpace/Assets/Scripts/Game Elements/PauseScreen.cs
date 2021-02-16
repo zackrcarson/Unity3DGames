@@ -36,14 +36,16 @@ public class PauseScreen : MonoBehaviour
 
     private void PauseGame()
     {
-        FindObjectOfType<Weapon>().IsPaused(true);
+        Weapon weapon = FindObjectOfType<Weapon>();
+        if (weapon)
+        {
+            weapon.IsPaused(true);
+            weapon.DenyShooting();
+        }
 
         reticleCanvas.enabled = false;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-
-        Weapon weapon = FindObjectOfType<Weapon>();
-        if (weapon) { weapon.DenyShooting(); }
 
         Melee melee = FindObjectOfType<Melee>();
         if (melee) { melee.DisallowStabbing(); }
@@ -67,7 +69,11 @@ public class PauseScreen : MonoBehaviour
     public void ResumeGame()
     {
         Weapon weapon = FindObjectOfType<Weapon>();
-        if (weapon) { weapon.AllowShooting(); }
+        if (weapon)
+        {
+            weapon.AllowShooting();
+            weapon.IsPaused(false);
+        }
 
         Melee melee = FindObjectOfType<Melee>();
         if (melee) { melee.AllowStabbing(); }
@@ -86,8 +92,6 @@ public class PauseScreen : MonoBehaviour
         pauseInfoDisplay.enabled = true;
 
         isPaused = false;
-
-        FindObjectOfType<Weapon>().IsPaused(false);
 
         reticleCanvas.enabled = true;
         Cursor.lockState = CursorLockMode.Confined;

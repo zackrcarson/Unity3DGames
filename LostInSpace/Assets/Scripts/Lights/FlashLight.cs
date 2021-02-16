@@ -25,6 +25,7 @@ public class FlashLight : MonoBehaviour
     bool gameStarted = false;
     float timeUntilDecay = 5f;
     bool isFlickering = false;
+    bool gameWon = false;
 
     private void Start()
     {
@@ -50,7 +51,8 @@ public class FlashLight : MonoBehaviour
     {
         if (!gameStarted) { return; }
 
-        timeUntilDecay -= Time.deltaTime;
+        if (!gameWon) { timeUntilDecay -= Time.deltaTime; }
+
         if (timeUntilDecay <= 0) { timeUntilDecay = 0;}
 
         if (timeUntilDecay == 0)
@@ -128,5 +130,12 @@ public class FlashLight : MonoBehaviour
         if (!audioSource) { audioSource = GetComponent<AudioSource>(); }
 
         audioSource.PlayOneShot(flashlightClickAudio, flashlightClickAudioVolume);
+    }
+
+    public void GameWon()
+    {
+        AddToDecayTimer(9999f);
+
+        gameWon = true;
     }
 }

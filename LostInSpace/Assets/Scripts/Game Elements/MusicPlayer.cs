@@ -9,8 +9,8 @@ public class MusicPlayer : MonoBehaviour
     [SerializeField] float fadeTime = 4f;
     [SerializeField] float introSongVolume = 0.5f;
     [SerializeField] float playSongVolume = 0.2f;
-    [SerializeField] float LoseSongVolume = 1f;
-    [SerializeField] float WinSongVolume = 1f;
+    [SerializeField] float loseSongVolume = 1f;
+    [SerializeField] float winSongVolume = 1f;
     [SerializeField] AudioClip introSong = null;
     [SerializeField] AudioClip[] playSoundtrack = null;
     [SerializeField] AudioClip loseSong = null;
@@ -100,14 +100,14 @@ public class MusicPlayer : MonoBehaviour
 
         audioSource.Play();
 
-        while (audioSource.volume < playSongVolume)
+        while (audioSource.volume < winSongVolume)
         {
-            audioSource.volume += playSongVolume * Time.deltaTime / fadeTime;
+            audioSource.volume += winSongVolume * Time.deltaTime / fadeTime;
 
             yield return null;
         }
 
-        audioSource.volume = playSongVolume;
+        audioSource.volume = winSongVolume;
     }
 
     public void PlayWinMusic()
@@ -132,7 +132,7 @@ public class MusicPlayer : MonoBehaviour
         if (!audioSource) { audioSource = GetComponent<AudioSource>(); }
 
         audioSource.loop = true;
-        audioSource.volume = LoseSongVolume;
+        audioSource.volume = loseSongVolume;
         audioSource.clip = loseSong;
         audioSource.Play();
     }

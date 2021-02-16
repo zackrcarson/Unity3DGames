@@ -166,6 +166,7 @@
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAudio.cs" />
     <Compile Include="Assets\Scripts\Game Elements\Goal.cs" />
+    <Compile Include="Assets\Scripts\Lights\GoalLight.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Audio\melee sounds\melee sounds\melee.txt" />
@@ -174,6 +175,7 @@
      <None Include="Assets\Other Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Other Assets\War VFX\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
      <None Include="Assets\Other Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Other Assets\Equipment for industrial or sci-fi building\Equipment.txt" />
      <None Include="Assets\Other Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\Other Assets\War VFX\WarFX\_Effects\MuzzleFlashes\!MuzzleFlash Differences.txt" />
      <None Include="Assets\Other Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
