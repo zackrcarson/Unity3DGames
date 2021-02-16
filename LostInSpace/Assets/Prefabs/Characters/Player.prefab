@@ -5745,7 +5745,7 @@ MonoBehaviour:
     stickToGroundHelperDistance: 0.6
     slowDownRate: 20
     airControl: 0
-    shellOffset: 0
+    shellOffset: 0.1
 --- !u!114 &7836853535912112379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5758,7 +5758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe6f47812e6ede74bad28eed693982a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: 20
+  playerHealth: 100
   hitAudioVolume: 1
   ouchAudioVolume: 1
   deathAudioVolume: 0.3

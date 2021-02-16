@@ -109,4 +109,11 @@ public class PauseScreen : MonoBehaviour
     {
         canPause = false;
     }
+
+    public void DisablePauseAndUI()
+    {
+        canPause = false;
+        pauseInfoDisplay.enabled = false;
+        reticleCanvas.enabled = false;
+    }
 }

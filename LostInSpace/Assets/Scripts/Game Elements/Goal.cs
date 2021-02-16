@@ -28,7 +28,8 @@ public class Goal : MonoBehaviour
 
     [Header("Timing Delays")]
     [SerializeField] float typingToComputerDelay = 1f;
-    [SerializeField] float computerToDoorCloseDelay = 1f;
+    [SerializeField] float computerToLightsOnDelay = 1f;
+    [SerializeField] float lightsOnToDoorCloseDelay = 1f;
     [SerializeField] float doorCloseToAlarmDelay = 1f;
     [SerializeField] float alarmToVacuumDelay = 1f;
     [SerializeField] float vacuumToScreechDelay = 1f;
@@ -41,6 +42,7 @@ public class Goal : MonoBehaviour
 
     // State variables
     bool hasWon = false;
+    bool winScreenOn = false;
 
     // Start is called before the first frame update
     void Start()
@@ -51,6 +53,14 @@ public class Goal : MonoBehaviour
         goalLights = FindObjectsOfType<GoalLight>();
 
         TurnOffAllLights();
+    }
+
+    private void Update()
+    {
+        if (!winScreenOn) { return; }
+
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
     }
 
     private void TurnOffAllLights()
@@ -66,6 +76,18 @@ public class Goal : MonoBehaviour
         foreach (GoalLight goalLight in goalLights)
         {
             goalLight.LightOn();
+        }
+
+        FindObjectOfType<FlashLight>().GameWon();
+    }
+
+    private void ClearAllEnemies()
+    {
+        EnemyHealth[] enemies = FindObjectsOfType<EnemyHealth>();
+
+        foreach (EnemyHealth enemy in enemies)
+        {
+            Destroy(enemy.gameObject);
         }
     }
 
@@ -87,15 +109,19 @@ public class Goal : MonoBehaviour
 
         audioSource.PlayOneShot(computerAudio, computerAudioVolume);
 
-        yield return new WaitForSeconds(computerToDoorCloseDelay);
+        yield return new WaitForSeconds(computerToLightsOnDelay);
+
+        TurnOnAllLights();
+
+        yield return new WaitForSeconds(lightsOnToDoorCloseDelay);
 
         audioSource.PlayOneShot(doorCloseAudio, doorCloseAudioVolume);
         doorAnimator.SetTrigger("doorClose");
-        TurnOnAllLights();
 
         yield return new WaitForSeconds(doorCloseToAlarmDelay);
 
         audioSource.PlayOneShot(alarmAudio, alarmAudioVolume);
+        ClearAllEnemies();
 
         yield return new WaitForSeconds(alarmToVacuumDelay);
 
@@ -112,10 +138,11 @@ public class Goal : MonoBehaviour
 
         yield return new WaitForSeconds(doorOpenToWinScreenDelay);
 
-        winScreen.enabled = true;
-        FindObjectOfType<MusicPlayer>().PlayWinMusic();
+        FindObjectOfType<PauseScreen>().DisablePauseAndUI();
 
-    // TODO: Cool animation, airlock behind you closing shut, hear zombies being killed in the distance, then quiet for a few seconds.. Then walk over to window and look out as Win Screen pops up and win music FADES in.
-    // TODO: disable triggerenter a second time :) Dont block controls after! Bloick pause though. Allow player to run around with win screen on. Turn flashlight on indefinitely, turn on light in control room. turn off reticle. Turn on mouse permanently (maybe in update?)
-}
+        winScreenOn = true;
+        winScreen.enabled = true;
+
+        FindObjectOfType<MusicPlayer>().PlayWinMusic();
+    }
 }
