@@ -21,11 +21,11 @@ public class Knife : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        audioSource.PlayOneShot(stabAudio, stabAudioVolume);
-
         EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
 
         if (!enemyHealth) { return; }
+
+        audioSource.PlayOneShot(stabAudio, stabAudioVolume);
 
         enemyHealth.DamageEnemy(knifeDamage);
 

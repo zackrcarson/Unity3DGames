@@ -201,6 +201,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     movementSettings.StrafeSpeed /= movementSettings.crouchSpeedReductionFactor;
                     movementSettings.RunMultiplier = 1.0f;
 
+                    initialHeight = transform.position.y;
 
                     m_crouch = true;
                     weaponSwitcher.SetAllWeaponInactive();

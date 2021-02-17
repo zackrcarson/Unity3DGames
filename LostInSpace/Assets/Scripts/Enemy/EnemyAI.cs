@@ -145,7 +145,8 @@ public class EnemyAI : MonoBehaviour
 
             yield return null;
         }
-        
+
+        yield return new WaitForSeconds(10f);
         animator.SetTrigger("isHome");
     }
 

@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 523b08b5160815d47b1d959919006731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knifeDamage: 40
+  knifeDamage: 20
   enemyHitVFX: {fileID: 100002, guid: 2d1637196def1d945916434889cd2bcf, type: 3}
   enemyHitDestroyDelay: 1
   VFXParent: {fileID: 0}
@@ -6035,7 +6035,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7757951577135361909}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.874, y: -0.778, z: 1.993}
+  m_LocalPosition: {x: 0.87, y: -0.72, z: 1.87}
   m_LocalScale: {x: 4.2353625, y: 4.2353625, z: 4.2353625}
   m_Children:
   - {fileID: 7836853534660789906}
@@ -6875,17 +6875,17 @@ PrefabInstance:
     - target: {fileID: 8428645643780787073, guid: 9e05190243e23c24296ec66e87945ca7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.78
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8428645643780787073, guid: 9e05190243e23c24296ec66e87945ca7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.656
+      value: -0.65
       objectReference: {fileID: 0}
     - target: {fileID: 8428645643780787073, guid: 9e05190243e23c24296ec66e87945ca7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.875
+      value: 1.67
       objectReference: {fileID: 0}
     - target: {fileID: 8428645643780787073, guid: 9e05190243e23c24296ec66e87945ca7,
         type: 3}
@@ -7160,15 +7160,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 449102, guid: 3c81b162a1af44348b8994f7040514d4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.814
+      value: 0.81
       objectReference: {fileID: 0}
     - target: {fileID: 449102, guid: 3c81b162a1af44348b8994f7040514d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.895
+      value: -0.95
       objectReference: {fileID: 0}
     - target: {fileID: 449102, guid: 3c81b162a1af44348b8994f7040514d4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.266
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 449102, guid: 3c81b162a1af44348b8994f7040514d4, type: 3}
       propertyPath: m_LocalRotation.w

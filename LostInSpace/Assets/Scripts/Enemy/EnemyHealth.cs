@@ -52,6 +52,8 @@ public class EnemyHealth : MonoBehaviour
         isDead = true;
 
         animator.SetInteger("isDead", GetRandomDeathAnimation());
+
+        GetComponent<EnemyAI>().enabled = false;
     }
 
     private int GetRandomDeathAnimation()

@@ -14,14 +14,13 @@ public class EnemyAudio : MonoBehaviour
     [SerializeField] AudioClip deathSound = null;
     [SerializeField] AudioClip hurtSound = null;
 
-
     // Cached References
     AudioSource audioSource = null;
 
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();    
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void PlayIdleSound()

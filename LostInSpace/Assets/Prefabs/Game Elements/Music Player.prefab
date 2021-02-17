@@ -48,7 +48,7 @@ MonoBehaviour:
   fadeTime: 4
   introSongVolume: 1
   playSongVolume: 0.5
-  loseSongVolume: 1
+  loseSongVolume: 0.6
   winSongVolume: 1
   introSong: {fileID: 8300000, guid: 95477d9643b07224c88cacc23fc1d302, type: 3}
   playSoundtrack: []
