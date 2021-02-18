@@ -333,8 +333,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 448788}
+  - component: {fileID: 8533406484435139607}
+  - component: {fileID: -2797087056225525243}
   m_Layer: 0
-  m_Name: pallet
+  m_Name: pallet2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -355,6 +357,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8533406484435139607
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.013301, y: 0.38158286, z: 3.2871423}
+  m_Center: {x: -0.021580327, y: 0.16421127, z: -0.16792129}
+--- !u!208 &-2797087056225525243
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137192}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.42, y: 0.23, z: 1.59}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.18, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &137708
 GameObject:
   m_ObjectHideFlags: 0

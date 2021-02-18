@@ -13013,3 +13013,805 @@ Received Import Request.
 Start importing Assets/Prefabs/Props/Pallet.prefab using Guid(237e8573a5755b740868ac6f6b921a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679e43c57e0541e742a0a012855d8d42') in 0.060374 seconds
   Import took 0.064348 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.673 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1567 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.3 MB.
+System memory in use after: 160.1 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 8.652600 ms (FindLiveObjects: 0.859900 ms CreateObjectMapping: 0.289500 ms MarkObjects: 5.335600 ms  DeleteObjects: 2.163000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001265 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.732 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1567 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.2 MB.
+System memory in use after: 160.1 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2303.
+Total: 4.261800 ms (FindLiveObjects: 0.299600 ms CreateObjectMapping: 0.097700 ms MarkObjects: 3.174200 ms  DeleteObjects: 0.687500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36129.971411 seconds.
+  path: Assets/Scripts/Lights/LightFlicker.cs
+  artifactKey: Guid(fcb1340099e67d74bb299f0f67dfa423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lights/LightFlicker.cs using Guid(fcb1340099e67d74bb299f0f67dfa423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d060a9d83129ed32e8c64e799d43d8') in 0.012649 seconds
+  Import took 0.016524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019835 seconds.
+  path: Assets/Scripts/Lights/LightFlicker.cs
+  artifactKey: Guid(fcb1340099e67d74bb299f0f67dfa423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lights/LightFlicker.cs using Guid(fcb1340099e67d74bb299f0f67dfa423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d060a9d83129ed32e8c64e799d43d8') in 0.003888 seconds
+  Import took 0.007071 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001702 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.599 seconds
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(ea50de9d0939f7247914523639aa7e07) path("Assets/Scripts/Lights/LightFlicker1.cs") state(2)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1567 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.2 MB.
+System memory in use after: 160.1 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2305.
+Total: 3.147400 ms (FindLiveObjects: 0.312000 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.261200 ms  DeleteObjects: 0.489700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.963559 seconds.
+  path: Assets/Scripts/Lights/LightFlicker1.cs
+  artifactKey: Guid(ea50de9d0939f7247914523639aa7e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lights/LightFlicker1.cs using Guid(ea50de9d0939f7247914523639aa7e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628519eb14385af537dd0fc429bf2564') in 0.016641 seconds
+  Import took 0.023659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.783348 seconds.
+  path: Assets/Scripts/Lights/prop_LightFlicker.cs
+  artifactKey: Guid(ea50de9d0939f7247914523639aa7e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lights/prop_LightFlicker.cs using Guid(ea50de9d0939f7247914523639aa7e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cd6ab8a828800c3b916fdd6f04ebbc') in 0.010009 seconds
+  Import took 0.016127 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.3 MB.
+System memory in use after: 160.1 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 4.108900 ms (FindLiveObjects: 0.324600 ms CreateObjectMapping: 0.107200 ms MarkObjects: 2.998800 ms  DeleteObjects: 0.676000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.634508 seconds.
+  path: Assets/Scripts/Lights/prop_LightFlicker.cs
+  artifactKey: Guid(ea50de9d0939f7247914523639aa7e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lights/prop_LightFlicker.cs using Guid(ea50de9d0939f7247914523639aa7e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf777b395d8935d53ee84a549c4ac62') in 0.008318 seconds
+  Import took 0.012563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.141614 seconds.
+  path: Assets/Prefabs/Props/WorkLight.prefab
+  artifactKey: Guid(0dd137872bec6e04aaaaa2b3e9f3c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/WorkLight.prefab using Guid(0dd137872bec6e04aaaaa2b3e9f3c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0129ecd77c47417ccc5427dbac50c485') in 0.091355 seconds
+  Import took 0.095006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.816174 seconds.
+  path: Assets/Prefabs/Props/WorkLight.prefab
+  artifactKey: Guid(0dd137872bec6e04aaaaa2b3e9f3c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/WorkLight.prefab using Guid(0dd137872bec6e04aaaaa2b3e9f3c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706520db5415c5602157b4d9220b9523') in 0.021042 seconds
+  Import took 0.026822 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.3 MB.
+System memory in use after: 160.1 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2311.
+Total: 7.363400 ms (FindLiveObjects: 0.458200 ms CreateObjectMapping: 0.178600 ms MarkObjects: 5.852300 ms  DeleteObjects: 0.869700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.717684 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(8241323eb5f2985459a69f0ee72543e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(8241323eb5f2985459a69f0ee72543e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2515262062aa46c2151441b72b814f') in 0.014778 seconds
+  Import took 0.019184 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.3 MB.
+System memory in use after: 160.1 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 2.936900 ms (FindLiveObjects: 0.346400 ms CreateObjectMapping: 0.097700 ms MarkObjects: 2.068300 ms  DeleteObjects: 0.423400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001120 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.869 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.3 MB.
+System memory in use after: 160.1 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2315.
+Total: 6.228000 ms (FindLiveObjects: 0.455900 ms CreateObjectMapping: 0.156200 ms MarkObjects: 4.796800 ms  DeleteObjects: 0.814900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.2 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 3.247800 ms (FindLiveObjects: 0.350200 ms CreateObjectMapping: 0.110900 ms MarkObjects: 2.358700 ms  DeleteObjects: 0.426700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001097 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.983 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.2 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 4.865600 ms (FindLiveObjects: 0.349000 ms CreateObjectMapping: 0.112300 ms MarkObjects: 3.683100 ms  DeleteObjects: 0.719000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001588 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.000 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.2 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2321.
+Total: 4.856100 ms (FindLiveObjects: 0.327700 ms CreateObjectMapping: 0.105000 ms MarkObjects: 3.688700 ms  DeleteObjects: 0.732400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001358 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.892 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.2 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 4.153000 ms (FindLiveObjects: 0.331900 ms CreateObjectMapping: 0.106600 ms MarkObjects: 3.058200 ms  DeleteObjects: 0.653900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 660.129341 seconds.
+  path: Assets/Prefabs/Props/Scaffolding.prefab
+  artifactKey: Guid(4707581494a4031438fbad227829f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Scaffolding.prefab using Guid(4707581494a4031438fbad227829f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26895d000aa81d7b8335b432114b9cdb') in 0.153499 seconds
+  Import took 0.158916 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.693 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.2 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 4.832600 ms (FindLiveObjects: 0.350600 ms CreateObjectMapping: 0.110000 ms MarkObjects: 3.587300 ms  DeleteObjects: 0.782700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.834178 seconds.
+  path: Assets/Prefabs/Props/Barrel_Blue.prefab
+  artifactKey: Guid(65a6a0a7aec3ead479b8e48f074c4b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_Blue.prefab using Guid(65a6a0a7aec3ead479b8e48f074c4b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f802dff3898810080a3635811f9e4a6') in 0.162127 seconds
+  Import took 0.166684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.442277 seconds.
+  path: Assets/Prefabs/Props/Barrel_Plastic.prefab
+  artifactKey: Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_Plastic.prefab using Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69adb1f4f71c3e6ce005ee7c3029a2bf') in 0.081861 seconds
+  Import took 0.086980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.991758 seconds.
+  path: Assets/Prefabs/Props/Barrel_Blue.prefab
+  artifactKey: Guid(65a6a0a7aec3ead479b8e48f074c4b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_Blue.prefab using Guid(65a6a0a7aec3ead479b8e48f074c4b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a08dd2109baa72574420c76e2e8de0') in 0.044748 seconds
+  Import took 0.049268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.923293 seconds.
+  path: Assets/Prefabs/Props/Barrel_Plastic.prefab
+  artifactKey: Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_Plastic.prefab using Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e58c1ac77278341b47633114eb3ae3a') in 0.054094 seconds
+  Import took 0.060065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.613386 seconds.
+  path: Assets/Prefabs/Props/Barrel_Plastic.prefab
+  artifactKey: Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_Plastic.prefab using Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e37f55081c47879730db76d6c99162') in 0.034633 seconds
+  Import took 0.039129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.369438 seconds.
+  path: Assets/Prefabs/Props/Barrel_Plastic.prefab
+  artifactKey: Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_Plastic.prefab using Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccfbf4f4578a7af1ea6eeaa8a9da149') in 0.044600 seconds
+  Import took 0.049432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.759270 seconds.
+  path: Assets/Prefabs/Props/Barrel_Plastic.prefab
+  artifactKey: Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_Plastic.prefab using Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346779c6dfe7f9ff298d86380d9f86c9') in 0.029391 seconds
+  Import took 0.034889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.556093 seconds.
+  path: Assets/Other Assets/VertexField/Barrels/Models/Barrel_Group.fbx
+  artifactKey: Guid(cae4a2b3a6a7f4546be73c381e26f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/VertexField/Barrels/Models/Barrel_Group.fbx using Guid(cae4a2b3a6a7f4546be73c381e26f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c911ef3b4bc4794c592cd61bfdea3e') in 0.180053 seconds
+  Import took 0.184091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.224314 seconds.
+  path: Assets/Prefabs/Props/Barrel_Red.prefab
+  artifactKey: Guid(dfec7a4606336714296c349586c1ff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_Red.prefab using Guid(dfec7a4606336714296c349586c1ff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6267b7ab6fc3ddc9d4b8188f5b28130e') in 0.058265 seconds
+  Import took 0.070422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.567945 seconds.
+  path: Assets/Prefabs/Props/Barrel_Red.prefab
+  artifactKey: Guid(dfec7a4606336714296c349586c1ff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_Red.prefab using Guid(dfec7a4606336714296c349586c1ff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b011336bca12eabdd9bca63117a9dd') in 0.058262 seconds
+  Import took 0.062921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.600848 seconds.
+  path: Assets/Prefabs/Props/Barrel_Red.prefab
+  artifactKey: Guid(dfec7a4606336714296c349586c1ff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_Red.prefab using Guid(dfec7a4606336714296c349586c1ff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7582325ed8ee0947a678286e8c0a774e') in 0.032697 seconds
+  Import took 0.037726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.422693 seconds.
+  path: Assets/Prefabs/Props/Barrel_Red.prefab
+  artifactKey: Guid(dfec7a4606336714296c349586c1ff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_Red.prefab using Guid(dfec7a4606336714296c349586c1ff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4688b86e4d7f40f44e082fbac832cb91') in 0.071368 seconds
+  Import took 0.078315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.406950 seconds.
+  path: Assets/Prefabs/Props/Barrel_White.prefab
+  artifactKey: Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_White.prefab using Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232585a7701ffd7449bd07ff34760902') in 0.059048 seconds
+  Import took 0.064055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.967883 seconds.
+  path: Assets/Prefabs/Props/Barrel_White.prefab
+  artifactKey: Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_White.prefab using Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b445b33179aa78b1b1dd9c60e41874a') in 0.051164 seconds
+  Import took 0.056981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.130507 seconds.
+  path: Assets/Prefabs/Props/Barrel_White.prefab
+  artifactKey: Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_White.prefab using Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f04cebc7de55738c661136d5db3921') in 0.038930 seconds
+  Import took 0.044839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.029640 seconds.
+  path: Assets/Prefabs/Props/Barrel_White.prefab
+  artifactKey: Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_White.prefab using Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcef1d3d535593217763d01a9f504498') in 0.047341 seconds
+  Import took 0.051916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.539896 seconds.
+  path: Assets/Prefabs/Props/Barrel_White.prefab
+  artifactKey: Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Barrel_White.prefab using Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29cfaab9d547901cda054c4cb2954e7') in 0.035145 seconds
+  Import took 0.039436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.273904 seconds.
+  path: Assets/Prefabs/Props/CinderBlock.prefab
+  artifactKey: Guid(380c131da968d424ab4902f967bc23d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/CinderBlock.prefab using Guid(380c131da968d424ab4902f967bc23d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644ab0f0055f6f894a51c5fa7f3ad076') in 0.049402 seconds
+  Import took 0.052982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.052271 seconds.
+  path: Assets/Prefabs/Props/ConcreteTubes.prefab
+  artifactKey: Guid(3feea208febe63b4f91085a75560d00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/ConcreteTubes.prefab using Guid(3feea208febe63b4f91085a75560d00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb693920283ca439f86b97f720657cd1') in 0.122951 seconds
+  Import took 0.129486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.646019 seconds.
+  path: Assets/Prefabs/Props/ConstructionCone.prefab
+  artifactKey: Guid(c0a97f89f66be1840abe0471300c737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/ConstructionCone.prefab using Guid(c0a97f89f66be1840abe0471300c737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f79aaa003acf232ef8b3c6f0550e25') in 0.022688 seconds
+  Import took 0.026299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001912 seconds.
+  path: Assets/Prefabs/Props/ConstructionCone.prefab
+  artifactKey: Guid(c0a97f89f66be1840abe0471300c737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/ConstructionCone.prefab using Guid(c0a97f89f66be1840abe0471300c737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f79aaa003acf232ef8b3c6f0550e25') in 0.012989 seconds
+  Import took 0.016701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.821322 seconds.
+  path: Assets/Prefabs/Props/GasTank.prefab
+  artifactKey: Guid(5d5eb8ad08591e445adfb4241b982f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/GasTank.prefab using Guid(5d5eb8ad08591e445adfb4241b982f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf180524cb073f50d332745c1242d5d') in 0.095385 seconds
+  Import took 0.100477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.975637 seconds.
+  path: Assets/Prefabs/Props/Ibeam.prefab
+  artifactKey: Guid(56cb3482401e6f44791afe77eb0c33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Ibeam.prefab using Guid(56cb3482401e6f44791afe77eb0c33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78666dd656372b9467f1e3b1aef3924') in 0.045936 seconds
+  Import took 0.059042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.486634 seconds.
+  path: Assets/Prefabs/Props/OxygenTank.prefab
+  artifactKey: Guid(d42ca8e86419e394e8ee7cebf0c338e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/OxygenTank.prefab using Guid(d42ca8e86419e394e8ee7cebf0c338e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1a7d2530e6969fae10937cb402a392') in 0.085796 seconds
+  Import took 0.089290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.023274 seconds.
+  path: Assets/Prefabs/Props/Pallet.prefab
+  artifactKey: Guid(237e8573a5755b740868ac6f6b921a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pallet.prefab using Guid(237e8573a5755b740868ac6f6b921a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1a99c81ae2ce1a882becfbde89fd52') in 0.066935 seconds
+  Import took 0.079257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.592652 seconds.
+  path: Assets/Prefabs/Props/pallet2.prefab
+  artifactKey: Guid(7260bcfd3e8d1774fbb6e6cb8ef1f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/pallet2.prefab using Guid(7260bcfd3e8d1774fbb6e6cb8ef1f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17feaaedd1cf6d336b45160017176eb6') in 0.041406 seconds
+  Import took 0.045650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.698084 seconds.
+  path: Assets/Prefabs/Props/PalletJack.prefab
+  artifactKey: Guid(bd12278208b1cb2439520aa9a587592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/PalletJack.prefab using Guid(bd12278208b1cb2439520aa9a587592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a312eaf12446b99b73dad5e4c5e6516') in 0.063622 seconds
+  Import took 0.067975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.599371 seconds.
+  path: Assets/Prefabs/Props/WaterTank.prefab
+  artifactKey: Guid(28b84caef8a775346bad0707768b08d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/WaterTank.prefab using Guid(28b84caef8a775346bad0707768b08d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7f588490b3605b94ddcb0b7b9b028d') in 0.031314 seconds
+  Import took 0.035286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.065583 seconds.
+  path: Assets/Prefabs/Props/WoodenCableDrum.prefab
+  artifactKey: Guid(b6270179b89275543ba032d6176dfa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/WoodenCableDrum.prefab using Guid(b6270179b89275543ba032d6176dfa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7ab6c6ff78cbf65c5f499c0e2a755b') in 0.099462 seconds
+  Import took 0.105734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.668905 seconds.
+  path: Assets/Prefabs/Props/WoodPlanks.prefab
+  artifactKey: Guid(7d5203bee65999746a2724a098910ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/WoodPlanks.prefab using Guid(7d5203bee65999746a2724a098910ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16f6dd310a4057fe6002a5708df49ba') in 0.181099 seconds
+  Import took 0.191470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.471755 seconds.
+  path: Assets/Prefabs/Props/WorkLight.prefab
+  artifactKey: Guid(0dd137872bec6e04aaaaa2b3e9f3c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/WorkLight.prefab using Guid(0dd137872bec6e04aaaaa2b3e9f3c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeadeafc14b12c58e725ee68db1ed51') in 0.018882 seconds
+  Import took 0.022756 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001213 seconds.
+Callback registration failed. Increase kMaxCallback.
+
+Fatal Error! Callback registration failed. Increase kMaxCallback.
+
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Mono;.;C:\Users\khfre\Documents\GameDev\Unity3DCourse\Unity3DGames\LostInSpace;C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'khfre'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Unity.exe:Unity.exe (00007FF75E730000), size: 134422528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.2.4.52461
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFBD5BE0000), size: 2031616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFBD3F60000), size: 729088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFBD2DF0000), size: 2772992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFBD2C00000), size: 1351680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFBD3AA0000), size: 1024000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1110
+C:\WINDOWS\System32\MSASN1.dll:MSASN1.dll (00007FFBD2B40000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFBD4FC0000), size: 1654784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFBD2B80000), size: 135168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFBD40D0000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFBD30A0000), size: 1671168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FFB8BD70000), size: 43806720 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFB906A0000), size: 8974336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.0.0.0
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFBD2D50000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1110
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\optix.6.0.0.dll:optix.6.0.0.dll (00007FFBB5620000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.0.0
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFBD4020000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.752
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFBD3E50000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.18362.1
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFBD3C90000), size: 618496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFBD5310000), size: 1175552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFBD4230000), size: 7241728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFB90560000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6414336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFBD2BB0000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.387
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFB903D0000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFBD3EF0000), size: 454656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.387
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFBD4100000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\WLDAP32.dll:WLDAP32.dll (00007FFBD4990000), size: 425984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.449
+C:\WINDOWS\System32\Normaliz.dll:Normaliz.dll (00007FFBD4920000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFBD4A20000), size: 3371008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFBC9910000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFBD3C00000), size: 528384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1237
+C:\WINDOWS\System32\windows.storage.dll:windows.storage.dll (00007FFBD3240000), size: 7843840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\tbb.dll:tbb.dll (00007FFBAABA0000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\WINDOWS\System32\profapi.dll:profapi.dll (00007FFBD2B10000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.693
+C:\WINDOWS\System32\powrprof.dll:powrprof.dll (00007FFBD2AA0000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFBD0190000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.27.29016.0
+C:\WINDOWS\System32\UMPDC.dll:UMPDC.dll (00007FFBD2A90000), size: 65536 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\shlwapi.dll:shlwapi.dll (00007FFBD5A00000), size: 335872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFBD00F0000), size: 593920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.27.29016.0
+C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FFBD24A0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\System32\kernel.appcore.dll:kernel.appcore.dll (00007FFBD2AF0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1171
+C:\WINDOWS\System32\cryptsp.dll:cryptsp.dll (00007FFBD2B60000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFB8E740000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
+C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFB8E7F0000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFBD5430000), size: 1404928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFBD3E10000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.387
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFBD00E0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.27.29016.0
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFBD5590000), size: 4653056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FFBD3A70000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1237
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFBD5230000), size: 806912 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1110
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFBA6D30000), size: 1400832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.387
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFBA6D00000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.387
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFBD3BA0000), size: 376832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1237
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFBD1FE0000), size: 237568 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFBCFB70000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFBD0710000), size: 983040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.778
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFBD12C0000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (00007FFB8F8D0000), size: 2535424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.1.0
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFB8FB40000), size: 8978432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.0
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFBBDB70000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFBC0550000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\winmmbase.dll:winmmbase.dll (00007FFBCF660000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFBA6240000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.20342
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFBC31E0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFBD16D0000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFBD29A0000), size: 225280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1049
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\OpenRL.dll:OpenRL.dll (000001D1D2670000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.100.0
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000068DA0000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.1
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000068E80000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.1
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\embree.dll:embree.dll (00007FFB8E8E0000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFBD22D0000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.815
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (000001D1D32C0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFBD0530000), size: 626688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFBD4F10000), size: 663552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFBCCDA0000), size: 249856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFBC96C0000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFBD5300000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1171
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFBC8C20000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1171
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFBC95D0000), size: 114688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1171
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFBD2020000), size: 831488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFBC7EE0000), size: 487424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1110
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFBC3F30000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFBCEB40000), size: 2469888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFBD1760000), size: 962560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\DriverStore\FileRepository\nvhw.inf_amd64_de1673c14c0ba0b4\nvldumdx.dll:nvldumdx.dll (00007FFB88E60000), size: 958464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.21.13.8892
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFBD4A00000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFBD1E50000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\System32\DriverStore\FileRepository\nvhw.inf_amd64_de1673c14c0ba0b4\nvwgf2umx.dll:nvwgf2umx.dll (00007FFB868A0000), size: 28741632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.21.13.8892
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FFB88600000), size: 2461696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.12.0.84
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFBD1AD0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFBB8380000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1171
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFBB82F0000), size: 540672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFBB6C60000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1171
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFBB5770000), size: 1052672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFBB6B20000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFBD2970000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1139
+C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2101.9-0\MpOav.dll:MpOav.dll (00007FFBB53E0000), size: 503808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.2101.9
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\cudart64_90.dll:cudart64_90.dll (00007FFBCD790000), size: 397312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.14.11.9000
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFB88E30000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.1.1.0
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\radeonrays.dll:radeonrays.dll (00007FFB88DA0000), size: 552960 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFB86130000), size: 7790592 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFBD3E40000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\ProgramData\Microsoft\VisualStudio\Setup\x64\Microsoft.VisualStudio.Setup.Configuration.Native.dll:Microsoft.VisualStudio.Setup.Configuration.Native.dll (00007FFBC7FA0000), size: 327680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.7.3111.17308
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFBD03F0000), size: 983040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.18362.1316
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.18362.1316_none_9e7a364fe461dbd7\comctl32.dll:comctl32.dll (00007FFBB3810000), size: 2637824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.18362.1316
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFBCC5B0000), size: 1765376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.959
+C:\Windows\System32\thumbcache.dll:thumbcache.dll (00007FFBAA070000), size: 389120 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\SYSTEM32\policymanager.dll:policymanager.dll (00007FFBCFA00000), size: 561152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\SYSTEM32\msvcp110_win.dll:msvcp110_win.dll (00007FFBCF240000), size: 565248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\Windows\System32\MrmCoreR.dll:MrmCoreR.dll (00007FFBC0560000), size: 1122304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\Windows\System32\iertutil.dll:iertutil.dll (00007FFBC0F40000), size: 2781184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.18362.1316
+C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll:windows.staterepositorycore.dll (00007FFBC3720000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1171
+C:\Windows\System32\bcp47mrm.dll:bcp47mrm.dll (00007FFBBFA80000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.997
+C:\Windows\System32\Windows.UI.dll:Windows.UI.dll (00007FFBBFD60000), size: 1347584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\Windows\System32\TextInputFramework.dll:TextInputFramework.dll (00007FFBBFC00000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\Windows\System32\InputHost.dll:InputHost.dll (00007FFBBFAE0000), size: 1163264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\Windows\System32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFBCC7A0000), size: 3317760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1110
+C:\Windows\System32\CoreMessaging.dll:CoreMessaging.dll (00007FFBCFA90000), size: 868352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFBCDF10000), size: 1384448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.18362.1316_none_cf6529353ef455a5\gdiplus.dll:gdiplus.dll (00007FFBC21A0000), size: 1716224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFBD5A60000), size: 1265664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1316
+C:\WINDOWS\SYSTEM32\edputil.dll:edputil.dll (00007FFBAB3C0000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFBB4D50000), size: 1265664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1171
+C:\WINDOWS\SYSTEM32\wkscli.dll:wkscli.dll (00007FFBCCD80000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\netutils.dll:netutils.dll (00007FFBD20F0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\System32\provsvc.dll:provsvc.dll (00007FFBAAC40000), size: 491520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\CLDAPI.dll:CLDAPI.dll (00007FFBAE880000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1237
+C:\WINDOWS\SYSTEM32\FLTLIB.DLL:FLTLIB.DLL (00007FFBC06C0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1
+C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FFBCFF70000), size: 585728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1139
+C:\Windows\System32\OneCoreUAPCommonProxyStub.dll:OneCoreUAPCommonProxyStub.dll (00007FFBCA8C0000), size: 7782400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1171
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFBD1380000), size: 2048000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.18362.1049
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFBD2E33B29 (KERNELBASE) RaiseException
+0x00007FF760E3913D (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF760E3A08A (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF7629E75EE (Unity) DebugStringToFilePostprocessedStacktrace
+0x00007FF7629E6B9F (Unity) DebugStringToFile
+0x00007FF75E98D693 (Unity) CallbackArraySubBase<void (__cdecl*)(MemoryManager::AllocationLogDetails const & __ptr64)>::Register
+0x00007FF761606439 (Unity) LoadDomainAndUserAssemblies
+0x00007FF7616068EE (Unity) LoadUserAssemblies
+0x00007FF761A2FC78 (Unity) <lambda_79a3ebc38cb5166d44d10a16a21fca24>::operator()
+0x00007FF761AFAF82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF761AFD0E0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF761B0086E (Unity) asio::io_service::run
+0x00007FF761A76B80 (Unity) RunAssetImportWorkerClientV2
+0x00007FF761A76BD0 (Unity) RunAssetImporterV2
+0x00007FF760F91DB6 (Unity) Application::InitializeProject
+0x00007FF7619096B2 (Unity) WinMain
+0x00007FF76377CAD6 (Unity) __scrt_common_main_seh
+0x00007FFBD3F77C24 (KERNEL32) BaseThreadInitThunk
+0x00007FFBD5C4D4D1 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/khfre/AppData/Local/Temp/Unity/Editor/Crashes

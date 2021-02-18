@@ -819,6 +819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 438652}
+  - component: {fileID: -7443919404749637798}
   m_Layer: 0
   m_Name: Scaffolding
   m_TagString: Untagged
@@ -841,6 +842,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &-7443919404749637798
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135316}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.825, y: 2.115, z: 1.495}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -1.86, y: 1.5, z: 0.92}
+  m_TimeToStationary: 0.5
 --- !u!1 &140742
 GameObject:
   m_ObjectHideFlags: 0

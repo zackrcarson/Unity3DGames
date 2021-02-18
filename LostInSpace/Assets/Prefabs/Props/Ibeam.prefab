@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 458290}
   - component: {fileID: 4562095519638113932}
+  - component: {fileID: 1565417033840025347}
   m_Layer: 0
   m_Name: Ibeam
   m_TagString: Untagged
@@ -45,6 +46,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10.0068245, y: 0.48066884, z: 1}
   m_Center: {x: -0.010044813, y: 0.25966558, z: 0}
+--- !u!208 &1565417033840025347
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104510}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 5.045, y: 0.335, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.27, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &135132
 GameObject:
   m_ObjectHideFlags: 0
