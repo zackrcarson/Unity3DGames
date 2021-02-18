@@ -200,6 +200,7 @@
      <None Include="Assets\Other Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\Other Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Fonts\tall_films\TallFilm_license.txt" />
+     <None Include="Assets\Other Assets\Industrial Props\ReadMe.txt" />
      <None Include="Assets\Other Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
      <None Include="Assets\Other Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Other Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
