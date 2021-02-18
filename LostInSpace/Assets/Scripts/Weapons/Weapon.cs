@@ -117,11 +117,13 @@ public class Weapon : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(firstPersonCamera.transform.position, firstPersonCamera.transform.forward, out hit, range))
         {
-            // TODO: Also make sound effects on fire and hit
             EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
             if (!target)
             {
-                MetalHitImpactVFX(hit);
+                if (hit.transform.gameObject.tag != "Control Room Door")
+                {
+                    MetalHitImpactVFX(hit);
+                }
             }
             else
             {

@@ -1961,6 +1961,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1901199730596286659, guid: 4db5fcc4a35a2a240bf871f903567db6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Control Room Door
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4db5fcc4a35a2a240bf871f903567db6, type: 3}
 --- !u!4 &2050098866943852323 stripped
