@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GoalLight : MonoBehaviour
@@ -19,9 +17,9 @@ public class GoalLight : MonoBehaviour
 
     public void LightOff()
     {
-        audioSource.Pause();
-        lightSource.enabled = false;
-        meshRenderer.materials[0].DisableKeyword("_EMISSION");
+        GetComponent<AudioSource>().Pause();
+        GetComponentInChildren<Light>().enabled = false;
+        GetComponentInChildren<MeshRenderer>().materials[0].DisableKeyword("_EMISSION");
     }
 
     public void LightOn()

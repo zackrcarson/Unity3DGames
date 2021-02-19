@@ -31,8 +31,6 @@ public class HealthPickup : MonoBehaviour
             animator.SetTrigger("isOpened");
 
             GetComponent<SphereCollider>().enabled = false;
-
-            // TODO: Play pickup sound
         }
     }
 }
