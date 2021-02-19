@@ -471,3 +471,295 @@ System memory in use after: 158.7 MB.
 Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2099.
 Total: 4.851900 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.089600 ms MarkObjects: 3.863800 ms  DeleteObjects: 0.646300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 4091.071415 seconds.
+  path: Assets/Prefabs/Pickups/Ammo Pickup.prefab
+  artifactKey: Guid(2dda7ce7905cae841aa01bd766261c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Ammo Pickup.prefab using Guid(2dda7ce7905cae841aa01bd766261c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579917f99de95730342ae3297cd9798a') in 0.024513 seconds
+  Import took 0.036819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089899 seconds.
+  path: Assets/Prefabs/Pickups/Ammo Pickup.prefab
+  artifactKey: Guid(2dda7ce7905cae841aa01bd766261c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Ammo Pickup.prefab using Guid(2dda7ce7905cae841aa01bd766261c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579917f99de95730342ae3297cd9798a') in 0.005007 seconds
+  Import took 0.008910 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001120 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.9 MB.
+System memory in use after: 158.7 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2101.
+Total: 5.365300 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.108800 ms MarkObjects: 3.870700 ms  DeleteObjects: 1.082900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.096285 seconds.
+  path: Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab
+  artifactKey: Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab using Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf692cc3a4d35ee0bc03b7e5e163679') in 0.246835 seconds
+  Import took 0.253375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.814419 seconds.
+  path: Assets/Prefabs/Pickups/Pistol Ammo Pickup.prefab
+  artifactKey: Guid(d8ec9bf17d6e8a845b755da3569725cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Pistol Ammo Pickup.prefab using Guid(d8ec9bf17d6e8a845b755da3569725cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0763066fe03b783db498f48987314d') in 0.049782 seconds
+  Import took 0.054733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.641266 seconds.
+  path: Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab
+  artifactKey: Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab using Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8505140962fc02953557e1685dd2e6f5') in 0.023970 seconds
+  Import took 0.028119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.614613 seconds.
+  path: Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab
+  artifactKey: Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab using Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6887c7edc92500444ffd891ddcd99d2d') in 0.041563 seconds
+  Import took 0.048399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008334 seconds.
+  path: Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab
+  artifactKey: Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab using Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6887c7edc92500444ffd891ddcd99d2d') in 0.028464 seconds
+  Import took 0.032911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.972305 seconds.
+  path: Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab
+  artifactKey: Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab using Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d3bd7b455dc40601e7bc8a938c834e') in 0.030116 seconds
+  Import took 0.034700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.404047 seconds.
+  path: Assets/Prefabs/Pickups/Pistol Ammo Pickup.prefab
+  artifactKey: Guid(d8ec9bf17d6e8a845b755da3569725cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Pistol Ammo Pickup.prefab using Guid(d8ec9bf17d6e8a845b755da3569725cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d81e671c581d5b278a50f840ffbea1') in 0.023446 seconds
+  Import took 0.027713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.107302 seconds.
+  path: Assets/Prefabs/Pickups/Shotgun Ammo Pickup.prefab
+  artifactKey: Guid(005bfdddbd8b65548ad7307609bbe445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Shotgun Ammo Pickup.prefab using Guid(005bfdddbd8b65548ad7307609bbe445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5836947740af499b9309391a5e3360') in 0.045441 seconds
+  Import took 0.049151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.145445 seconds.
+  path: Assets/Prefabs/Pickups/Sniper Ammo Pickup.prefab
+  artifactKey: Guid(2624e292b170e4b4a9752f7a6df41a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Sniper Ammo Pickup.prefab using Guid(2624e292b170e4b4a9752f7a6df41a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391ea2c6b495894948e4a22cc421bc83') in 0.034827 seconds
+  Import took 0.039461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940090 seconds.
+  path: Assets/Prefabs/Pickups/Health Pickup.prefab
+  artifactKey: Guid(cde1ddd3b1866db45a60ff48d80c8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Health Pickup.prefab using Guid(cde1ddd3b1866db45a60ff48d80c8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bc062b19546d81b9b048c67ad79c6a') in 0.072965 seconds
+  Import took 0.076594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.056061 seconds.
+  path: Assets/Prefabs/Pickups/Health Pickup.prefab
+  artifactKey: Guid(cde1ddd3b1866db45a60ff48d80c8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Health Pickup.prefab using Guid(cde1ddd3b1866db45a60ff48d80c8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f784b21c46119c850a9dd1177f7c9d') in 0.021693 seconds
+  Import took 0.025716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.872579 seconds.
+  path: Assets/Prefabs/Pickups/Battery Pickup.prefab
+  artifactKey: Guid(3bcae7ea24db84d428e35a1c41c52cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Battery Pickup.prefab using Guid(3bcae7ea24db84d428e35a1c41c52cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e552ebfbad8f4cd48869b4f9d2319622') in 0.121049 seconds
+  Import took 0.126350 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001258 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.551 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 158.9 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2104.
+Total: 4.287200 ms (FindLiveObjects: 0.415300 ms CreateObjectMapping: 0.194600 ms MarkObjects: 3.037900 ms  DeleteObjects: 0.636600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 423.554658 seconds.
+  path: Assets/Prefabs/Pickups/Health Pickup.prefab
+  artifactKey: Guid(cde1ddd3b1866db45a60ff48d80c8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Health Pickup.prefab using Guid(cde1ddd3b1866db45a60ff48d80c8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890d5649eba7a38209a5568958cfba7f') in 0.069631 seconds
+  Import took 0.073940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.887209 seconds.
+  path: Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab
+  artifactKey: Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab using Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07123937f144c20a047e9926122a9268') in 0.026434 seconds
+  Import took 0.031474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018724 seconds.
+  path: Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab
+  artifactKey: Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickups/Rifle Ammo Pickup.prefab using Guid(7bb2f30feb2411c4a99d91f776e3e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07123937f144c20a047e9926122a9268') in 0.031661 seconds
+  Import took 0.036645 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001261 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.739 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 158.9 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2107.
+Total: 4.955800 ms (FindLiveObjects: 0.383900 ms CreateObjectMapping: 0.117200 ms MarkObjects: 3.531400 ms  DeleteObjects: 0.920900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001484 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 158.9 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2109.
+Total: 3.668100 ms (FindLiveObjects: 0.386200 ms CreateObjectMapping: 0.100600 ms MarkObjects: 2.615400 ms  DeleteObjects: 0.563300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 158.9 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 2.581900 ms (FindLiveObjects: 0.188600 ms CreateObjectMapping: 0.048500 ms MarkObjects: 1.958200 ms  DeleteObjects: 0.385700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001772 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.703 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 158.9 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2113.
+Total: 6.722900 ms (FindLiveObjects: 0.319600 ms CreateObjectMapping: 0.106000 ms MarkObjects: 5.407800 ms  DeleteObjects: 0.886800 ms)
+

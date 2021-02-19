@@ -6058,7 +6058,7 @@ MonoBehaviour:
   ammoSlot: {fileID: 7836853534872484887}
   ammoType: 3
   range: 10
-  damage: 70
+  damage: 60
   shootDelay: 3
   firstPersonCamera: {fileID: 5394745850496434021}
   ammoDisplay: {fileID: 0}

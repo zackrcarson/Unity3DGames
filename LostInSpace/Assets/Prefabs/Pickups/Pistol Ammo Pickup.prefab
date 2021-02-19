@@ -300,6 +300,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1757629715, guid: 2dda7ce7905cae841aa01bd766261c2b, type: 3}
+      propertyPath: ammoAmmount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1757629715, guid: 2dda7ce7905cae841aa01bd766261c2b, type: 3}
       propertyPath: pickupAudio
       value: 
       objectReference: {fileID: 8300000, guid: a7d07b4a92386414c89b5adbffe19375, type: 3}

@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff608a8f16c2544eb814c2633d4625b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerAddition: 20
+  timerAddition: 30
   pickupAudioVolume: 1
   pickupAudio: {fileID: 8300000, guid: 8282e5d51cb3c164584d58fa60cde4be, type: 3}
 --- !u!82 &8833367009311166780

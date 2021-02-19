@@ -290,7 +290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1757629715, guid: 2dda7ce7905cae841aa01bd766261c2b, type: 3}
       propertyPath: ammoAmmount
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1757629715, guid: 2dda7ce7905cae841aa01bd766261c2b, type: 3}
       propertyPath: pickupAudio

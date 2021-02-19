@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7e9a57d6406d2d429954de5f3d09575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthAmount: 50
+  healthAmount: 40
   pickupAudioVolume: 1
   pickupAudio: {fileID: 8300000, guid: 8a58e904ac2a38b429ae4510abcc4f21, type: 3}
 --- !u!82 &1871508592
