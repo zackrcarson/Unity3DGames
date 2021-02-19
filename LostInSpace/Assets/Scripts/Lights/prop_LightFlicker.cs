@@ -8,9 +8,12 @@ public class prop_LightFlicker : MonoBehaviour
     [SerializeField] float flickerDelayMin = 0.1f;
     [SerializeField] float flickerDelayMax = 0.5f;
     [SerializeField] MeshRenderer meshRenderer = null;
+    [SerializeField] float clickSoundVolume = 0.3f;
+    [SerializeField] AudioClip clickSound = null;
 
     // Cached References
     Light lightSource = null;
+    AudioSource audioSource = null;
 
     // State variables
     bool lightOn = true;
@@ -20,6 +23,7 @@ public class prop_LightFlicker : MonoBehaviour
     {
         lightSource = GetComponentInChildren<Light>();
         meshRenderer.materials[0].EnableKeyword("_EMISSION");
+        audioSource = GetComponent<AudioSource>();
 
         StartCoroutine(FlickerLight());
     }
@@ -38,12 +42,14 @@ public class prop_LightFlicker : MonoBehaviour
     {
         if (lightOn)
         {
+            audioSource.PlayOneShot(clickSound, clickSoundVolume);
             lightSource.enabled = false;
             meshRenderer.materials[0].DisableKeyword("_EMISSION");
             lightOn = false;
         }
         else
         {
+            audioSource.PlayOneShot(clickSound, clickSoundVolume);
             lightSource.enabled = true;
             meshRenderer.materials[0].EnableKeyword("_EMISSION");
             lightOn = true;

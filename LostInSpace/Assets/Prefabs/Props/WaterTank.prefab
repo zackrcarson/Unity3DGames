@@ -2095,6 +2095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 437386}
   - component: {fileID: -7937871846005265863}
+  - component: {fileID: 9168628895081740275}
   m_Layer: 0
   m_Name: WaterTank
   m_TagString: Untagged
@@ -2133,6 +2134,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.81, y: 0.94, z: 0.28}
   m_TimeToStationary: 0.5
+--- !u!65 &9168628895081740275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184236}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.175766, y: 2.3227797, z: 2.1636677}
+  m_Center: {x: 0.7683487, y: 0.9948492, z: 0.21054173}
 --- !u!1 &185700
 GameObject:
   m_ObjectHideFlags: 0

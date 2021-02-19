@@ -820,6 +820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 438652}
   - component: {fileID: -7443919404749637798}
+  - component: {fileID: 2014279913}
   m_Layer: 0
   m_Name: Scaffolding
   m_TagString: Untagged
@@ -858,6 +859,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -1.86, y: 1.5, z: 0.92}
   m_TimeToStationary: 0.5
+--- !u!65 &2014279913
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.4142203, y: 4.1617494, z: 3.1131346}
+  m_Center: {x: -1.9967506, y: 1.5808752, z: 1.0420889}
 --- !u!1 &140742
 GameObject:
   m_ObjectHideFlags: 0
